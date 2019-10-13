@@ -1,4 +1,4 @@
 # Hello There!
 
-This is the repository for my [Github page][https://matteogiorgi.github.io/].
+This is the repository for my <b>[Github page](https://matteogiorgi.github.io/)</b>.
 ###### Cheeres :)
