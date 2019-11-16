@@ -4,4 +4,4 @@ show_downloads: false
 github:
     is_project_page: false
 google_analytics:
-theme: jakyll-theme-cayman
+remote_theme: "dracula/gh-pages"
