@@ -1,3 +1,3 @@
 # Home
 
-Hello there, welcome to <b>[my page](https://matteogiorgi.github.io/)</b>!
+Hello there, welcome to [my page](https://matteogiorgi.github.io)!
