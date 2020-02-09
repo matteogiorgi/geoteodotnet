@@ -9,7 +9,7 @@ I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https:/
 
 Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and a sample of my workflow:
 
-<img src="qtile_demo.gif">
+<img align="center" src="qtile_demo.gif">
 
 
 
