@@ -1,10 +1,8 @@
 # Hello !
 
-## My present config
+## My  config
 
-lkejlwkejrlkejr
-
-## Here are some old projects
+## Some old projects
 
 * [Wiener-Attack](https://github.com/MatteoGiorgi/Wiener-Attack)
 * [Asteroids-plus-plus](https://github.com/MatteoGiorgi/Asteroids-plus-plus)
