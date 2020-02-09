@@ -5,9 +5,9 @@
 
 ## My  config
 
-I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has the source code and the config file written in python, plus it has a good documentation in support.
+I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has its source code and config file in python, plus a neat [documentation](http://docs.qtile.org/en/latest) is written in support if you want to play with it.
 
-Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and a sample of my workflow
+Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and a sample of my workflow:
 
 <img src="qtile_demo.gif">
 
