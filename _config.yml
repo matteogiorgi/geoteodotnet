@@ -1,7 +1,8 @@
 title: ( ._.)
 description: Cheers mate!
 show_downloads: false
-github:
-    is_project_page: false
+site:
+    github:
+        is_project_page: false
 google_analytics:
 theme: jekyll-theme-slate
