@@ -7,10 +7,7 @@ Nam massa. Duis lorem. Donec porta. Proin ligula. Aenean nunc massa, dapibus
 quis, imperdiet id, commodo a, lacus. Cras sit amet erat et nulla varius
 aliquet. Aliquam erat volutpat. Praesent feugiat vehicula pede. Suspendisse
 pulvinar, orci in sollicitudin venenatis, nibh libero hendrerit sem, eu tempor
-nisi felis et metus. Etiam gravida sem ut mi. Integer volutpat, enim eu varius
-gravida, risus urna venenatis lectus, ac ultrices quam nulla eu leo. Duis arcu.
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-inceptos himenaeos.
+nisi felis et metus.
 
 
 
