@@ -1,6 +1,6 @@
 # /* char main( ._.) */
 
-<img align="right" src="donut_cat.gif">
+<img align="right" width="200" src="donut_cat.gif">
 
 Vestibulum condimentum dui et elit. Pellentesque porttitor ipsum at ipsum.
 Nam massa. Duis lorem. Donec porta. Proin ligula. Aenean nunc massa, dapibus
