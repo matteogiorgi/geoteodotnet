@@ -10,7 +10,7 @@ gravida, risus urna venenatis lectus, ac ultrices quam nulla eu leo. Duis arcu.
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
 inceptos himenaeos.
 
-<img align="right"src="donut_cat.gif">
+<img align="right" src="donut_cat.gif">
 
 
 
