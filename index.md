@@ -36,18 +36,20 @@ The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_c
 
 [Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/Wiener-Attack/blob/master/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the elegance of working with [continued fracions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*.
 
+A simple implementation of the attack is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
+
 <p align="center">
   <img width="600" src="woodstock_and_snoopy.gif"/>
 </p>
-
-A simple implementation of the attack is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
 
 
 
 
 ## Asteroid++
 
-Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one the cool kids used to play with? [This](https://github.com/MatteoGiorgi/asteroids_plus_plus) is a replica (with few additions) of the 1979 Atari game written in JavaScript using [P5.js](https://p5js.org/) libraries. [Play](https://matteogiorgi.github.io/asteroids_plus_plus/) using <kbd>w</kbd>, <kbd>a</kbd>, <kbd>d</kbd> to move around and <kbd>spc</kbd>, <kbd>m</kbd> to fire and drop bombs ;)
+Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one the cool kids used to play with? [This](https://github.com/MatteoGiorgi/asteroids_plus_plus) is a replica (with few additions) of the 1979 Atari game written in JavaScript using [P5.js](https://p5js.org/) libraries.
+
+[Play](https://matteogiorgi.github.io/asteroids_plus_plus/) using <kbd>w</kbd>, <kbd>a</kbd>, <kbd>d</kbd> to move around and <kbd>spc</kbd>, <kbd>m</kbd> to fire and drop bombs ;)
 
 
 
