@@ -34,11 +34,11 @@ The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_c
 
 ## Wiener attack
 
-[Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/Wiener-Attack/blob/master/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the elegance of working with [continued fracions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*.
+[Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/Wiener-Attack/blob/master/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990.
 
-<img align="right" width="200" src="https://github.com/MatteoGiorgi/wiener_attack/blob/master/src/woodstock_and_snoopy.gif">
+<img align="right" width="400" src="https://github.com/MatteoGiorgi/wiener_attack/blob/master/src/woodstock_and_snoopy.gif">
 
-A simple implementation of the attack is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
+I tried to create a self-contained work, emphasising the elegance of working with [continued fracions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. A simple implementation of the attack is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
 
 
 
