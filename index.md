@@ -1,5 +1,5 @@
 <p align="right">
-  <img src="nyan_cat.gif"/>
+  <img src="donut_cat.gif"/>
 </p>
 
 
