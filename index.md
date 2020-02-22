@@ -38,7 +38,9 @@ The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_c
 
 <img align="right" width="400" src="https://github.com/MatteoGiorgi/wiener_attack/blob/master/src/woodstock_and_snoopy.gif">
 
-I tried to create a self-contained work, emphasising the elegance of working with [continued fracions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. A simple implementation of the attack is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
+I tried to create a self-contained work, emphasising the elegance of working with [continued fracions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*.
+
+A simple implementation of the attack is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
 
 
 
