@@ -1,7 +1,8 @@
 title: ( ._.)
-description: Cheeres mate!
+description: Cheers mate!
 show_downloads: false
 github:
+    url: https://github.com/MatteoGiorgi
     is_project_page: false
 google_analytics:
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
