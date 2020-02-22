@@ -15,7 +15,7 @@ Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sam
 
 ## Computability & complexity notes
 
-I know there is a vast bibliography on the subject but I just wanted to write [something](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/pp_tot.pdf) intuitive and easy to read on such essential and extensive subject for a computer scientist. The notes are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at Bsc [*Computer Science*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa.
+I know there is a vast bibliography on the subject but I just wanted to write [something](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/pp_tot.pdf) intuitive and easy to read on such essential and extensive subject for a computer scientist. The notes are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. Computer Science*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa.
 
 
 
