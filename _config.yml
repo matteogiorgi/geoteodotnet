@@ -3,6 +3,6 @@ description: ¯¯¯^¯¯
 show_downloads: false
 github:
     is_project_page: true
-    repository_url: https://github.com/MatteoGiorgi
+    repository_url: https://github.com/MatteoGiorgi/matteogiorgi.github.io
 google_analytics:
 theme: jekyll-theme-cayman
