@@ -5,9 +5,7 @@
 Vestibulum condimentum dui et elit. Pellentesque porttitor ipsum at ipsum.
 Nam massa. Duis lorem. Donec porta. Proin ligula. Aenean nunc massa, dapibus
 quis, imperdiet id, commodo a, lacus. Cras sit amet erat et nulla varius
-aliquet. Aliquam erat volutpat. Praesent feugiat vehicula pede. Suspendisse
-pulvinar, orci in sollicitudin venenatis, nibh libero hendrerit sem, eu tempor
-nisi felis et metus.
+aliquet. Aliquam erat volutpat. Praesent feugiat vehicula pede.
 
 
 
@@ -34,7 +32,9 @@ I know there is a vast bibliography on the subject but I just wanted to write [s
 
 ## Wiener attack
 
-[Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/Wiener-Attack/blob/master/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the elegance of working with [continued fracions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. In end I included a simple implementation of the attack in few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
+[Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/Wiener-Attack/blob/master/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the elegance of working with [continued fracions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*.
+
+In end I included a simple implementation of the attack in few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
 
 
 
