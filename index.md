@@ -15,7 +15,7 @@ Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sam
 
 ## Computability & complexity notes
 
-I know there is a vast bibliography on the subject but I just wanted to write [something](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/pp_tot.pdf) intuitive and easy to read on such essential and extensive subject for a computer scientist. The notes are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. Computer Science*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa.
+I know there is a vast bibliography on the subject but I just wanted to write [something](https://github.com/MatteoGiorgi/computability_and_complexity) intuitive and easy to read on such essential and extensive subject for a computer scientist. The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/pp_tot.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. Computer Science*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa.
 
 
 
@@ -29,9 +29,7 @@ I know there is a vast bibliography on the subject but I just wanted to write [s
 
 ## Asteroid++
 
-Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29)? [This](https://github.com/MatteoGiorgi/asteroids_plus_plus) is a replica (with few additions) of the 1979 Atari game written in JavaScript using [P5.js](https://p5js.org/) libraries.
-
-Use <kbd>w</kbd>, <kbd>a</kbd>, <kbd>d</kbd> to move around and <kbd>spc</kbd>, <kbd>m</kbd> to fire and drop bombs if you want to [play](https://matteogiorgi.github.io/asteroids_plus_plus/) ;)
+Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29)? [This](https://github.com/MatteoGiorgi/asteroids_plus_plus) is a replica (with few additions) of the 1979 Atari game written in JavaScript using [P5.js](https://p5js.org/) libraries. [Play](https://matteogiorgi.github.io/asteroids_plus_plus/) using <kbd>w</kbd>, <kbd>a</kbd>, <kbd>d</kbd> to move around and <kbd>spc</kbd>, <kbd>m</kbd> to fire and drop bombs ;)
 
 
 
