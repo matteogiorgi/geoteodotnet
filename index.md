@@ -1,4 +1,4 @@
-# main( ._.)
+# char main( ._.)
 
 ## My Linux config
 
