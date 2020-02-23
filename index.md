@@ -2,12 +2,12 @@
 
 <img align="right" width="200" src="donut_cat.gif">
 
-“And Crispin Crispian shall ne'er go by,
+And Crispin Crispian shall ne'er go by,
 From this day to the ending of the world,
-But we in it shall be remembered-
+But we in it shall be remember'd;
 We few, we happy few, we band of brothers;
 For he to-day that sheds his blood with me
-Shall be my brother”
+Shall be my brother
 
 
 
