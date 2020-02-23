@@ -1,13 +1,13 @@
-<img align="right" width="80" src="jumping_sheep.gif">
+<img align="right" width="50" src="jumping_sheep.gif">
 
 # char** main( ._.)
 
 And Crispin Crispian shall ne'er go by,
-From this day to the ending of the world,
-But we in it shall be remember'd;
-We few, we happy few, we band of brothers;
-For he to-day that sheds his blood with me
-Shall be my brother
+from this day to the ending of the world
+but we in it shall be remember'd;
+we few, we happy few, we band of brothers;
+for he to-day that sheds his blood with me
+shall be my brother.
 
 
 
