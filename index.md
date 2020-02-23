@@ -1,6 +1,6 @@
-# char** main( ._.)
-
 <img align="right" width="200" src="donut_cat.gif">
+
+# char** main( ._.)
 
 And Crispin Crispian shall ne'er go by,
 From this day to the ending of the world,
