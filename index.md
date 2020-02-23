@@ -2,14 +2,12 @@
 
 <img align="right" width="200" src="donut_cat.gif">
 
-He that shall live this day, and see old age,
-Will yearly on the vigil feast his neighbours,
-And say 'To-morrow is Saint Crispian:'
-Then will he strip his sleeve and show his scars.
-And say 'These wounds I had on Crispin's day.'
-Old men forget: yet all shall be forgot,
-But he'll remember with advantages
-What feats he did that day: then shall our names.
+“And Crispin Crispian shall ne'er go by,
+From this day to the ending of the world,
+But we in it shall be remembered-
+We few, we happy few, we band of brothers;
+For he to-day that sheds his blood with me
+Shall be my brother”
 
 
 
