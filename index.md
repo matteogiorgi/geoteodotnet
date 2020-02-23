@@ -2,10 +2,14 @@
 
 <img align="right" width="200" src="donut_cat.gif">
 
-Vestibulum condimentum dui et elit. Pellentesque porttitor ipsum at ipsum.
-Nam massa. Duis lorem. Donec porta. Proin ligula. Aenean nunc massa, dapibus
-quis, imperdiet id, commodo a, lacus. Cras sit amet erat et nulla varius
-aliquet. Aliquam erat volutpat.
+He that shall live this day, and see old age,
+Will yearly on the vigil feast his neighbours,
+And say 'To-morrow is Saint Crispian:'
+Then will he strip his sleeve and show his scars.
+And say 'These wounds I had on Crispin's day.'
+Old men forget: yet all shall be forgot,
+But he'll remember with advantages
+What feats he did that day: then shall our names.
 
 
 
