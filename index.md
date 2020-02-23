@@ -1,4 +1,4 @@
-# /* char main( ._.) */
+# char** main( ._.)
 
 <img align="right" width="200" src="donut_cat.gif">
 
