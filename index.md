@@ -7,19 +7,6 @@ And Crispin Crispian shall ne'er go by, from this day to the ending of the world
 
 
 
-## My Linux config
-
-I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has its source code and config file written in python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it.
-
-Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sample of my workflow ;)
-
-<p align="center">
-  <img src="qtile_demo.gif"/>
-</p>
-
-
-
-
 ## Computability & complexity notes
 
 I know there is a vast bibliography on the subject but I just wanted to [write something](https://github.com/MatteoGiorgi/computability_and_complexity) intuitive and easy to read on such essential and extensive topic for a computer scientist.
@@ -48,6 +35,18 @@ Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), 
 
 [Play](https://matteogiorgi.github.io/asteroids_plus_plus/) using <kbd>w</kbd>, <kbd>a</kbd>, <kbd>d</kbd> to move around and <kbd>spc</kbd>, <kbd>m</kbd> to fire and drop bombs ;)
 
+
+
+
+## My Linux config
+
+I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has its source code and config file written in python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it.
+
+Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sample of my workflow ;)
+
+<p align="center">
+  <img src="qtile_demo.gif"/>
+</p>
 
 
 
