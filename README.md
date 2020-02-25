@@ -1,4 +1,4 @@
-<img align="left" width="100" src="fofa.gif">
+<img align="left" width="150" src="fofa.gif">
 
 # Home
 
