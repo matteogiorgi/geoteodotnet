@@ -1,4 +1,4 @@
-<img align="right" width="130" src="alien.gif">
+<img align="right" width="140" src="alien.gif">
 
 # char** main( ._.)
 
