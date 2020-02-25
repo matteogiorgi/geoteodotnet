@@ -7,6 +7,8 @@ And Crispin Crispian shall ne'er go by, from this day to the ending of the world
 
 
 
+<img align="right" width="200" src="machine.png">
+
 ## Computability & complexity notes
 
 I know there is a vast bibliography on the subject but I just wanted to [write something](https://github.com/MatteoGiorgi/computability_and_complexity) intuitive and easy to read on such essential and extensive topic for a computer scientist.
