@@ -25,7 +25,7 @@ The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_c
 A simple implementation of the attack is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
 
 <p align="center">
-  <img width="500" src="woodstock_and_snoopy.gif"/>
+  <img width="500" src="snoopy.gif"/>
 </p>
 
 
@@ -47,7 +47,7 @@ I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https:/
 Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sample of my workflow ;)
 
 <p align="center">
-  <img width="600" src="qtile_demo.gif"/>
+  <img width="600" src="qtile.gif"/>
 </p>
 
 
