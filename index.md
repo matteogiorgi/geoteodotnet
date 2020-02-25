@@ -35,7 +35,7 @@ A simple implementation of the attack is included in the end using few lines of 
 
 Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? [This](https://github.com/MatteoGiorgi/asteroids_plus_plus) is a replica (with few additions) of the 1979 Atari game written in JavaScript using [P5.js](https://p5js.org/) libraries.
 
-[Play](https://matteogiorgi.github.io/asteroids_plus_plus/) using <kbd>w</kbd>, <kbd>a</kbd>, <kbd>d</kbd> to move around and <kbd>spc</kbd>, <kbd>m</kbd> to fire and drop bombs ;)
+[Play](https://matteogiorgi.github.io/asteroids_plus_plus/) using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs ;)
 
 
 
