@@ -1,15 +1,17 @@
-<img align="right" width="80" src="jumping_sheep.gif">
+<img align="right" width="200" src="fofa.gif">
 
 # char** main( ._.)
 
-And Crispin Crispian shall ne'er go by, from this day to the ending of the world but we in it shall be remember'd. We few, we happy few, we band of brothers; for he to-day that sheds his blood with me shall be my brother.
+Here you go folks this is my `main()`: I'm the alien living in [Matteo](https://github.com/MatteoGiorgi)'s head. Do you want to know something more? Click [this]() or [that]().
+
+`Cheeres()`
 
 
 
-
-<img align="right" width="200" src="machine.png">
 
 ## Computability & complexity notes
+
+<img align="right" width="200" src="machine.png">
 
 I know there is a vast bibliography on the subject but I just wanted to [write something](https://github.com/MatteoGiorgi/computability_and_complexity) intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
