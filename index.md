@@ -1,4 +1,4 @@
-<img align="right" width="200" src="fofa.gif">
+<img align="right" width="150" src="fofa.gif">
 
 # char** main( ._.)
 
@@ -49,7 +49,7 @@ I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https:/
 Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sample of my workflow ;)
 
 <p align="center">
-  <img src="qtile_demo.gif"/>
+  <img width="500" src="qtile_demo.gif"/>
 </p>
 
 
