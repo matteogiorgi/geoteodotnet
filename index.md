@@ -53,6 +53,8 @@ Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sam
 
 
 
+<img align="right" width="160" src="assets/images/run.gif">
+
 ## Some old projects
 
 * [Interprete funzionale](https://github.com/MatteoGiorgi/interprete_funzionale)
