@@ -1,4 +1,4 @@
-<img align="right" width="140" src="alien.gif">
+<img align="right" width="140" src="assets/images/alien.gif">
 
 # char** main(ツ )
 
@@ -9,7 +9,7 @@ Here you go folks, this is my `main`! I'm the alien living in [Matteo](https://g
 
 ## Computability & complexity notes
 
-<img align="right" width="270" src="machine.png">
+<img align="right" width="270" src="assets/images/machine.png">
 
 I know there is a vast bibliography on the subject but I just wanted to [write something](https://github.com/MatteoGiorgi/computability_and_complexity) intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
@@ -25,7 +25,7 @@ These [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and
 A simple implementation of the attack is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
 
 <p align="center">
-  <img width="500" src="snoopy.gif"/>
+  <img width="500" src="assets/images/snoopy.gif"/>
 </p>
 
 
@@ -47,7 +47,7 @@ I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https:/
 Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sample of my workflow ;)
 
 <p align="center">
-  <img width="600" src="qtile.gif"/>
+  <img width="600" src="assets/images/qtile.gif"/>
 </p>
 
 
