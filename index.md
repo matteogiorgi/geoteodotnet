@@ -13,7 +13,7 @@ Here you go folks, this is my `main`! I'm the alien living in [Matteo](https://g
 
 I know there is a vast bibliography on the subject but I just wanted to [write something](https://github.com/MatteoGiorgi/computability_and_complexity) intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
-These [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/ecc_tot.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. CompSci*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa.
+The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/ecc_tot.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. CompSci*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa.
 
 
 
