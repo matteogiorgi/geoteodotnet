@@ -2,7 +2,7 @@
 
 # char** main(ツ )
 
-Here you go folks, this is my `main`! I'm the alien living in [Matteo](https://github.com/MatteoGiorgi)'s head. Do you want to know something more? Click [this](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/cv.pdf) or [that](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/cv.pdf).
+Here you go folks, this is my `main`: I'm the alien living in [Matteo](https://github.com/MatteoGiorgi)'s head. Do you want to know something more? Click [this](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/cv.pdf) or [that](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/cv.pdf).
 
 
 
