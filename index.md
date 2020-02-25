@@ -11,7 +11,7 @@ Here you go folks this is my `main()`: I'm the alien living in [Matteo](https://
 
 ## Computability & complexity notes
 
-<img align="right" width="290" src="machine.png">
+<img align="right" width="250" src="machine.png">
 
 I know there is a vast bibliography on the subject but I just wanted to [write something](https://github.com/MatteoGiorgi/computability_and_complexity) intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
