@@ -9,11 +9,13 @@ Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGio
 
 ## Computability & complexity notes
 
-<img align="right" width="270" src="assets/images/machine.png">
-
 I know there is a vast bibliography on the subject but I just wanted to [write something](https://github.com/MatteoGiorgi/computability_and_complexity) intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
 The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/src/ecc_tot.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. CompSci*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa.
+
+<p align="center">
+  <img width="500" src="assets/images/machine.png"/>
+</p>
 
 
 
@@ -36,6 +38,10 @@ A simple implementation of the attack is included in the end using few lines of 
 Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? [This](https://github.com/MatteoGiorgi/asteroids_plus_plus) is a replica (with few additions) of the 1979 Atari game written in JavaScript using [P5.js](https://p5js.org/) libraries.
 
 [Play](https://matteogiorgi.github.io/asteroids_plus_plus/) using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs.
+
+<p align="center">
+  <img width="500" src="assets/images/play.gif"/>
+</p>
 
 
 
