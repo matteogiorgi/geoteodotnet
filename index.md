@@ -11,16 +11,12 @@ Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGio
 
 I know there is a vast bibliography on the subject but I just wanted to [write something](https://github.com/MatteoGiorgi/computability_and_complexity) intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
-The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/src/ecc_tot.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. Computer Science*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa. They are written in [*Rmarkdown*](https://rmarkdown.rstudio.com/) and you can compile them with just one itsy-bitsy bash script:
+The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/src/ecc_tot.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. Computer Science*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa. They are written in [*Rmarkdown*](https://rmarkdown.rstudio.com/) and you can compile them with just one itsy-bitsy shell script:
 
-```
+```{bash}
+#!/usr/bin/env bash
+
 echo "require(rmarkdown); render('$1')" | R --vanilla
-```
-
-and even map it in your `vimrc`:
-
-```
-autocmd FileType rmd map <F5> :!echo<space>"require(rmarkdown);<space>render('<c-r>%')"<space>\|<space>R<space>--vanilla<enter>
 ```
 
 <p align="center">
@@ -35,6 +31,20 @@ autocmd FileType rmd map <F5> :!echo<space>"require(rmarkdown);<space>render('<c
 [Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/wiener_attack/blob/master/assets/code/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*.
 
 A simple implementation of the attack is included in the end of the paper using few lines of [*Wolfram Language*](https://www.wolfram.com/language/).
+
+```{Mathematica}
+#!/usr/bin/env wolframscript
+
+e = 7502876735617; n = 28562942440499;
+fc = ContinuedFraction[e/n];
+cList = Convergents[fc];
+phiList = Floor[e/Rest[cList]];
+
+check[phi_] := (x/.p) /; (Mod[n,x] /. (p=Solve[x^2-(n-phi+1)x+n==0,x])) == {0, 0};
+checkL[phi_List] := Flatten[Cases[check /@ phi,_List]];
+
+primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
+```
 
 <p align="center">
   <img width="500" src="assets/images/snoopy.gif"/>
