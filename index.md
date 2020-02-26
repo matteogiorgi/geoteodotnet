@@ -20,9 +20,7 @@ The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_c
 
 ## Wiener attack
 
-[Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/Wiener-Attack/blob/master/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*.
-
-A simple implementation of the attack is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
+[Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/Wiener-Attack/blob/master/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. A simple implementation of the attack is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/) ;)
 
 <p align="center">
   <img width="500" src="assets/images/snoopy.gif"/>
@@ -36,18 +34,14 @@ A simple implementation of the attack is included in the end using few lines of 
 
 ## Asteroid++
 
-Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? [This](https://github.com/MatteoGiorgi/asteroids_plus_plus) is a replica (with few additions) of the 1979 Atari game written in JavaScript using [P5.js](https://p5js.org/) libraries.
-
-[Play](https://matteogiorgi.github.io/asteroids_plus_plus/) using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs.
+Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? [This](https://github.com/MatteoGiorgi/asteroids_plus_plus) is a replica (with few additions) of the 1979 Atari game written in JavaScript using [P5.js](https://p5js.org/) libraries. [Play](https://matteogiorgi.github.io/asteroids_plus_plus/) using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs.
 
 
 
 
 ## My Linux config
 
-I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has its source code and config file written in python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it.
-
-Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sample of my workflow ;)
+I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has its source code and config file written in python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it. Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sample of my workflow ;)
 
 <p align="center">
   <img width="600" src="assets/images/qtile.gif"/>
