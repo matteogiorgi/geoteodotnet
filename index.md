@@ -49,7 +49,7 @@ primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
 
 
 
-## Asteroid++
+## Asteroids++
 
 Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? The original, released by Atary in 1979, was implemented by Rains, Logg, and Walsh on hardware developed by Delman and was a vector game, in which the graphics were composed of lines drawn on a vector monitor; [this](https://github.com/MatteoGiorgi/asteroids_plus_plus) one is a replica (with few additions) and it is written in JavaScript using [P5.js](https://p5js.org/) libraries.
 
