@@ -1,4 +1,4 @@
-<img align="right" width="140" src="assets/images/alien.gif">
+<img align="right" width="150" src="assets/images/alien.gif">
 
 # char** main(ツ )
 
@@ -31,7 +31,7 @@ A simple implementation of the attack is included in the end using few lines of 
 
 
 
-<img align="right" width="140" src="assets/images/run.gif">
+<img align="right" width="150" src="assets/images/run.gif">
 
 ## Asteroid++
 
@@ -55,7 +55,7 @@ Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sam
 
 
 
-<img align="right" width="160" src="assets/images/ok.gif">
+<img align="right" width="170" src="assets/images/ok.gif">
 
 ## Some old projects
 
