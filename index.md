@@ -17,7 +17,7 @@ The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_c
 echo "require(rmarkdown); render('$1')" | R --vanilla
 ```
 
-and even map it in your `vimrc`
+and even map it in your `vimrc`:
 
 ```
 autocmd FileType rmd map <F5> :!echo<space>"require(rmarkdown);<space>render('<c-r>%')"<space>\|<space>R<space>--vanilla<enter>
