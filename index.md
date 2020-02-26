@@ -31,9 +31,10 @@ A simple implementation of the attack is included in the end using few lines of 
 
 
 
-## Asteroid++
-
 <img align="right" width="150" src="assets/images/run.gif">
+
+
+## Asteroid++
 
 Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? [This](https://github.com/MatteoGiorgi/asteroids_plus_plus) is a replica (with few additions) of the 1979 Atari game written in JavaScript using [P5.js](https://p5js.org/) libraries.
 
