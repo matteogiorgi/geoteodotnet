@@ -55,7 +55,7 @@ Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sam
 
 
 
-<img align="right" width="170" src="assets/images/ok.gif">
+<img align="right" width="150" src="assets/images/ok.gif">
 
 ## Some old projects
 
