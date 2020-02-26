@@ -41,7 +41,7 @@ Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), 
 
 ## My Linux config
 
-I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has its source code and config file written in python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it. Here are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sample of my workflow.
+I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has its source code and config file written in python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it. Here there are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below a sample of my workflow.
 
 <p align="center">
   <img width="600" src="assets/images/qtile.gif"/>
