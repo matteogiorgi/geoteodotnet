@@ -13,9 +13,7 @@ I know there is a vast bibliography on the subject but I just wanted to [write s
 
 The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/src/ecc_tot.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. Computer Science*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa. They are written in [*Rmarkdown*](https://rmarkdown.rstudio.com/) and you can compile them with just one itsy-bitsy shell script:
 
-```{bash}
-#!/usr/bin/env bash
-
+```
 echo "require(rmarkdown); render('$1')" | R --vanilla
 ```
 
@@ -32,9 +30,7 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 
 A simple implementation of the attack is included in the end of the paper using few lines of [*Wolfram Language*](https://www.wolfram.com/language/).
 
-```{Mathematica}
-#!/usr/bin/env wolframscript
-
+```
 e = 7502876735617; n = 28562942440499;
 fc = ContinuedFraction[e/n];
 cList = Convergents[fc];
