@@ -53,7 +53,7 @@ Here there are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below
 
 
 
-<img align="right" width="140" src="assets/images/ok.gif">
+<img align="right" width="140" src="assets/images/super.gif">
 
 ## Some old projects
 
