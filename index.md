@@ -7,9 +7,9 @@ Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGio
 
 
 
-## Computability & complexity notes
+## Computability notes
 
-I know there is a vast bibliography on the subject but I just wanted to [write something](https://github.com/MatteoGiorgi/computability_and_complexity) intuitive and easy to read on such essential and extensive topic for a computer scientist.
+I know there is a vast bibliography on the subject but I just wanted to [write something](https://github.com/MatteoGiorgi/computability_notes) intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
 The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_and_complexity/blob/master/src/ecc_notes.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. Computer Science*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa. The source code can be compiled using R with [*Rmarkdown*](https://cran.r-project.org/web/packages/rmarkdown/index.html) package, just use this tiny shell script below.
 
