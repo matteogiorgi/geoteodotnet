@@ -1,4 +1,4 @@
-<img align="right" width="140" src="assets/images/alien.gif">
+<img align="right" width="160" src="assets/images/alien.gif">
 
 # char** main(ツ )
 
@@ -75,7 +75,7 @@ Here there are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below
 
 
 
-<img align="right" width="140" src="assets/images/run.gif">
+<img align="right" width="160" src="assets/images/run.gif">
 
 ## Some old projects
 
