@@ -1,4 +1,4 @@
-<img align="right" width="160" src="assets/images/alien.gif">
+<img align="left" width="160" src="assets/images/alien.gif">
 
 # Home
 
