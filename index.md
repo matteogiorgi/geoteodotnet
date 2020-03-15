@@ -77,6 +77,6 @@ Here there are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below
 
 <img align="right" width="160" src="assets/images/run.gif">
 
-## Some old projects
+## Some old gear
 
 I got some old uni projects waiting to be reorganized; don't worry, I'll take care of them one day or another. Still, you can check them out: [click](https://github.com/MatteoGiorgi/interprete_funzionale), [clack](https://github.com/MatteoGiorgi/graph), [beep](https://github.com/MatteoGiorgi/membox), [boop](https://github.com/MatteoGiorgi/sparse).
