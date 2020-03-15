@@ -79,5 +79,4 @@ Here there are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below
 
 ## Some old projects
 
-I got some old uni projects waiting to be reorganized. Still, you can check them out:
-> [click](https://github.com/MatteoGiorgi/interprete_funzionale), [clack](https://github.com/MatteoGiorgi/graph), [clock](https://github.com/MatteoGiorgi/membox), [boom](https://github.com/MatteoGiorgi/sparse).
+I got some old uni projects waiting to be reorganized. Still, you can check them out: [click](https://github.com/MatteoGiorgi/interprete_funzionale), [clack](https://github.com/MatteoGiorgi/graph), [clock](https://github.com/MatteoGiorgi/membox), [boom](https://github.com/MatteoGiorgi/sparse).
