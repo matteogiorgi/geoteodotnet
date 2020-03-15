@@ -76,8 +76,8 @@ Here there are my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below
 
 
 <p>
+  <img align="right" width="160" src="assets/images/run.gif">
   <img align="right" width="160" src="assets/images/desperate.gif">
-  <img align="right" width="160" src="assets/images/run.gif"> 
 </p>
 
 ## Some old projects
