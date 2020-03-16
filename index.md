@@ -80,3 +80,5 @@ You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) o
 ## Old gear
 
 I got some old uni projects waiting to be reorganized but don't worry, I'll take care of them one day or another. Still, check them out [here](https://github.com/MatteoGiorgi/interprete_funzionale), [there](https://github.com/MatteoGiorgi/graph), [beer](https://github.com/MatteoGiorgi/membox) and [bear](https://github.com/MatteoGiorgi/sparse).
+
+* * *
