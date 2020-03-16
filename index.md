@@ -30,7 +30,7 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 
 A simple implementation is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/). Below there is an example of the *classic attack*.
 
-```perl
+```mathematica
 e = 7502876735617; n = 28562942440499;
 fc = ContinuedFraction[e/n];
 cList = Convergents[fc];
