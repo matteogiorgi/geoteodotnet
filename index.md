@@ -13,7 +13,7 @@ I know there is a vast bibliography on the subject but I just wanted to write [s
 
 The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_notes/blob/master/src/notes.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. Computer Science*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa. The source code can be compiled using R with [*Rmarkdown*](https://cran.r-project.org/web/packages/rmarkdown/index.html) package, just use this tiny shell script below.
 
-```
+```bash
 echo "require(rmarkdown); render('$1')" | R --vanilla
 ```
 
@@ -30,7 +30,7 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 
 A simple implementation is included in the end using few lines of [*Wolfram Language*](https://www.wolfram.com/language/). Below there is an example of the *classic attack*.
 
-```
+```Mathematica
 e = 7502876735617; n = 28562942440499;
 fc = ContinuedFraction[e/n];
 cList = Convergents[fc];
