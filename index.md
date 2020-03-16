@@ -66,7 +66,7 @@ Play using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs. [
 
 I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has its source code and config file written in python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it.
 
-You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) and below there is a sample of my workflow.
+You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) or just take a look at my workflow, I've made a sample below.
 
 <p align="center">
   <img width="500" src="assets/images/qtile.gif"/>
