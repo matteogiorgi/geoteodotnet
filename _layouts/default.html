@@ -9,6 +9,23 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+    <script>
+      $(window).scroll(function() {
+        var height = $(window).scrollTop();
+        if (height > 100) {
+          $('#back2Top').fadeIn();
+        } else {
+          $('#back2Top').fadeOut();
+        }
+      });
+      $(document).ready(function() {
+        $("#back2Top").click(function(event) {
+          event.preventDefault();
+          $("html, body").animate({ scrollTop: 0 }, "slow");
+          return false;
+        });
+      });
+    </script>
   </head>
   <body>
     <section class="page-header">
@@ -51,22 +68,5 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    <script>
-      $(window).scroll(function() {
-        var height = $(window).scrollTop();
-        if (height > 100) {
-          $('#back2Top').fadeIn();
-        } else {
-          $('#back2Top').fadeOut();
-        }
-      });
-      $(document).ready(function() {
-        $("#back2Top").click(function(event) {
-          event.preventDefault();
-          $("html, body").animate({ scrollTop: 0 }, "slow");
-          return false;
-        });
-      });
-    </script>
   </body>
 </html>
