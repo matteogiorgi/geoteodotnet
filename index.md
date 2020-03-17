@@ -1,6 +1,6 @@
 <img align="right" width="160" src="assets/images/alien.gif">
 
-<section id="snail">
+<section id="beep">
 </section>
 
 # Beep-boop
