@@ -25,6 +25,7 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 
 
 <section id="prova">
+</section>
 
 # Wiener attack
 
@@ -43,8 +44,6 @@ checkL[phi_List] := Flatten[Cases[check /@ phi,_List]];
 
 primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
 ```
-
-</section>
 
 
 
