@@ -7,6 +7,9 @@ Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGio
 
 
 
+<section id="notes">
+</section>
+
 # Computability notes 📌
 
 I know there is a vast bibliography on the subject but I just wanted to write [something](https://github.com/MatteoGiorgi/computability_notes) intuitive and easy to read on such essential and extensive topic for a computer scientist.
@@ -24,7 +27,7 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 
 
 
-<section id="click">
+<section id="attack">
 </section>
 
 # Wiener attack
@@ -48,6 +51,9 @@ primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
 
 
 
+<section id="config">
+</section>
+
 # My GNU/Linux config
 
 I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has its source code and config file written in python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it.
@@ -61,7 +67,7 @@ You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) o
 
 
 
-<section id="clack">
+<section id="asteroids">
 </section>
 
 # Asteroids++
