@@ -7,7 +7,7 @@ Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGio
 
 
 
-# Computability notes 🔥
+# Computability notes 📌
 
 I know there is a vast bibliography on the subject but I just wanted to write [something](https://github.com/MatteoGiorgi/computability_notes) intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
@@ -49,7 +49,7 @@ primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
 
 I recently switched to [Qtile](http://www.qtile.org/) from good old [i3](https://i3wm.org/) and I felt right at home. Qtile has its source code and config file written in python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it.
 
-You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) or just take a look at my workflow, I've made a sample below.
+You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) or just take a look at my workflow, there is a sample below.
 
 <p align="center">
   <img width="500" src="assets/images/qtile.gif"/>
@@ -62,7 +62,7 @@ You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) o
 
 Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? The original, released by Atari in 1979, was implemented by Rains, Logg, and Walsh on hardware developed by Delman and was a vector game, in which the graphics were composed of lines drawn on a vector monitor.
 
-[This](https://github.com/MatteoGiorgi/asteroids_plus_plus) one is a replica (with few additions) and it is written in JavaScript using [P5.js](https://p5js.org/) libraries; play using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs. [Enjoy](https://matteogiorgi.github.io/asteroids_plus_plus/src)!
+[This](https://github.com/MatteoGiorgi/asteroids_plus_plus) one is a replica (with few additions) and it is written in JavaScript using [P5.js](https://p5js.org/) libraries; feel free to play using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs. [Enjoy](https://matteogiorgi.github.io/asteroids_plus_plus/src)!
 
 
 
