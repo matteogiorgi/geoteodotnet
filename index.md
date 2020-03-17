@@ -71,5 +71,5 @@ Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), 
 
 # Old gear
 
-I got some old uni projects waiting to be reorganized but don't worry, I'll take care of them one day or another. Still, you can check them out [here](https://github.com/MatteoGiorgi/interprete_funzionale), [there](https://github.com/MatteoGiorgi/graph), [beer](https://github.com/MatteoGiorgi/membox) and [bear](https://github.com/MatteoGiorgi/sparse).
+I got some old uni projects waiting to be reorganized but don't worry, I'll take care of them one day or another. Still, you can find them [here](https://github.com/MatteoGiorgi/interprete_funzionale), [there](https://github.com/MatteoGiorgi/graph), [beer](https://github.com/MatteoGiorgi/membox) and [bear](https://github.com/MatteoGiorgi/sparse).
 
