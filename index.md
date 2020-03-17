@@ -11,15 +11,15 @@ Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGio
 
 I know there is a vast bibliography on the subject but I just wanted to write [something](https://github.com/MatteoGiorgi/computability_notes) intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
+<p align="center">
+  <img width="500" src="assets/images/machine.png"/>
+</p>
+
 The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_notes/blob/master/src/notes.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [*B.Sc. Computer Science*](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa. The source code can be compiled using R with [*Rmarkdown*](https://cran.r-project.org/web/packages/rmarkdown/index.html) package, just use this tiny bash script below.
 
 ```bash
 echo "require(rmarkdown); render('$1')" | R --vanilla
 ```
-
-<p align="center">
-  <img width="500" src="assets/images/machine.png"/>
-</p>
 
 
 
