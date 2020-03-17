@@ -26,7 +26,7 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 
 <section id="prova1">
 
-<p>
+<div>
 
 # Wiener attack
 
@@ -46,7 +46,7 @@ checkL[phi_List] := Flatten[Cases[check /@ phi,_List]];
 primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
 ```
 
-</p>
+</div>
 
 </section>
 
@@ -55,7 +55,7 @@ primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
 
 <section id="prova2">
 
-<p>
+<div>
 
 # My GNU/Linux config
 
@@ -67,7 +67,7 @@ You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) o
   <img width="500" src="assets/images/qtile.gif"/>
 </p>
 
-</p>
+</div>
 
 </section>
 
