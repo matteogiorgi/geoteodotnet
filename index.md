@@ -1,4 +1,5 @@
-<img align="right" width="160" src="assets/images/alien.gif">
+<img align="left" width="160" src="assets/images/alien.gif">
+<img align="right" width="160" src="assets/images/run.gif">
 
 # Beep-boop
 
@@ -66,8 +67,6 @@ Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), 
 
 
 
-
-<img align="right" width="160" src="assets/images/run.gif">
 
 ## Old gear
 
