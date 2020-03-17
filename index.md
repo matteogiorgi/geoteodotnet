@@ -24,10 +24,9 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 
 
 
-<section id="prova1">
+<section id="prova">
 
 <div>
-
 # Wiener attack
 
 [Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/wiener_attack/blob/master/assets/code/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*.
@@ -45,17 +44,12 @@ checkL[phi_List] := Flatten[Cases[check /@ phi,_List]];
 
 primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
 ```
-
 </div>
 
 </section>
 
 
 
-
-<section id="prova2">
-
-<div>
 
 # My GNU/Linux config
 
@@ -66,10 +60,6 @@ You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) o
 <p align="center">
   <img width="500" src="assets/images/qtile.gif"/>
 </p>
-
-</div>
-
-</section>
 
 
 
