@@ -24,7 +24,7 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 
 
 
-<section id="prova">
+<section id="click">
 </section>
 
 # Wiener attack
@@ -60,6 +60,9 @@ You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) o
 
 
 
+
+<section id="clack">
+</section>
 
 # Asteroids++
 
