@@ -1,4 +1,4 @@
-<img align="left" width="160" src="assets/images/alien.gif">\
+<img align="left" width="160" src="assets/images/alien.gif">
 <img align="right" width="160" src="assets/images/run.gif">\
 
 Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGiorgi)'s head and this is my `main`. Do you want to know something more? Click [this](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/src/cv.pdf) or [that](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/src/cv.pdf).
