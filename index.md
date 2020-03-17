@@ -24,8 +24,6 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 
 
 
-<div>
-
 # Wiener attack
 
 [Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/wiener_attack/blob/master/assets/code/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*.
@@ -43,7 +41,6 @@ checkL[phi_List] := Flatten[Cases[check /@ phi,_List]];
 
 primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
 ```
-</div>
 
 
 
