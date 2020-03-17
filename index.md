@@ -1,6 +1,6 @@
 <img align="right" width="160" src="assets/images/alien.gif">
 
-# @_'-'
+# Beep-boop
 
 Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGiorgi)'s head and this is my `main`. Do you want to know something more? Click [this](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/src/cv.pdf) or [that](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/src/cv.pdf).
 
@@ -62,7 +62,7 @@ You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) o
 
 Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? The original, released by Atari in 1979, was implemented by Rains, Logg, and Walsh on hardware developed by Delman and was a vector game, in which the graphics were composed of lines drawn on a vector monitor.
 
-[This](https://github.com/MatteoGiorgi/asteroids_plus_plus) one is a replica (with few additions) and it is written in JavaScript using [P5.js](https://p5js.org/) libraries; you can [play](https://matteogiorgi.github.io/asteroids_plus_plus/src) using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs.
+[This](https://github.com/MatteoGiorgi/asteroids_plus_plus) one is a replica (with few additions) and it is written in JavaScript using [P5.js](https://p5js.org/) libraries; feel free to [play](https://matteogiorgi.github.io/asteroids_plus_plus/src) using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs.
 
 
 
@@ -71,5 +71,5 @@ Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), 
 
 # Old gear
 
-I got some old uni projects waiting to be reorganized but don't worry, I'll take care of them one day or another. Still, check them out [here](https://github.com/MatteoGiorgi/interprete_funzionale), [there](https://github.com/MatteoGiorgi/graph), [beer](https://github.com/MatteoGiorgi/membox) and [bear](https://github.com/MatteoGiorgi/sparse).
+I got some old uni projects waiting to be reorganized but don't worry, I'll take care of them one day or another. Still, you can check them out [here](https://github.com/MatteoGiorgi/interprete_funzionale), [there](https://github.com/MatteoGiorgi/graph), [beer](https://github.com/MatteoGiorgi/membox) and [bear](https://github.com/MatteoGiorgi/sparse).
 
