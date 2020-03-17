@@ -18,7 +18,7 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 ```
 
 <p align="center">
-  <img width="500" src="assets/images/machine.png"/>
+  <img width="500" src="assets/images/halting.png"/>
 </p>
 
 
@@ -54,6 +54,10 @@ checkL[phi_List] := Flatten[Cases[check /@ phi,_List]];
 
 primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
 ```
+
+<p align="center">
+  <img width="500" src="assets/images/crypto.png"/>
+</p>
 
 
 
