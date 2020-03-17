@@ -24,7 +24,7 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 
 
 
-## Wiener attack
+## 📌 Wiener attack
 
 [Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/wiener_attack/blob/master/assets/code/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*.
 
@@ -60,9 +60,9 @@ You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) o
 
 ## Asteroids++
 
-Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? The original, released by Atari in 1979, was implemented by Rains, Logg, and Walsh on hardware developed by Delman and was a vector game, in which the graphics were composed of lines drawn on a vector monitor; [this](https://github.com/MatteoGiorgi/asteroids_plus_plus) one is a replica (with few additions) and it is written in JavaScript using [P5.js](https://p5js.org/) libraries.
+Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? The original, released by Atari in 1979, was implemented by Rains, Logg, and Walsh on hardware developed by Delman and was a vector game, in which the graphics were composed of lines drawn on a vector monitor.
 
-Play using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs. [Enjoy](https://matteogiorgi.github.io/asteroids_plus_plus/src)!
+[This](https://github.com/MatteoGiorgi/asteroids_plus_plus) one is a replica (with few additions) and it is written in JavaScript using [P5.js](https://p5js.org/) libraries. You can [play](https://matteogiorgi.github.io/asteroids_plus_plus/src) using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs.
 
 
 
