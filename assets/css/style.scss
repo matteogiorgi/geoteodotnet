@@ -8,42 +8,25 @@
                     url("{{ '/assets/images/pipes.png' | relative_url }}");
 }
 
+.main-content > section {
+    margin-bottom: 100px;
+}
+
 nav > a {
-    padding-left: 10px;
-    padding-right: 10px;
-}nav > a:hover {
+    color: #B6B6B6;
+    font-size: 1.25rem;
+    line-height: 3.0;
+    /*margin: 0 15px 0 15px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav > a:hover {
     background: #fff;
     color: #000;
     text-decoration: none;
-}#back2Top {
-    width: 40px;
-    line-height: 40px;
-    overflow: hidden;
-    z-index: 999;
-    display: none;
-    cursor: pointer;
-    -moz-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-    position: fixed;
-    bottom: 50px;
-    right: 250px;
-    background-color: #eaeaea;
-    color: #4f9a58;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: none;
-}#back2Top:hover {
-    background-color: #4f9a58;
-    color: #fff;
 }
 
-
-
-
-/*
 #back2Top {
     width: 40px;
     line-height: 40px;
@@ -58,27 +41,15 @@ nav > a {
     transform: rotate(270deg);
     position: fixed;
     bottom: 50px;
-    right: 50px;
+    right: 250px;
     background-color: #DDD;
-    color: #555;
+    color: #159957;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
 }
 
 #back2Top:hover {
-    background-color: #DDF;
-    color: #000;
+    background-color: #159957;
+    color: #DDD;
 }
-
-nav > a {
-    color: #B6B6B6;
-    font-size: 1.25rem;
-    line-height: 3.0;
-    margin: 0 15px 0 15px;
-}
-
-.main-content > section {
-    margin-bottom: 100px;
-}
-*/
