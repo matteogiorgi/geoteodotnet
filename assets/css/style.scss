@@ -13,7 +13,7 @@
 //}
 
 nav > a {
-    color: #DCE6F0;
+    color: #B6B6B6;
     font-size: 1.25rem;
     line-height: 3.0;
 //    margin: 0 15px 0 15px;
@@ -23,7 +23,7 @@ nav > a {
 
 nav > a:hover {
 //    background: #DCE6F0;
-    color: #FFFFFF;
+    color: #159957;
     text-decoration: none;
 }
 
@@ -40,9 +40,9 @@ nav > a:hover {
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
     position: fixed;
-    bottom: 50px;
-    right: 50px;
-    background-color: #DCE6F0;
+    bottom: 5px;
+    right: 5px;
+    background-color: #B6B6B6;
     color: #159957;
     text-align: center;
     font-size: 30px;
@@ -51,5 +51,5 @@ nav > a:hover {
 
 #back2Top:hover {
     background-color: #159957;
-    color: #DCE6F0;
+    color: #B6B6B6;
 }
