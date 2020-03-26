@@ -1,8 +1,4 @@
 title: "main :: IO (ツ )"
 description: ""
 show_downloads: false
-github:
-    is_project_page: false
-    repository_url: https://github.com/MatteoGiorgi/matteogiorgi.github.io
-google_analytics:
 theme: jekyll-theme-cayman
