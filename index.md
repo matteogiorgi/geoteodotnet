@@ -5,7 +5,7 @@
 
 # Beep-boop
 
-Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGiorgi)'s head and this is my `main`. Do you want to know something more? Click [this](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/src/cv.pdf) or [that](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/src/cv.pdf).
+Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGiorgi)'s head and this is my `main`. Do you really want to know something more? All right then, you can click [this](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/src/cv.pdf) or [that](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/src/cv.pdf).
 
 
 
