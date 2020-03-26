@@ -13,7 +13,7 @@ Here you go folks, I'm the alien living in [Matteo](https://github.com/MatteoGio
 <section id="notes">
 </section>
 
-# Computability notes 📌
+# Computability notes
 
 I know there is a vast bibliography on the subject but I just wanted to write [something](https://github.com/MatteoGiorgi/computability_notes) intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
