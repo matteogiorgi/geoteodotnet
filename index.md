@@ -13,7 +13,7 @@ Here you go folks, I'm the alien living in Matteo's head and this is my `main`. 
 <section id="notes">
 </section>
 
-# Computability notes <a href="https://github.com/MatteoGiorgi/computability_notes" style="text-decoration:none">🔗</a>
+# Computability notes <a href="https://github.com/MatteoGiorgi/computability_notes" style="font-size:0.5em;text-decoration:none">🔗</a>
 
 I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
@@ -33,7 +33,7 @@ echo "require(rmarkdown); render('$1')" | R --vanilla
 <section id="attack">
 </section>
 
-# Wiener attack <a href="https://github.com/MatteoGiorgi/wiener_attack" style="text-decoration:none">🔗</a>
+# Wiener attack <a href="https://github.com/MatteoGiorgi/wiener_attack" style="font-size:0.5em;text-decoration:none">🔗</a>
 
 A few years ago I wrote a brief [paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/wiener_attack/blob/master/src/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with continued fractions using *Legendre theorem*.
 
@@ -57,7 +57,7 @@ primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
 <section id="config">
 </section>
 
-# My GNU/Linux config <a href="https://github.com/MatteoGiorgi/dotfiles" style="text-decoration:none">🔗</a>
+# My GNU/Linux config <a href="https://github.com/MatteoGiorgi/dotfiles" style="font-size:0.5em;text-decoration:none">🔗</a>
 
 I recently switched to [Qtile](http://www.qtile.org/) from good old i3wm and I felt right at home. Qtile has its source code and config file written in python, plus a neat documentation comes in support if you fancy to play with it.
 
@@ -73,7 +73,7 @@ You can browse through my dotfiles or just take a look at my workflow, there is 
 <section id="asteroids">
 </section>
 
-# Asteroids++ <a href="https://github.com/MatteoGiorgi/asteroids_plus_plus" style="text-decoration:none">🔗</a>
+# Asteroids++ <a href="https://github.com/MatteoGiorgi/asteroids_plus_plus" style="font-size:0.5em;text-decoration:none">🔗</a>
 
 Remember Asteroids, the one all the cool kids used to play with? The original, released by Atari in 1979, was implemented by Rains, Logg, and Walsh on hardware developed by Delman and was a vector game, in which the graphics were composed of lines drawn on a vector monitor.
 
