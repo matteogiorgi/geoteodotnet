@@ -17,7 +17,7 @@ Here you go folks, I'm the alien living in Matteo's head and this is my `main`. 
 
 I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
-The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_notes/blob/master/src/notes.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at B.Sc. Computer Science University of Pisa. The source code can be compiled using R with *Rmarkdown* package, just use this tiny bash script below.
+The [notes](https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_notes/blob/master/src/notes.pdf) are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at B.Sc. Computer Science University of Pisa. The source code can be compiled using R with [Rmarkdown](https://cran.r-project.org/web/packages/rmarkdown/index.html) package, just use this tiny bash script below.
 
 ```bash
 echo "require(rmarkdown); render('$1')" | R --vanilla
