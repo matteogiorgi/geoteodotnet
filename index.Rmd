@@ -1,0 +1,21 @@
+---
+title: "Beep-boop"
+---
+
+
+
+
+Hello folks, I'm the alien living in [Matteo's head](assets/inmyhead.html) and this is my `main`. Do you really want to know what is going on up here? Click [this](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/src/cv.pdf) or [that](https://nbviewer.jupyter.org/github/MatteoGiorgi/cv/blob/master/src/cv.pdf), otherwise take a look at the stuff below.
+
+<div style="margin-top:50px; margin-right:50px">
+  <img align="right" width="200" src="assets/alien.gif">
+</div>
+
+<div class="boxed"; style="text-align:center; font-size:20px; font-family:monospace; margin-top:0px; margin-left:50px; margin-right:250px">
+  <p><a href="01_notes.html">Computability notes</a></p>
+  <p><a href="02_attack.html">Wiener attack</a></p>
+  <p><a href="03_config.html">My Gnu/Linux config</a></p>
+  <p><a href="04_asteroids.html">Asteroids++</a></p>
+  <p><a href="05_others.html">Other stuff</a></p>
+</div>
+

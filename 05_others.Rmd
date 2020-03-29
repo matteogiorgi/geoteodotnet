@@ -1,0 +1,13 @@
+---
+title: "Other stuff"
+---
+
+
+
+
+I got some old uni projects waiting to be reorganized but don't worry, I'll take care of them one day or another. Still, you can find them [here](https://github.com/MatteoGiorgi/interprete_funzionale), [there](https://github.com/MatteoGiorgi/graph), [beer](https://github.com/MatteoGiorgi/membox) and [bear](https://github.com/MatteoGiorgi/sparse).
+
+<p align="center">
+  <img width="200" src="assets/run.gif"/>
+</p>
+
