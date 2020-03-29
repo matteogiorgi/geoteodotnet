@@ -10,6 +10,7 @@ I recently switched to [Qtile](http://www.qtile.org/) from good old [i3wm](https
 You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) or just take a look at my workflow, there is a sample below.
 
 <p align="center">
-  <img width="600" src="assets/qtile.gif"/>
+  <img width="400" src="assets/qtile.gif"/>
+  <img width="400" src="assets/qtile2.gif"/>
 </p>
 

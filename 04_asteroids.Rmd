@@ -10,7 +10,7 @@ Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), 
 [This](https://github.com/MatteoGiorgi/asteroids_plus_plus) one is a replica (with few additions) and it is written in JavaScript using P5.js[^1] libraries; feel free to play using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs. [Enjoy](https://matteogiorgi.github.io/asteroids_plus_plus/src)!
 
 <p align="center">
-  <img width="600" src="assets/play.gif"/>
+  <img width="500" src="assets/play.gif"/>
 </p>
 
 

@@ -25,8 +25,9 @@
 <link rel="icon" type="image/png" href="assets/favicon.ico">
 <style type="text/css">
     .boxed {
-        border: 1px solid #333333;
-        border-radius: 20px;
+        background-color: #F5F5F5;
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
         padding: 20px;
     }
 </style>
@@ -301,11 +302,11 @@ $(document).ready(function () {
 </div>
 
 
-<p>I know there is a vast bibliography on the subject but I just wanted to write <a href="https://github.com/MatteoGiorgi/computability_notes">something</a> intuitive and easy to read on such essential and extensive topic for a computer scientist.</p>
-<p>The <a href="https://nbviewer.jupyter.org/github/MatteoGiorgi/computability_notes/blob/master/src/notes.pdf">notes</a> are written in italian and follow professor <a href="http://pages.di.unipi.it/degano/">P. Degano</a> lectures at <a href="https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/">B.Sc. Computer Science</a> University of Pisa. The source code can be compiled using R with Rmarkdown<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> package, just use this tiny bash script below.</p>
+<p>I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.</p>
+<p>The <a href="https://github.com/MatteoGiorgi/computability_notes">notes</a> are written in italian and follow professor <a href="http://pages.di.unipi.it/degano/">P. Degano</a> lectures at <a href="https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/">B.Sc. Computer Science</a> University of Pisa. The source code can be compiled using R with Rmarkdown<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> package, just use this tiny bash script below.</p>
 <pre class="bash"><code>echo &quot;require(rmarkdown); render(&#39;$1&#39;)&quot; | R --vanilla</code></pre>
 <p align="center">
-<img width="600" src="assets/candy.png"/>
+<embed src="assets/notes.pdf" type="application/pdf" width="80%" height="600px"/>
 </p>
 <div class="footnotes">
 <hr />

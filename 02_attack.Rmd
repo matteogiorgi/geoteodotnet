@@ -5,7 +5,7 @@ title: "Wiener attack"
 
 
 
-[Here](https://github.com/MatteoGiorgi/wiener_attack) I wrote a [brief paper](https://nbviewer.jupyter.org/github/MatteoGiorgi/wiener_attack/blob/master/assets/code/wiener_attack.pdf) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. The attack states that under certain conditions[^1] the RSA module $N$ could be factorized in $\mathcal{O}\big(log_2(N)\big)$, let's take a peak on how it works.
+Few years ago I wrote a [brief paper](https://github.com/MatteoGiorgi/wiener_attack) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. The attack states that under certain conditions[^1] the RSA module $N$ could be factorized in $\mathcal{O}\big(log_2(N)\big)$, let's take a peak on how it works both in formula and in Mathematica code.
 
 Given the public key $(e,N)$ of an RSA cryptosystem with a small private exponent
 
@@ -22,7 +22,21 @@ $$\biggl\lfloor \frac{e}{c_3} \biggr\rfloor = \biggl\lfloor \frac{58549809}{\fra
 
 Now, $\widetilde{\phi}$ allow us to obtain $p{=}60317$, $q{=}40577$ prime factors of $N$.
 
-Read the paper for more details, a simple implementation is also included in the end using few lines of Wolfram Language.
+```
+e = 7502876735617; n = 28562942440499;
+fc = ContinuedFraction[e/n];
+cList = Convergents[fc];
+phiList = Floor[e/Rest[cList]];
+
+check[phi_] := (x/.p) /; (Mod[n,x] /. (p=Solve[x^2-(n-phi+1)x+n==0,x])) == {0, 0};
+checkL[phi_List] := Flatten[Cases[check /@ phi,_List]];
+
+primes = Flatten[checkL /@ (phiList-m /. {m->#}& /@ Range[0,9])];
+```
+
+<p align="center">
+  <embed src="assets/wiener_attack.pdf" type="application/pdf" width="80%" height="600px"/>
+</p>
 
 
 
