@@ -14,5 +14,5 @@ output:
         includes:
             in_header: assets/header.html
         toc: false
-        highlight: textmate
+        highlight: tango
 
