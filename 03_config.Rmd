@@ -14,3 +14,7 @@ You can browse through my [dotfiles](https://github.com/MatteoGiorgi/dotfiles) o
   <img width="400" src="assets/qtile2.gif"/>
 </p>
 
+---
+
+<marquee behavior="scroll" direction="right"><img src="assets/run.gif" width="100" alt="me"/></marquee>
+

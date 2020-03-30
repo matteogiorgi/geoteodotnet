@@ -15,3 +15,7 @@ Hello folks, I'm the alien living in [Matteo's head](assets/inmyhead.html) and t
   <p><a href="05_others.html">Other stuff</a></p>
 </div>
 
+---
+
+<marquee behavior="scroll" direction="right"><img src="assets/run.gif" width="100" alt="me"/></marquee>
+

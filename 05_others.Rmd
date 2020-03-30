@@ -11,3 +11,7 @@ I got some old uni projects waiting to be reorganized but don't worry, I'll take
   <img width="500" src="assets/candy.png"/>
 </p>
 
+---
+
+<marquee behavior="scroll" direction="right"><img src="assets/run.gif" width="100" alt="me"/></marquee>
+
