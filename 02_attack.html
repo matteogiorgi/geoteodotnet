@@ -302,7 +302,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>Few years ago I wrote a <a href="https://github.com/MatteoGiorgi/wiener_attack">brief paper</a> regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with <a href="https://en.wikipedia.org/wiki/Continued_fraction">continued fractions</a> using <em>Legendre theorem</em>. The attack states that under certain conditions<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> the RSA module <span class="math inline">\(N\)</span> could be factorized in <span class="math inline">\(\mathcal{O}\big(log_2(N)\big)\)</span>, let’s take a peak on how it works both in formula and in Mathematica code.</p>
+<p>Few years ago I wrote a <a href="https://github.com/MatteoGiorgi/wiener_attack">brief paper</a> regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with <a href="https://en.wikipedia.org/wiki/Continued_fraction">continued fractions</a> using <em>Legendre theorem</em>. The attack states that under certain conditions<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> the RSA module <span class="math inline">\(N\)</span> could be factorized in <span class="math inline">\(\mathcal{O}\big(log_2(N)\big)\)</span>, let’s take a peak on how it works using an ezample (in the paper you will find an implamentation Wolfram Mathematica).</p>
 <p>Given the public key <span class="math inline">\((e,N)\)</span> of an RSA cryptosystem with a small private exponent</p>
 <p><span class="math display">\[(e,N) = (58549809,2447482909)\]</span></p>
 <p>the expansion of <span class="math inline">\(\frac{e}{N}\)</span> and its convergents will be</p>
@@ -310,17 +310,8 @@ $(document).ready(function () {
 <p>Using the search algorithm derived from Wiener Theorem, we notice that the fourth convergent <span class="math inline">\(c_3{=}\frac{5}{209}\)</span> is the right candidate <span class="math inline">\(\widetilde{\phi}\)</span> for <span class="math inline">\(\phi(N)\)</span>:</p>
 <p><span class="math display">\[\biggl\lfloor \frac{e}{c_3} \biggr\rfloor = \biggl\lfloor \frac{58549809}{\frac{5}{209}} \biggr\rfloor = 2447382016\]</span></p>
 <p>Now, <span class="math inline">\(\widetilde{\phi}\)</span> allow us to obtain <span class="math inline">\(p{=}60317\)</span>, <span class="math inline">\(q{=}40577\)</span> prime factors of <span class="math inline">\(N\)</span>.</p>
-<pre><code>e = 7502876735617; n = 28562942440499;
-fc = ContinuedFraction[e/n];
-cList = Convergents[fc];
-phiList = Floor[e/Rest[cList]];
-
-check[phi_] := (x/.p) /; (Mod[n,x] /. (p=Solve[x^2-(n-phi+1)x+n==0,x])) == {0, 0};
-checkL[phi_List] := Flatten[Cases[check /@ phi,_List]];
-
-primes = Flatten[checkL /@ (phiList-m /. {m-&gt;#}&amp; /@ Range[0,9])];</code></pre>
 <p align="center">
-<embed src="assets/wiener_attack.pdf" type="application/pdf" width="80%" height="600px"/>
+<embed src="assets/wiener_attack.pdf" type="application/pdf" width="100%" height="600px"/>
 </p>
 <div class="footnotes">
 <hr />

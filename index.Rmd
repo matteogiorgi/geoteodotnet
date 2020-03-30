@@ -15,12 +15,3 @@ Hello folks, I'm the alien living in [Matteo's head](assets/inmyhead.html) and t
   <p><a href="05_others.html">Other stuff</a></p>
 </div>
 
-<footer class="site-footer" style="margin-top:50px">
-  <center>
-    <span class="site-footer-credits">
-      <img width="100" src="assets/alien.gif">
-      <img width="100" src="assets/run.gif" style="margin-top:10px">
-    </span>
-  </center>
-</footer>
- 
