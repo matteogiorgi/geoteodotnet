@@ -7,7 +7,7 @@ navbar:
           href: https://github.com/MatteoGiorgi
     right:
         - text: "📫 mail me"
-          href: assets/mail.html
+          href: mail.html
 output:
     html_document:
         theme: "readable"

@@ -5,7 +5,7 @@ title: "Wiener attack"
 
 
 
-Few years ago I wrote a [brief paper](https://github.com/MatteoGiorgi/wiener_attack) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. The attack states that under certain conditions[^1] the RSA module $N$ could be factorized in $\mathcal{O}\big(log_2(N)\big)$, let's take a peak on how it works using an ezample (in the paper you will find an implamentation Wolfram Mathematica).
+Few years ago I wrote a [brief paper](https://github.com/MatteoGiorgi/wiener_attack) regarding RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. The attack states that under certain conditions[^1] the RSA module $N$ could be factorized in $\mathcal{O}\big(log_2(N)\big)$, let's take a peak on how it works using an example (in the paper you will find the same example implemented in Wolfram Mathematica).
 
 Given the public key $(e,N)$ of an RSA cryptosystem with a small private exponent
 
