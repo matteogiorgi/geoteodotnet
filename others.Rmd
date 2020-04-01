@@ -5,13 +5,16 @@ title: "Matteo's bunker"
 
 
 
-I got some old uni projects waiting to be reorganized but don't worry, I'll take care of them one day or another. Still, you can find them [here](https://github.com/MatteoGiorgi/interprete_funzionale), [there](https://github.com/MatteoGiorgi/graph), [beer](https://github.com/MatteoGiorgi/membox) and [bear](https://github.com/MatteoGiorgi/sparse).
+I got some old uni projects waiting to be reorganized but don't worry, I'll take care of them one day or another. Still, have a glance! You can find them [here](https://github.com/MatteoGiorgi/interprete_funzionale), [there](https://github.com/MatteoGiorgi/graph), [beer](https://github.com/MatteoGiorgi/membox) 🍺 and [bear](https://github.com/MatteoGiorgi/sparse) 🐻.
 
 <p align="center">
-  <img width="500" src="assets/candy.png"/>
+  <img width="60%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-top:5%" src="assets/candy.png"/>
 </p>
 
 ---
 
-<marquee behavior="scroll" direction="right"><img src="assets/run.gif" width="100" alt="me"/></marquee>
+<p align="center">
+  <img height="110" src="assets/quest.gif"/>
+</p>
+
 
