@@ -1,2 +1,6 @@
-*.Rmd
+index.Rmd
+mail.Rmd
+inmyhead.Rmd
+_site.yml
+knit_site.r
 
