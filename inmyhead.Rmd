@@ -13,12 +13,12 @@ title: "Matteo's head"
   <img width="60%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-top:0%" src="assets/jack.png"/>
 </p>
 
-<div class="boxed"; style="color:#4582EC; text-align:left; font-size:20px; font-family:monospace; margin-top:5px; margin-left:20%; margin-right:20%">
-All work and no play makes Matteo a good boy.
-All work and no play makes Matteo a good boy.
-All work and no play makes Matteo a good boy.
-All work and no play makes Matteo a good boy.
-All work and no play makes Matteo a good boy.
+<div class="boxed"; style="color:#4582EC; margin-top:5px; margin-left:20%; margin-right:20%">
+All work and no play makes Matteo a grumpy boy</br>
+All work and no play makes Matteo a grumpy boy</br>
+All work and no play makes Matteo a grumpy boy</br>
+All work and no play makes Matteo a grumpy boy</br>
+All work and no play makes Matteo a grumpy boy</br>
 </div>
 
 ---
