@@ -1,7 +1,7 @@
 name: Matteo Giorgi
 output_dir: "."
 navbar:
-    title: "🌳 HQ"
+    title: "🌳 MHQ"
     right:
         - text: "📚 GitHub"
           href: https://github.com/MatteoGiorgi
