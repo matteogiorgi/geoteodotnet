@@ -1,0 +1,26 @@
+name: Matteo Giorgi
+output_dir: "."
+navbar:
+    title: "🌳 HQ"
+    right:
+        - text: "📚 GitHub"
+          href: https://github.com/MatteoGiorgi
+        - text: "📫 Mail"
+          href: mail.html
+    left:
+        - text: "Notes"
+          href: notes.html
+        - text: "Attack"
+          href: attack.html
+        - text: "Config"
+          href: config.html
+        - text: "Astro"
+          href: astro.html
+output:
+    html_document:
+        theme: "readable"
+        includes:
+            in_header: assets/header.html
+        toc: false
+        highlight: tango
+
