@@ -11,16 +11,6 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and thi
   <img width="60%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-top:0%" src="assets/candy.png"/>
 </p>
 
-<!--
-<div class="boxed"; style="color:#CCCCCC; text-align:left; font-size:1.25em; font-family:monospace; margin-top:5%; margin-left:20%; margin-right:20%">
-  <p>(index</p>
-  <p>&nbsp&nbsp&nbsp&nbsp((<a href="https://matteogiorgi.github.io/computability_notes">Computability notes</a>) 1)</p>
-  <p>&nbsp&nbsp&nbsp&nbsp((<a href="https://matteogiorgi.github.io/wiener_attack">Wiener attack</a>) 2)</p>
-  <p>&nbsp&nbsp&nbsp&nbsp((<a href="https://matteogiorgi.github.io/dotfiles">My Gnu/Linux config</a>) 3)</p>
-  <p>&nbsp&nbsp&nbsp&nbsp((<a href="https://matteogiorgi.github.io/asteroids_plus_plus">Asteroids++</a>) 4))</p>
-</div>
--->
-
 ---
 
 <marquee behavior="scroll" direction="right"><img src="assets/run.gif" width="100" alt="me"/></marquee>
