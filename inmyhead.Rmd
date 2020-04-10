@@ -14,11 +14,11 @@ title: "Matteo's head"
 </p>
 
 <div class="boxed"; style="color:#4582EC; margin-top:5px; margin-left:20%; margin-right:20%">
-All work and no play makes Matteo a grumpy boy</br>
-All work and no play makes Matteo a grumpy boy</br>
-All work and no play makes Matteo a grumpy boy</br>
-All work and no play makes Matteo a grumpy boy</br>
-All work and no play makes Matteo a grumpy boy</br>
+All work and no play makes Matteo a grumpy boy.</br>
+All work and no play makes Matteo a grumpy boy.</br>
+All work and no play makes Matteo a grumpy boy.</br>
+All work and no play makes Matteo a grumpy boy.</br>
+All work and no play makes Matteo a grumpy boy.</br>
 </div>
 
 ---
