@@ -5,7 +5,12 @@ title: "Matteo's headquarters"
 
 
 
-Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and this is my `main`. Do you really want to know what is going on up here? Click [this](https://matteogiorgi.github.io/cv/src/cv.pdf) or [that](https://matteogiorgi.github.io/cv/src/cv.pdf), otherwise take a look at the stuff above in the topbar or check out this [old dusty gear](bunker.html) 🎃.
+Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and this is my `main`. Do you really want to know what is going on up here? Click [this](https://matteogiorgi.github.io/cv/src/cv.pdf) or [that](https://matteogiorgi.github.io/cv/src/cv.pdf), otherwise take a look at the stuff below or check out this [old dusty gear](bunker.html) 🎃.
+
+* [Computability notes](notes.html) Some unfinished scribbles about computability theory
+* [Wiener attack](attack.html) A simple way to brake the RSA cryptosystem
+* [My GNU/Linux config](config.html) How I manage my desktop
+* [Asteroids++](astro.html) Yet another Asteroids clone but cool
 
 <p align="center">
   <img width="60%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-top:0%" src="assets/candy.png"/>

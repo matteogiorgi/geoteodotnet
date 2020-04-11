@@ -3,19 +3,11 @@ output_dir: "."
 navbar:
     title: "🌳 MHQ"
     right:
-        - text: "📚 GitHub"
-          href: https://github.com/MatteoGiorgi
         - text: "📫 Mail"
           href: mail.html
     left:
-        - text: "Notes"
-          href: notes.html
-        - text: "Attack"
-          href: attack.html
-        - text: "Config"
-          href: config.html
-        - text: "Astro"
-          href: astro.html
+        - text: "📚 GitHub"
+          href: https://github.com/MatteoGiorgi
 output:
     html_document:
         theme: "readable"
