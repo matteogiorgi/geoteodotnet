@@ -2,12 +2,22 @@ name: Matteo Giorgi
 output_dir: "."
 navbar:
     title: "🌳 MHQ"
-    right:
-        - text: "📫 Mail"
-          href: mail.html
     left:
+        - text: "📦 Stuff"
+          menu:
+              - text: "Computability notes"
+                href: notes.html
+              - text: "Wiener attack"
+                href: notes.html
+              - text: "My GNU/Linux config"
+                href: notes.html
+              - text: "Asteroids++"
+                href: notes.html
+    right:
         - text: "📚 GitHub"
           href: https://github.com/MatteoGiorgi
+        - text: "📫 Mail"
+          href: mail.html
 output:
     html_document:
         theme: "readable"
