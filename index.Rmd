@@ -7,6 +7,15 @@ title: "Matteo's headquarters"
 
 Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and this is my `main`. Do you really want to know what is going on up here? Click [this](https://matteogiorgi.github.io/cv/src/cv.pdf) or [that](https://matteogiorgi.github.io/cv/src/cv.pdf), otherwise take a look at the stuff below or check out this [old dusty gear](bunker.html) 🎃.
 
+<!--
+<ul>
+  <li><a style="color:#333333" href="notes.html">Computability notes</a> <span style="color:#A8A8A8">Some unfinished scribbles about computability theory</span></li>
+  <li><a style="color:#333333" href="attack.html">Wiener attack</a> <span style="color:#A8A8A8">A simple way to brake the RSA cryptosystem</span></li>
+  <li><a style="color:#333333" href="config.html">My GNU/Linux config</a> <span style="color:#A8A8A8">How I manage my desktop</span></li>
+  <li><a style="color:#333333" href="astro.html">Asteroids++</a> <span style="color:#A8A8A8">Yet another Asteroids clone but cool</span></li>
+</ul>
+-->
+
 * [Computability notes](notes.html) Some unfinished scribbles about computability theory
 * [Wiener attack](attack.html) A simple way to brake the RSA cryptosystem
 * [My GNU/Linux config](config.html) How I manage my desktop
