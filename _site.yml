@@ -8,11 +8,11 @@ navbar:
               - text: "Computability notes"
                 href: notes.html
               - text: "Wiener attack"
-                href: notes.html
+                href: attack.html
               - text: "My GNU/Linux config"
-                href: notes.html
+                href: config.html
               - text: "Asteroids++"
-                href: notes.html
+                href: astro.html
     right:
         - text: "📚 GitHub"
           href: https://github.com/MatteoGiorgi
