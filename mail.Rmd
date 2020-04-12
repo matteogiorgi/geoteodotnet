@@ -15,7 +15,7 @@ title: "Matteo's contacts"
 
 <div class="boxed"; style="color:#4582EC; margin-top:5px; margin-left:20%; margin-right:20%">
 EMAIL: <a href="mailto:matteo.giorgi@protonmail.com">matteo.giorgi@protonmail.com</a></br>
-TELEGRAM: <a href="https://t.me/drogaina">https://t.me/drogaina</a>&nbsp&nbsp&nbsp&nbsp
+TELEGRAM: <a href="https://t.me/drogaina" rel="noopener noreferrer" target="_blank">https://t.me/drogaina</a>&nbsp&nbsp&nbsp&nbsp
 </div>
 
 ---
