@@ -11,6 +11,10 @@ I got some old uni projects waiting to be reorganized but don't worry, I'll take
   <img width="60%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-top:0%" src="assets/bunker.png"/>
 </p>
 
+<div class="boxed"; style="color:#4582EC; margin-top:5px; margin-left:20%; margin-right:20%">
+@_'-'
+</div>
+
 ---
 
 <p align="center">
