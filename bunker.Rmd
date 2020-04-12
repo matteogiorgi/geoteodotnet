@@ -12,7 +12,11 @@ I got some old uni projects waiting to be reorganized but don't worry, I'll take
 </p>
 
 <div class="boxed"; style="color:#4582EC; margin-top:5px; margin-left:20%; margin-right:20%">
-@_'-'
+There once was a classical theory,&nbsp&nbsp&nbsp&nbsp&nbsp</br>
+Of which quantum disciples were leery.&nbsp</br>
+They said, "Why spend so long&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</br>
+On a theory that's wrong?"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</br>
+Well, it works for your everyday query!</br>
 </div>
 
 ---

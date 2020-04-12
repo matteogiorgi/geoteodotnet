@@ -16,7 +16,7 @@ navbar:
     right:
         - text: "📚 GitHub"
           href: https://github.com/MatteoGiorgi
-        - text: "📫 Mail"
+        - text: "📫 Contacts"
           href: mail.html
 output:
     html_document:

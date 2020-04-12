@@ -1,5 +1,5 @@
 ---
-title: "Matteo's mail"
+title: "Matteo's contacts"
 ---
 
 
@@ -14,7 +14,8 @@ title: "Matteo's mail"
 </p>
 
 <div class="boxed"; style="color:#4582EC; margin-top:5px; margin-left:20%; margin-right:20%">
-matteo.giorgi@protonmail.com
+MAIL: matteo.giorgi@protonmail.com</br>
+TELEGRAM: https://t.me/drogaina&nbsp&nbsp&nbsp
 </div>
 
 ---
