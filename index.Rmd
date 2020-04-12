@@ -16,19 +16,19 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and thi
 </ul>
 -->
 
-* [Computability notes](notes.html) Some unfinished scribbles about computability theory
+* [Computability notes](notes.html) Some unfinished scribbles on computability theory
 * [Wiener attack](attack.html) A simple way to brake the RSA cryptosystem
 * [My GNU/Linux config](config.html) How I manage my desktop
-* [Asteroids++](astro.html) Yet another Asteroids clone but cool
+* [Asteroids++](astro.html) Yet another Asteroids clone but way cooler
 
 <p align="center">
 <form style="text-align:center" method="get" id="ddgSearch" action="https://duckduckgo.com/">
   <input type="hidden" name="sites" value=""/>
-  <input type="hidden" name="k7" value="#ffffff"/>
+  <input type="hidden" name="k7" value="#FFFFFF"/>
   <input type="hidden" name="k8" value="#333333"/>
-  <input type="hidden" name="k9" value="#4582EC"/>
-  <input type="hidden" name="kx" value="#CCCCCC"/>
-  <input type="hidden" name="kj" value="#ffffff"/>
+  <input type="hidden" name="k9" value="#333333"/>
+  <input type="hidden" name="kx" value="#C4582E"/>
+  <input type="hidden" name="kj" value="#F8F8F8"/>
   <input type="hidden" name="kt" value="p"/>
   <input style="width:40%" type="text" name="q" placeholder="DuckDuckGo" aria-label="Search on DuckDuckGo"/>
   <button style="width:19.5%" type="submit">Search</button>
