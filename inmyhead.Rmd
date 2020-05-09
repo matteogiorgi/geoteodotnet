@@ -21,8 +21,10 @@ All work and no play makes Matteo a grumpy boy.</br>
 All work and no play makes Matteo a grumpy boy.</br>
 </div>
 
----
-
 <p align="center">
-  <img height="100" src="assets/alien.gif"/>
+  <img style="margin-top:3%" height="100" src="assets/alien.gif"/>
 </p>
+
+<div class="footer">
+  <p>Sources on <a href="https://github.com/MatteoGiorgi/matteogiorgi.github.io">GitHub</a>, <code>CC</code> Matteo Giorgi.</p>
+</div>
