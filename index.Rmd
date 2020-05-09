@@ -39,8 +39,7 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and thi
   <img width="60%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-top:0%" src="assets/candy.png"/>
 </p>
 
-<marquee style="margin-top:3%" behavior="scroll" direction="right"><img src="assets/run.gif" width="100" alt="me"/></marquee>
-
 <div class="footer">
+  <marquee behavior="scroll" direction="right"><img src="assets/run.gif" width=100 alt="me"/></marquee>
   <p>Sources on <a href="https://github.com/MatteoGiorgi/matteogiorgi.github.io">GitHub</a>, <code>CC</code> Matteo Giorgi.</p>
 </div>

@@ -18,10 +18,7 @@ EMAIL: <a href="mailto:matteo.giorgi@protonmail.com">matteo.giorgi@protonmail.co
 TELEGRAM: <a href="https://t.me/drogaina" rel="noopener noreferrer" target="_blank">https://t.me/drogaina</a>&nbsp&nbsp&nbsp&nbsp
 </div>
 
-<p align="center">
-  <img style="margin-top:3%" height="90" src="assets/super.gif"/>
-</p>
-
 <div class="footer">
+  <img width=80 src="assets/super.gif"/>
   <p>Sources on <a href="https://github.com/MatteoGiorgi/matteogiorgi.github.io">GitHub</a>, <code>CC</code> Matteo Giorgi.</p>
 </div>
