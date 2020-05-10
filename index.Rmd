@@ -29,8 +29,9 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and thi
   <input type="hidden" name="k9" value="#333333"/>
   <input type="hidden" name="kx" value="#C4582E"/>
   <input type="hidden" name="kj" value="#F8F8F8"/>
-  <input type="hidden" name="kt" value="p"/>
-  <input style="width:40%" type="text" name="q" placeholder="DuckDuckGo" aria-label="Search on DuckDuckGo"/>
+  <input type="hidden" name="kt" value="n"/>
+  <input type="hidden" name="k1" value=-1/>
+  <input style="width:40%" type="text" name="q" placeholder="DuckDuckGo" aria-label="Search on DuckDuckGo" autofocus/>
   <button style="width:19.5%" type="submit">Search</button>
 </form>
 </p>
