@@ -1,7 +1,7 @@
 name: Matteo Giorgi
 output_dir: "."
 navbar:
-    title: "🌍 MHQ"
+    title: "🌍 M.HQ"
     left:
         - text: "📦 Stuff"
           menu:
