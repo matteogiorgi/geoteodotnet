@@ -20,5 +20,5 @@ TELEGRAM: <a href="https://t.me/drogaina" rel="noopener noreferrer" target="_bla
 
 <div class="footer">
   <p><img width=80 src="assets/super.gif"/></p>
-  <p>Sources on <a href="https://github.com/MatteoGiorgi/matteogiorgi.github.io">GitHub</a>, <code>CC</code> Matteo Giorgi.</p>
+  <p>Sources on <a href="https://github.com/MatteoGiorgi/matteogiorgi.github.io"><i class="fab fa-github"></i> GitHub</a>, <i class="fab fa-creative-commons"></i> Matteo Giorgi.</p>
 </div>
