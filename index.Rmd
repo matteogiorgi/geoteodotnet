@@ -40,6 +40,6 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and thi
 </p>
 
 <div class="footer">
-  <marquee behavior="scroll" direction="right"><img src="assets/run.gif" width=100 alt="me"/></marquee>
+  <p><marquee behavior="scroll" direction="right"><img src="assets/run.gif" width=100 alt="me"/></marquee></p>
   <p>Sources on <a href="https://github.com/MatteoGiorgi/matteogiorgi.github.io">GitHub</a>, <code>CC</code> Matteo Giorgi.</p>
 </div>

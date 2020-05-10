@@ -20,6 +20,6 @@ Well, it works for your everyday query!</br>
 </div>
 
 <div class="footer">
-  <img width=110 src="assets/quest.gif"/>
+  <p><img width=110 src="assets/quest.gif"/></p>
   <p>Sources on <a href="https://github.com/MatteoGiorgi/matteogiorgi.github.io">GitHub</a>, <code>CC</code> Matteo Giorgi.</p>
 </div>
