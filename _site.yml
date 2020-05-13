@@ -14,10 +14,16 @@ navbar:
               - text: "Asteroids++"
                 href: astro.html
     right:
-        - text: "📚 GitHub"
-          href: https://github.com/MatteoGiorgi
         - text: "📫 Contacts"
           href: mail.html
+        - text: "📚 More"
+          menu:
+              - text: "Matteo's head"
+                href: inmyhead.html
+              - text: "Matteo's bunker"
+                href: bunker.html
+              - text: "Matteo's GitHub"
+                href: https://github.com/MatteoGiorgi
 output:
     html_document:
         theme: "readable"
