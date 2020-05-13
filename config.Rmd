@@ -9,7 +9,7 @@ I recently switched to [Qtile](http://www.qtile.org/) from good old [i3wm](https
 
 You can browse through my dotfiles or just take a look at my workflow, there is a sample below.
 
-<p align="center">
+<p align="center" style="margin-top:30px">
   <img width="49.5%" style="margin-right:0.5%" src="assets/qtile.gif"/><img width="49.5%" style="margin-right:0.5%" src="assets/qtile2.gif"/>
 </p>
 

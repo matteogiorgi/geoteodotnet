@@ -21,7 +21,7 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and thi
 * [My GNU/Linux config](config.html) How I manage my desktop
 * [Asteroids++](astro.html) Yet another Asteroids clone but way cooler
 
-<p align="center">
+<p align="center" style="margin-top:30px">
 <form style="text-align:center" method="get" id="ddgSearch" action="https://duckduckgo.com/">
   <input type="hidden" name="sites" value=""/>
   <input type="hidden" name="k7" value="#FFFFFF"/>
