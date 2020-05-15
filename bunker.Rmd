@@ -11,7 +11,7 @@ I got some old uni projects waiting to be reorganized but don't worry, I'll take
   <img width="60%" style="border:1px solid #CCCCCC; border-radius:5px" src="assets/bunker.png"/>
 </p>
 
-<div class="boxed"; style="color:#4582EC; margin-top:5px; margin-left:20%; margin-right:20%">
+<div class="boxed"; style="color:#158CBA; margin-top:5px; margin-left:20%; margin-right:20%">
 There once was a classical theory,&nbsp&nbsp&nbsp&nbsp&nbsp</br>
 Of which quantum disciples were leery.&nbsp</br>
 They said, "Why spend so long&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</br>
@@ -21,5 +21,5 @@ Well, it works for your everyday query!</br>
 
 <div class="footer">
   <p><img width=110 src="assets/quest.gif"/></p>
-  <p>Sources on <a href="https://github.com/MatteoGiorgi/matteogiorgi.github.io"><i class="fab fa-github"></i></a> by Matteo Giorgi <i class="fab fa-creative-commons-sa"></i>.</p>
+  <p>Sources on <a href="https://github.com/MatteoGiorgi"><i class="fab fa-github"></i></a> by Matteo Giorgi <i class="fab fa-creative-commons-sa"></i>.</p>
 </div>

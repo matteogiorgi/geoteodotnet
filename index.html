@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -24,8 +24,8 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> -->
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">-->
 <link rel="icon" type="image/png" href="assets/favicon.ico">
 <style type="text/css">
     @import url(https://fonts.google.com/specimen/Ubuntu);
@@ -34,6 +34,7 @@
         font-family: "Ubuntu", sans-serif;
         font-size: 1.75em;
         font-weight: 300;
+        background-color: #FFFFFF;
     }
     h1 {
         font-family: "Ubuntu", sans-serif;
@@ -60,10 +61,23 @@
     .navbar {
         font-family: "Ubuntu", sans-serif;
         font-weight: 300;
+        background-color: #FFFFFF;
+        /*border-bottom-style: solid;*/
+        /*border-bottom-color: #F8F8F8;*/
+        border-bottom-width: 3px;
+    }
+    .dropdown-menu {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 300;
+        background-color: #FFFFFF;
+        /*border-bottom-style: solid;*/
+        /*border-bottom-color: #F8F8F8;*/
+        border-bottom-width: 3px;
     }
     .sourceCode {
         font-family: "Ubuntu Mono", monospace;
         font-weight: 300;
+        font-size: 1em;
     }
     .boxed {
         font-family: "Ubuntu Mono", monospace;
@@ -84,7 +98,6 @@
         left: 0;
         bottom: 0;
         width: 100%;
-        height: 4%;
     }
 </style>
 
@@ -152,33 +165,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 66px;
+  padding-top: 54px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h2 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h3 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h4 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h5 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .section h6 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 59px;
+  margin-top: -59px;
 }
 .dropdown-submenu {
   position: relative;
@@ -396,7 +409,7 @@ $(document).ready(function () {
 </ul>
 <p align="center" style="margin-top:30px">
 <form style="text-align:center" method="get" id="ddgSearch" action="https://duckduckgo.com/">
-<input type="hidden" name="sites" value=""/> <input type="hidden" name="k7" value="#FFFFFF"/> <input type="hidden" name="k8" value="#333333"/> <input type="hidden" name="k9" value="#333333"/> <input type="hidden" name="kx" value="#C4582E"/> <input type="hidden" name="kj" value="#F8F8F8"/> <input type="hidden" name="kt" value="n"/> <input type="hidden" name="k1" value=-1/> <input style="width:40%" type="text" name="q" placeholder="DuckDuckGo" aria-label="Search on DuckDuckGo" autofocus/> <button style="width:19.5%" type="submit">Search</button>
+<input type="hidden" name="sites" value=""/> <input type="hidden" name="k7" value="#FFFFFF"/> <input type="hidden" name="k8" value="#333333"/> <input type="hidden" name="k9" value="#333333"/> <input type="hidden" name="kx" value="#C4582E"/> <input type="hidden" name="kj" value="#F8F8F8"/> <input type="hidden" name="kt" value="n"/> <input type="hidden" name="k1" value=-1/> <input style="width:60%" type="text" name="q" placeholder="ダックダックゴー" aria-label="Search" autofocus/> <!--<button style="width:19.5%" type="submit">Search</button>-->
 </form>
 </p>
 <p align="center">
@@ -407,7 +420,7 @@ $(document).ready(function () {
 <marquee behavior="scroll" direction="right"><img src="assets/run.gif" width=100 alt="me"/></marquee>
 </p>
 <p>
-Sources on <a href="https://github.com/MatteoGiorgi/matteogiorgi.github.io"><i class="fab fa-github"></i></a> by Matteo Giorgi <i class="fab fa-creative-commons-sa"></i>.
+Sources on <a href="https://github.com/MatteoGiorgi"><i class="fab fa-github"></i></a> by Matteo Giorgi <i class="fab fa-creative-commons-sa"></i>.
 </p>
 </div>
 
