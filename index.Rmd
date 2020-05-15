@@ -5,7 +5,7 @@ title: "Matteo's headquarters"
 
 
 
-Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and this is my `main`. Do you really want to know what is going on up here? Click [this](https://matteogiorgi.github.io/cv/src/cv.pdf) or [that](https://matteogiorgi.github.io/cv/src/cv.pdf), otherwise take a look at the stuff below or check out this [old dusty gear](bunker.html) 🎃.
+Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) <i class="fas fa-bug"></i> and this is my `main`. Do you really want to know what is going on up here? Click [this](https://matteogiorgi.github.io/cv/src/cv.pdf) or [that](https://matteogiorgi.github.io/cv/src/cv.pdf), otherwise take a look at the stuff below or check out this [old dusty gear](bunker.html) <i class="fas fa-cogs"></i>.
 
 <!--
 <ul>
@@ -31,7 +31,7 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and thi
   <input type="hidden" name="kj" value="#F8F8F8"/>
   <input type="hidden" name="kt" value="n"/>
   <input type="hidden" name="k1" value=-1/>
-  <input style="width:60%" type="text" name="q" placeholder="Surf the Web with DuckDuckGo" aria-label="Search"/> <!--autofocus-->
+  <input style="width:60%" type="text" name="q" placeholder="Search with DuckDuckGo" aria-label="Search"/> <!--autofocus-->
   <!--<button style="width:19.5%" type="submit">Search</button>-->
 </form>
 </p>
