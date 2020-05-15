@@ -31,7 +31,7 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and thi
   <input type="hidden" name="kj" value="#F8F8F8"/>
   <input type="hidden" name="kt" value="n"/>
   <input type="hidden" name="k1" value=-1/>
-  <input style="width:60%" type="text" name="q" placeholder="ダックダックゴー" aria-label="Search" autofocus/>
+  <input style="width:60%" type="text" name="q" placeholder="Surf the Web with DuckDuckGo" aria-label="Search"/> <!--autofocus-->
   <!--<button style="width:19.5%" type="submit">Search</button>-->
 </form>
 </p>
@@ -42,5 +42,5 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) 🐌 and thi
 
 <div class="footer">
   <p><marquee behavior="scroll" direction="right"><img src="assets/run.gif" width=100 alt="me"/></marquee></p>
-  <p>Sources on <a href="https://github.com/MatteoGiorgi"><i class="fab fa-github"></i></a> by Matteo Giorgi <i class="fab fa-creative-commons-sa"></i>.</p>
+  <p>Sources on <a href="https://github.com/MatteoGiorgi"><i class="fab fa-github"></i></a> by Matteo Giorgi <i class="fab fa-creative-commons-sa"></i></p>
 </div>
