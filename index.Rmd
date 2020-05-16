@@ -41,6 +41,6 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) <i class="fa
 </p>
 
 <div class="footer">
-  <p><marquee behavior="scroll" direction="right"><img src="assets/run.gif" width=100 alt="me"/></marquee></p>
+  <!--<p><marquee behavior="scroll" direction="right"><img src="assets/run.gif" width=100 alt="me"/></marquee></p>-->
   <p>Sources on <a href="https://github.com/MatteoGiorgi"><i class="fab fa-github"></i></a> by Matteo Giorgi <i class="fab fa-creative-commons-sa"></i></p>
 </div>

@@ -22,6 +22,6 @@ Well, it works for your everyday query!</br>
 </div>-->
 
 <div class="footer">
-  <p><img width=110 src="assets/quest.gif"/></p>
+  <!--<p><img width=110 src="assets/quest.gif"/></p>-->
   <p>Sources on <a href="https://github.com/MatteoGiorgi"><i class="fab fa-github"></i></a> by Matteo Giorgi <i class="fab fa-creative-commons-sa"></i></p>
 </div>
