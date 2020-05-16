@@ -5,7 +5,7 @@ title: "Matteo's headquarters"
 
 
 
-Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) <i class="fas fa-bug"></i> and this is my `main`. Do you really want to know what is going on up here? Click [this](https://matteogiorgi.github.io/cv/src/cv.pdf) or [that](https://matteogiorgi.github.io/cv/src/cv.pdf), otherwise take a look at the stuff below or check out this [old dusty gear](bunker.html) <i class="fas fa-box-open"></i>.
+Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) <i class="fas fa-bug"></i> and this is my `main`. Do you really want to know what is going on up here? Click [this](https://matteogiorgi.github.io/cv/src/cv.pdf) or [that](https://matteogiorgi.github.io/cv/src/cv.pdf), otherwise take a look at the stuff below or check out this [old dusty gear](bunker.html) <i class="fas fa-archive"></i>.
 
 <!--
 <ul>
