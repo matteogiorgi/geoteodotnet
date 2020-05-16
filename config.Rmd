@@ -16,5 +16,4 @@ You can browse through my dotfiles or just take a look at my workflow, there is 
 
 
 
-[^1]: You can find my old i3 config files in the repo too.
-
+[^1]: My old i3 config files are available in the repo too.

@@ -25,5 +25,4 @@ Take a look at the notes in [fullscreen mode](https://matteogiorgi.github.io/com
 
 
 
-[^1]: It is a very cool package, try it and the sky will be the limit: [click-clack](https://cran.r-project.org/web/packages/rmarkdown/index.html)
-
+[^1]: It is a very cool package, [try it](https://cran.r-project.org/web/packages/rmarkdown/index.html) and the sky will be the limit.

@@ -29,7 +29,4 @@ Now that we found a possible value for $\phi$, we won: the two prime factors of 
 
 
 
-[^1]: The sufficient condition for the attack to be effective lies in the private exponent $d$:
-$$d < \frac{N}{2\bigl(N{-}\phi(N)\bigr)g_0k_0}$$
-such exponent will be simply called *small*.
-
+[^1]: The sufficient condition for the attack to be effective lies in the private exponent $d$, simply called small private exponent.

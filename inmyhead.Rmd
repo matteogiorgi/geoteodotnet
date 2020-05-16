@@ -17,8 +17,7 @@ title: "Matteo's head"
 All work and no play makes Matteo a grumpy boy.</br>
 All work and no play makes Matteo a grumpy boy.</br>
 All work and no play makes Matteo a grumpy boy.</br>
-All work and no play makes Matteo a grumpy boy.</br>
-All work and no play makes Matteo a grumpy boy.</br>
+All work and no play makes Matteo a grumpy boy.
 </div>
 
 <div class="footer">
