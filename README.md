@@ -1,4 +1,4 @@
-<img align="left" width="160" src="assets/quest.gif">
+<img align="left" width="160" src="assets/alien.gif">
 
 # Home
 
