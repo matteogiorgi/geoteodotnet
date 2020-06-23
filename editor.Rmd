@@ -1,9 +1,0 @@
----
-title: A simple text editor
----
-
-<div contenteditable class=editor spellcheck="false"></div>
-
-<p align="center" style="margin-top:30px">
-<button type="button" onclick="window.location.href='https://www.google.com'" style="text-align:center; width:100%">Save text</button>
-</p>

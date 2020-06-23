@@ -5,9 +5,9 @@ title: "My GNU/Linux config"
 
 
 
-I recently switched to [Qtile](http://www.qtile.org/) from good old [i3wm](https://i3wm.org/) and I felt right at home[^1]. Qtile has its source code and config file written in Python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it.
+I recently switched to [Qtile](http://www.qtile.org/) from i3 and I felt right at home[^1]. Qtile has its source code and config file written in Python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it.
 
-You can browse through my dotfiles or just take a look at my workflow, there is a sample below.
+You can browse through my [dotfiles](https://github.com/MatteoGiorgi/.dotfiles) or just take a look at my workflow, there is a sample below.
 
 <p align="center" style="margin-top:30px">
   <img width="49.5%" style="margin-right:0.5%" src="assets/qtile.gif"/><img width="49.5%" style="margin-right:0.5%" src="assets/qtile2.gif"/>
@@ -16,4 +16,4 @@ You can browse through my dotfiles or just take a look at my workflow, there is 
 
 
 
-[^1]: i3 treats windows as if they are leaves in a n-ary tree and since the management is all manual the screen can get pretty messy very quickly. Qtile on the opposite has predefined windows dispositions so the user doesn't has to manage anything, just choose his prefeable layout.
+[^1]: [i3](https://i3wm.org/) treats windows as if they are leaves in a n-ary tree and since the management is all manual the screen can get pretty messy very quickly. Qtile on the opposite keeps its windows in a stack and has predefined layout so the user doesn't has to manage anything, apart from choosing the layout he prefers best.
