@@ -16,4 +16,4 @@ You can browse through my dotfiles or just take a look at my workflow, there is 
 
 
 
-[^1]: My old i3 config files are available in the repo too.
+[^1]: i3 treats windows as if they are leaves in a n-ary tree and since the management is all manual the screen can get pretty messy very quickly. Qtile on the opposite has predefined windows dispositions so the user doesn't has to manage anything, just choose his prefeable layout.
