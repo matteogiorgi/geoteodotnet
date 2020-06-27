@@ -1,6 +1,6 @@
 name: Matteo Giorgi
 output_dir: _site
-exclude: ["knit_site"]
+exclude: ["knit_site", "header.html", "footer.html"]
 navbar:
     title: "Home"
     left:
