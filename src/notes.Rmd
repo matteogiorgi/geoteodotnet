@@ -1,0 +1,28 @@
+---
+title: "Computability notes"
+---
+
+
+
+
+I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.
+
+The notes are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [B.Sc. Computer Science](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa. The source code can be compiled using R with Rmarkdown[^1] package, just use this tiny Rscript below.
+
+```{r eval=FALSE}
+#! /usr/bin/env Rscript
+
+require(rmarkdown)
+render(commandArgs(trailingOnly=TRUE))
+```
+
+Take a look at the notes in [fullscreen mode](https://matteogiorgi.github.io/computability_notes/src/notes.pdf) or just watch them in the window below. Stay tuned for the next updates.
+
+<p align="center" style="margin-top:30px">
+  <embed src="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" type="application/pdf" width="100%" height="600px"/>
+</p>
+
+
+
+
+[^1]: It is a very cool package, [try it](https://cran.r-project.org/web/packages/rmarkdown/index.html) and the sky will be the limit.

@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+cd ./..
+rm *.html
+rm -rf site_libs
+cd src
+echo "require(rmarkdown); render_site()" | R --vanilla
+mv _site/* ./..
+rm -rf _site

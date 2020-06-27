@@ -1,0 +1,34 @@
+name: Matteo Giorgi
+output_dir: _site
+exclude: ["knit_site"]
+navbar:
+    title: "Home"
+    left:
+        - text: "Stuff"
+          menu:
+              - text: "Computability notes"
+                href: notes.html
+              - text: "Wiener attack"
+                href: attack.html
+              - text: "My GNU/Linux config"
+                href: config.html
+              - text: "Asteroids++"
+                href: astro.html
+    right:
+        - text: "Contacts"
+          href: mail.html
+        - text: "More"
+          menu:
+              - text: "Matteo's head"
+                href: inmyhead.html
+              - text: "Matteo's bunker"
+                href: bunker.html
+              - text: "Matteo's GitHub"
+                href: https://github.com/MatteoGiorgi
+output:
+    html_document:
+        theme: "lumen"
+        includes:
+            in_header: ./header.html
+        toc: false
+        highlight: tango
