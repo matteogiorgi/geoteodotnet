@@ -5,7 +5,7 @@ title: "Matteo's headquarters"
 
 
 
-Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) <i class="fas fa-bug"></i> and this is my `main`. Do you really want to know what is going on up here? Click [this](https://matteogiorgi.github.io/cv/src/cv.pdf) or [that](https://matteogiorgi.github.io/cv/src/cv.pdf), otherwise take a look at the stuff below or check out this [old dusty gear](bunker.html) <i class="fas fa-archive"></i>.
+Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) and this is my `main`. Do you really want to know what is going on up here? Click [this](https://matteogiorgi.github.io/cv/src/cv.pdf) or [that](https://matteogiorgi.github.io/cv/src/cv.pdf), otherwise take a look at the stuff below or check out this [old dusty gear](bunker.html).
 
 <!--
 <ul>
@@ -39,8 +39,3 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) <i class="fa
 <p align="center">
   <img width="60%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-top:0%" src="assets/candy.png"/>
 </p>
-
-<div class="footer">
-  <!--<p><marquee behavior="scroll" direction="right"><img src="assets/run.gif" width=100 alt="me"/></marquee></p>-->
-  <p>Sources on <a href="https://github.com/MatteoGiorgi"><i class="fab fa-github"></i></a> by Matteo Giorgi <i class="fab fa-creative-commons-sa"></i></p>
-</div>

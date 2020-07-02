@@ -19,8 +19,3 @@ All work and no play makes Matteo a grumpy boy.</br>
 All work and no play makes Matteo a grumpy boy.</br>
 All work and no play makes Matteo a grumpy boy.
 </div>
-
-<div class="footer">
-  <!--<p><img width=100 src="assets/alien.gif"/></p>-->
-  <p>Sources on <a href="https://github.com/MatteoGiorgi"><i class="fab fa-github"></i></a> by Matteo Giorgi <i class="fab fa-creative-commons-sa"></i></p>
-</div>

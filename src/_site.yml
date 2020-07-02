@@ -2,9 +2,9 @@ name: Matteo Giorgi
 output_dir: _site
 exclude: ["knit_site", "header.html", "footer.html"]
 navbar:
-    title: "Home"
+    title: "🌍 Home"
     left:
-        - text: "Stuff"
+        - text: "🗃 Stuff"
           menu:
               - text: "Computability notes"
                 href: notes.html
@@ -15,9 +15,9 @@ navbar:
               - text: "Asteroids++"
                 href: astro.html
     right:
-        - text: "Contacts"
+        - text: "📫 Contacts"
           href: mail.html
-        - text: "More"
+        - text: "📚 More"
           menu:
               - text: "Matteo's head"
                 href: inmyhead.html
@@ -30,5 +30,6 @@ output:
         theme: "lumen"
         includes:
             in_header: ./header.html
+            after_body: ./footer.html
         toc: false
         highlight: tango
