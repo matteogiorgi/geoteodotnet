@@ -24,8 +24,6 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
-<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">-->
 <link rel="icon" type="image/png" href="assets/favicon.ico">
 <style type="text/css">
     @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
@@ -33,11 +31,9 @@
     @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
     @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
     @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
-    <!--@import url("https://fonts.google.com/specimen/Ubuntu");-->
-    <!--@import url("https://fonts.google.com/specimen/Ubuntu+Mono");-->
     body {
         font-family: "Ubuntu", sans-serif;
-        font-size: 1.75em;
+        font-size: 1.90em;
         font-weight: 300;
         background-color: #FFFFFF;
     }
@@ -63,6 +59,14 @@
         font-family: "Ubuntu Mono", monospace;
         font-weight: 300;
     }
+    a:link, a:visited {
+        color: #993300;
+        text-decoration: none;
+    }
+    a:hover, a:active {
+        color: #990000;
+        text-decoration: none;
+    }
     .navbar {
         font-family: "Ubuntu", sans-serif;
         font-weight: 400;
@@ -80,6 +84,16 @@
         /*border-bottom-style: solid;
           border-bottom-color: #CCCCCC;
           border-bottom-width: 1px;*/
+    }
+    .navbar-nav > li > .dropdown-menu a:link,
+        .navbar-nav > li > .dropdown-menu a:visited {
+        background-color: #F8F8F8;
+        color: #999999;
+    }
+    .navbar-nav > li > .dropdown-menu a:hover,
+    .navbar-nav > li > .dropdown-menu a:active {
+        background-color: #F8F8F8;
+        color: #333333;
     }
     .sourceCode {
         font-family: "Ubuntu Mono", monospace;
@@ -116,9 +130,9 @@
         margin-top: 30px;
         margin-bottom: 0px;
         position: static;
+        width: 100%;
         /*left: 0;
           bottom: 0;*/
-        width: 100%;
     }
 </style>
 
@@ -395,7 +409,7 @@ $(document).ready(function () {
       <a href="bunker.html">Matteo's bunker</a>
     </li>
     <li>
-      <a href="https://github.com/MatteoGiorgi">Matteo's GitHub</a>
+      <a href="https://github.com/MatteoGiorgi?tab=repositories">Matteo's repos</a>
     </li>
   </ul>
 </li>
@@ -430,7 +444,7 @@ $(document).ready(function () {
 </ul>
 <p align="center" style="margin-top:30px">
 <form style="text-align:center" method="get" id="ddgSearch" action="https://duckduckgo.com/">
-<input type="hidden" name="sites" value=""/> <input type="hidden" name="k7" value="#FFFFFF"/> <input type="hidden" name="k8" value="#333333"/> <input type="hidden" name="k9" value="#333333"/> <input type="hidden" name="kx" value="#C4582E"/> <input type="hidden" name="kj" value="#F8F8F8"/> <input type="hidden" name="kt" value="n"/> <input type="hidden" name="k1" value=-1/> <input style="width:60%" type="text" name="q" placeholder="Search with DuckDuckGo" aria-label="Search" autofocus/> <!--autofocus--> <!--<button style="width:19.5%" type="submit">Search</button>-->
+<input type="hidden" name="sites" value=""/> <input type="hidden" name="k7" value="#FFFFFF"/> <input type="hidden" name="k8" value="#333333"/> <input type="hidden" name="k9" value="#333333"/> <input type="hidden" name="kx" value="#C4582E"/> <input type="hidden" name="kj" value="#F8F8F8"/> <input type="hidden" name="kt" value="n"/> <input type="hidden" name="k1" value=-1/> <input style="width:60%" type="text" name="q" placeholder="Search with DuckDuckGo" aria-label="Search"/> <!--autofocus--> <!--<button style="width:19.5%" type="submit">Search</button>-->
 </form>
 </p>
 <p align="center">

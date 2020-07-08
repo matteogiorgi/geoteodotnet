@@ -23,8 +23,8 @@ navbar:
                 href: inmyhead.html
               - text: "Matteo's bunker"
                 href: bunker.html
-              - text: "Matteo's GitHub"
-                href: https://github.com/MatteoGiorgi
+              - text: "Matteo's repos"
+                href: https://github.com/MatteoGiorgi?tab=repositories
 output:
     html_document:
         theme: "lumen"
