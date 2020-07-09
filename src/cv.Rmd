@@ -1,0 +1,14 @@
+---
+title: "Matteo's cv"
+---
+
+
+
+
+
+
+
+
+<p align="center" style="margin-top:30px">
+  <embed src="https://matteogiorgi.github.io/cv/src/cv.pdf" type="application/pdf" width="100%" height="600px"/>
+</p>

@@ -21,10 +21,12 @@ navbar:
           menu:
               - text: "Matteo's head"
                 href: inmyhead.html
-              - text: "Matteo's bunker"
-                href: bunker.html
+              - text: "Matteo's cellar"
+                href: cellar.html
               - text: "Matteo's repos"
                 href: https://github.com/MatteoGiorgi?tab=repositories
+              - text: "Matteo's cv"
+                href: cv.html
 output:
     html_document:
         theme: "lumen"
