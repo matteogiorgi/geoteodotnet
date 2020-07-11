@@ -16,4 +16,4 @@ This one is a replica (with few additions) and it is written in JavaScript using
 
 
 
-[^1]: I really **do not like** to write in JavaScript but [P5.js](https://p5js.org/) has a good documentation and even an online editor, give it a chance.
+[^1]: I really do not like to write in JavaScript but [P5.js](https://p5js.org/) has a good documentation and even an online editor, give it a chance.

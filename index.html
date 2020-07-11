@@ -60,11 +60,11 @@
         font-weight: 300;
     }
     a:link, a:visited {
-        color: #993300;
+        color: #352e7e;
         text-decoration: none;
     }
     a:hover, a:active {
-        color: #990000;
+        color: #993300;
         text-decoration: none;
     }
     .navbar {
@@ -112,6 +112,20 @@
         padding: 1.5em;
         /*color: #158CBA;*/
     }
+    input[type=text] {
+        width: 100%;
+        padding: 2px 40px;
+        border: 1px solid #CCCCCC;
+        background-color: #F8F8F8;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-image: url('assets/search.png');
+        background-position: 10px 6px;
+        background-repeat: no-repeat;
+    }
+    /*input[type=text]:focus {
+      caret-color: #352e7e;
+    }*/
     .editor {
         font-family: "Ubuntu Mono", monospace;
         font-weight: 300;
@@ -135,6 +149,34 @@
         width: 100%;
         /*left: 0;
           bottom: 0;*/
+    }
+    /*** Works on common browsers ***/
+    ::selection {
+        background-color: #352e7e;
+        color: #ffff;
+    }
+    
+    /*** Mozilla based browsers ***/
+    ::-moz-selection {
+        background-color: #352e7e;
+        color: #ffff;
+    }
+    
+    /***For Other Browsers ***/
+    ::-o-selection {
+        background-color: #352e7e;
+        color: #ffff;
+    }
+    
+    ::-ms-selection {
+        background-color: #352e7e;
+        color: #ffff;
+    }
+    
+    /*** For Webkit ***/
+    ::-webkit-selection {
+        background-color: #352e7e;
+        color: #ffff;
     }
 </style>
 
@@ -449,12 +491,17 @@ $(document).ready(function () {
 </ul>
 <p align="center" style="margin-top:30px">
 <form style="text-align:center" method="get" id="ddgSearch" action="https://duckduckgo.com/">
-<input type="hidden" name="sites" value=""/> <input type="hidden" name="k7" value="#FFFFFF"/> <input type="hidden" name="k8" value="#333333"/> <input type="hidden" name="k9" value="#333333"/> <input type="hidden" name="kx" value="#C4582E"/> <input type="hidden" name="kj" value="#F8F8F8"/> <input type="hidden" name="kt" value="n"/> <input type="hidden" name="k1" value=-1/> <input style="width:60%" type="text" name="q" placeholder="Search with DuckDuckGo" aria-label="Search"/> <!--autofocus--> <!--<button style="width:19.5%" type="submit">Search</button>-->
+<input type="hidden" name="sites" value=""/> <input type="hidden" name="k7" value="#FFFFFF"/> <input type="hidden" name="k8" value="#333333"/> <input type="hidden" name="k9" value="#333333"/> <input type="hidden" name="kx" value="#C4582E"/> <input type="hidden" name="kj" value="#F8F8F8"/> <input type="hidden" name="kt" value="n"/> <input type="hidden" name="k1" value=-1/> <input style="width:100%" type="text" name="q" placeholder="Search with DuckDuckGo" aria-label="Search"/> <!--autofocus--> <!--<button style="width:19.5%" type="submit">Search</button>-->
 </form>
 </p>
 <p align="center">
-<img width="60%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-top:0%" src="assets/candy.png"/>
+<img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-right:1%" src="assets/think1.png"/><img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-right:0.5%" src="assets/think2.png"/><img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-left:0.5%" src="assets/think3.png"/><img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-left:1%" src="assets/think4.png"/>
 </p>
+<!--
+<p align="center">
+  <img width="60%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-top:0%" src="assets/candy.png"/>
+</p>
+-->
 
 <div class="footer">
   <!--<p><img width=80 src="assets/super.gif"/></p>-->

@@ -60,11 +60,11 @@
         font-weight: 300;
     }
     a:link, a:visited {
-        color: #993300;
+        color: #352e7e;
         text-decoration: none;
     }
     a:hover, a:active {
-        color: #990000;
+        color: #993300;
         text-decoration: none;
     }
     .navbar {
@@ -112,6 +112,20 @@
         padding: 1.5em;
         /*color: #158CBA;*/
     }
+    input[type=text] {
+        width: 100%;
+        padding: 2px 40px;
+        border: 1px solid #CCCCCC;
+        background-color: #F8F8F8;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-image: url('assets/search.png');
+        background-position: 10px 6px;
+        background-repeat: no-repeat;
+    }
+    /*input[type=text]:focus {
+      caret-color: #352e7e;
+    }*/
     .editor {
         font-family: "Ubuntu Mono", monospace;
         font-weight: 300;
@@ -135,6 +149,34 @@
         width: 100%;
         /*left: 0;
           bottom: 0;*/
+    }
+    /*** Works on common browsers ***/
+    ::selection {
+        background-color: #352e7e;
+        color: #ffff;
+    }
+    
+    /*** Mozilla based browsers ***/
+    ::-moz-selection {
+        background-color: #352e7e;
+        color: #ffff;
+    }
+    
+    /***For Other Browsers ***/
+    ::-o-selection {
+        background-color: #352e7e;
+        color: #ffff;
+    }
+    
+    ::-ms-selection {
+        background-color: #352e7e;
+        color: #ffff;
+    }
+    
+    /*** For Webkit ***/
+    ::-webkit-selection {
+        background-color: #352e7e;
+        color: #ffff;
     }
 </style>
 
@@ -441,7 +483,7 @@ $(document).ready(function () {
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>I really <strong>do not like</strong> to write in JavaScript but <a href="https://p5js.org/">P5.js</a> has a good documentation and even an online editor, give it a chance.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn1"><p>I really do not like to write in JavaScript but <a href="https://p5js.org/">P5.js</a> has a good documentation and even an online editor, give it a chance.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
