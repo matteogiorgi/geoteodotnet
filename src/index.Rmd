@@ -16,10 +16,20 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) and this is 
 </ul>
 -->
 
-* [`Computability notes`](notes.html)&nbsp;&nbsp;&nbsp;&nbsp;Some unfinished scribbles on computability theory
-* [`Wiener attack`](attack.html)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A simple way to brake the RSA cryptosystem
-* [`My GNU/Linux config`](config.html)&nbsp;&nbsp;&nbsp;&nbsp;How I manage my desktop
-* [`Asteroids++`](astro.html)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yet another Asteroids clone but way cooler
+<!--
+<ul style="font-family:Ubuntu Mono">
+  <li><a style="background-color:#F5F5F5; border-radius: 5px" href="notes.html">Computability notes</a>&nbsp;&nbsp;<span style="font-family:Ubuntu">Some unfinished scribbles about computability theory</span></li>
+  <li><a style="background-color:#F5F5F5; border-radius: 5px" href="attack.html">Wiener attack</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family:Ubuntu">A simple way to brake the RSA cryptosystem</span></li>
+  <li><a style="background-color:#F5F5F5; border-radius: 5px" href="config.html">My GNU/Linux config</a>&nbsp;&nbsp;<span style="font-family:Ubuntu">How I manage my desktop</span></li>
+  <li><a style="background-color:#F5F5F5; border-radius: 5px" href="astro.html">Asteroids++</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family:Ubuntu">Yet another Asteroids clone but cool</span></li>
+</ul>
+-->
+
+* [`Computability notes`](notes.html)<span style="font-family:Ubuntu Mono">&nbsp;</span>Some unfinished scribbles on computability theory
+* [`Wiener attack`](attack.html)<span style="font-family:Ubuntu Mono">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>A simple way to brake the RSA cryptosystem
+* [`My GNU/Linux config`](config.html)<span style="font-family:Ubuntu Mono">&nbsp;</span>How I manage my desktop
+* [`Asteroids++`](astro.html)<span style="font-family:Ubuntu Mono">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Yet another Asteroids clone but way cooler
+
 
 <p align="center" style="margin-top:30px">
 <form style="text-align:center" method="get" id="ddgSearch" action="https://duckduckgo.com/">

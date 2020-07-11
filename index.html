@@ -54,10 +54,12 @@
     textarea {
         font-family: "Ubuntu Mono", monospace;
         font-weight: 300;
+        font-size: 1.00em;
     }
     code {
         font-family: "Ubuntu Mono", monospace;
         font-weight: 300;
+        font-size: 1.00em;
     }
     a:link, a:visited {
         color: #352e7e;
@@ -100,11 +102,12 @@
     .sourceCode {
         font-family: "Ubuntu Mono", monospace;
         font-weight: 300;
-        font-size: 0.95em;
+        font-size: 1.00em;
     }
     .boxed {
         font-family: "Ubuntu Mono", monospace;
         font-weight: 300;
+        font-size: 1.00em;
         text-align: center;
         background-color: #F8F8F8;
         border: 1px solid #CCCCCC;
@@ -125,7 +128,6 @@
         color: #999999;
     }
     input[type=text]:focus {
-        border: 1px solid #333333;
         color: #333333;
     }
     .editor {
@@ -485,11 +487,19 @@ $(document).ready(function () {
   <li><a style="color:#333333" href="astro.html">Asteroids++</a> <span style="color:#A8A8A8">Yet another Asteroids clone but cool</span></li>
 </ul>
 -->
+<!--
+<ul style="font-family:Ubuntu Mono">
+  <li><a style="background-color:#F5F5F5; border-radius: 5px" href="notes.html">Computability notes</a>&nbsp;&nbsp;<span style="font-family:Ubuntu">Some unfinished scribbles about computability theory</span></li>
+  <li><a style="background-color:#F5F5F5; border-radius: 5px" href="attack.html">Wiener attack</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family:Ubuntu">A simple way to brake the RSA cryptosystem</span></li>
+  <li><a style="background-color:#F5F5F5; border-radius: 5px" href="config.html">My GNU/Linux config</a>&nbsp;&nbsp;<span style="font-family:Ubuntu">How I manage my desktop</span></li>
+  <li><a style="background-color:#F5F5F5; border-radius: 5px" href="astro.html">Asteroids++</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family:Ubuntu">Yet another Asteroids clone but cool</span></li>
+</ul>
+-->
 <ul>
-<li><a href="notes.html"><code>Computability notes</code></a>    Some unfinished scribbles on computability theory</li>
-<li><a href="attack.html"><code>Wiener attack</code></a>                A simple way to brake the RSA cryptosystem</li>
-<li><a href="config.html"><code>My GNU/Linux config</code></a>    How I manage my desktop</li>
-<li><a href="astro.html"><code>Asteroids++</code></a>                    Yet another Asteroids clone but way cooler</li>
+<li><a href="notes.html"><code>Computability notes</code></a><span style="font-family:Ubuntu Mono"> </span>Some unfinished scribbles on computability theory</li>
+<li><a href="attack.html"><code>Wiener attack</code></a><span style="font-family:Ubuntu Mono">       </span>A simple way to brake the RSA cryptosystem</li>
+<li><a href="config.html"><code>My GNU/Linux config</code></a><span style="font-family:Ubuntu Mono"> </span>How I manage my desktop</li>
+<li><a href="astro.html"><code>Asteroids++</code></a><span style="font-family:Ubuntu Mono">         </span>Yet another Asteroids clone but way cooler</li>
 </ul>
 <p align="center" style="margin-top:30px">
 <form style="text-align:center" method="get" id="ddgSearch" action="https://duckduckgo.com/">
