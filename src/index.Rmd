@@ -25,11 +25,17 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) and this is 
 </ul>
 -->
 
+<!--
 * [`Computability notes`](notes.html)<span style="font-family:Ubuntu Mono">&nbsp;</span>Some unfinished scribbles on computability theory
 * [`Wiener attack`](attack.html)<span style="font-family:Ubuntu Mono">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>A simple way to brake the RSA cryptosystem
 * [`My GNU/Linux config`](config.html)<span style="font-family:Ubuntu Mono">&nbsp;</span>How I manage my desktop
 * [`Asteroids++`](astro.html)<span style="font-family:Ubuntu Mono">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Yet another Asteroids clone but way cooler
+-->
 
+* [Computability notes](notes.html), some unfinished scribbles on computability theory
+* [Wiener attack](attack.html), a simple way to brake the RSA cryptosystem
+* [My GNU/Linux config](config.html), how I manage my desktop
+* [Asteroids++](astro.html), yet another Asteroids clone but way cooler
 
 <p align="center" style="margin-top:30px">
 <form style="text-align:center" method="get" id="ddgSearch" action="https://duckduckgo.com/">
