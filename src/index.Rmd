@@ -16,10 +16,10 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) and this is 
 </ul>
 -->
 
-* [Computability notes](notes.html) Some unfinished scribbles on computability theory
-* [Wiener attack](attack.html) A simple way to brake the RSA cryptosystem
-* [My GNU/Linux config](config.html) How I manage my desktop
-* [Asteroids++](astro.html) Yet another Asteroids clone but way cooler
+* [`Computability notes`](notes.html)&nbsp;&nbsp;&nbsp;&nbsp;Some unfinished scribbles on computability theory
+* [`Wiener attack`](attack.html)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A simple way to brake the RSA cryptosystem
+* [`My GNU/Linux config`](config.html)&nbsp;&nbsp;&nbsp;&nbsp;How I manage my desktop
+* [`Asteroids++`](astro.html)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yet another Asteroids clone but way cooler
 
 <p align="center" style="margin-top:30px">
 <form style="text-align:center" method="get" id="ddgSearch" action="https://duckduckgo.com/">
