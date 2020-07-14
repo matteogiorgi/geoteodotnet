@@ -37,7 +37,17 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) and this is 
 * [My GNU/Linux config](config.html), how I manage my desktop
 * [Asteroids++](astro.html), yet another Asteroids clone but way cooler
 
-<p align="center" style="margin-top:30px">
+<!--
+<p align="center">
+  <img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-right:1%" src="assets/think1.png"/><img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-right:0.5%" src="assets/think2.png"/><img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-left:0.5%" src="assets/think3.png"/><img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-left:1%" src="assets/think4.png"/>
+</p>
+-->
+
+<p align="center">
+  <img width="60%" style="margin-top:30px; border:1px solid #CCCCCC; border-radius:5px" src="assets/island.png"/>
+</p>
+
+<p align="center">
 <form style="text-align:center" method="get" id="ddgSearch" action="https://duckduckgo.com/">
   <input type="hidden" name="sites" value=""/>
   <input type="hidden" name="k7" value="#FFFFFF"/>
@@ -50,14 +60,4 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) and this is 
   <input style="width:60%" type="text" name="q" placeholder="Search with DuckDuckGo" aria-label="Search"/> <!--autofocus-->
   <!--<button style="width:19.5%" type="submit">Search</button>-->
 </form>
-</p>
-
-<!--
-<p align="center">
-  <img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-right:1%" src="assets/think1.png"/><img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-right:0.5%" src="assets/think2.png"/><img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-left:0.5%" src="assets/think3.png"/><img width="24.25%" style="border:1px solid #CCCCCC; border-radius: 5px; margin-left:1%" src="assets/think4.png"/>
-</p>
--->
-
-<p align="center">
-  <img width="60%" style="border:1px solid #CCCCCC; border-radius:5px" src="assets/island.png"/>
 </p>

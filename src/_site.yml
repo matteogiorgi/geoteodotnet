@@ -35,3 +35,4 @@ output:
             after_body: ./footer.html
         toc: false
         highlight: tango
+        #mathjax: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_HTMLorMML.js

@@ -19,7 +19,7 @@ render(commandArgs(trailingOnly=TRUE))
 Take a look at the notes in [fullscreen mode](https://matteogiorgi.github.io/computability_notes/src/notes.pdf) or just watch them in the window below. Stay tuned for the next updates.
 
 <p align="center" style="margin-top:30px">
-  <embed src="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" type="application/pdf" width="100%" height="600px"/>
+  <embed style="border:1px solid #CCCCCC; border-radius:5px" src="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" type="application/pdf" width="100%" height="600px"/>
 </p>
 
 

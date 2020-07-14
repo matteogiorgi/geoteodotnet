@@ -5,7 +5,9 @@ title: "My GNU/Linux config"
 
 
 
-I recently switched to [Qtile](http://www.qtile.org/) from i3 and I felt right at home[^1]. Qtile has its source code and config file written in Python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it. You can browse through my [dotfiles](https://github.com/MatteoGiorgi/.dotfiles) or just take a look at my workflow, there is a sample below.
+I've been using [Qtile](http://www.qtile.org/) for a while now and it's an awesome[^1] window manager. It organises its windows dynamically keeping them in a stack with predefined layouts so the user doesn't has to do much, just choosing the layout he prefers best.
+
+Qtile has its source code and config file written in Python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it. You can browse through my [dotfiles](https://github.com/MatteoGiorgi/.dotfiles) or just take a look at my workflow, there is a sample below.
 
 <!--
 <p align="center" style="margin-top:30px">
@@ -14,10 +16,10 @@ I recently switched to [Qtile](http://www.qtile.org/) from i3 and I felt right a
 -->
 
 <p align="center" style="margin-top:30px">
-  <video width="100%" controls><source src="assets/qtile_tango.mp4" type="video/mp4"/></video>
+  <video style="border:1px solid #CCCCCC; border-radius:5px" width="100%" controls><source src="assets/qtile.mp4" type="video/mp4"/></video>
 </p>
 
 
 
 
-[^1]: [i3](https://i3wm.org/) treats windows as if they are leaves in a n-ary tree and since the management is all manual the screen can get pretty messy very quickly. Qtile on the opposite keeps its windows in a stack and has predefined layout so the user doesn't has to manage anything, apart from choosing the layout he prefers best.
+[^1]: Not just [Awesome](https://awesomewm.org/), I meant really awesome.
