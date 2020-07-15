@@ -57,7 +57,7 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) and this is 
   <input type="hidden" name="kj" value="#F8F8F8"/>
   <input type="hidden" name="kt" value="n"/>
   <input type="hidden" name="k1" value=-1/>
-  <input style="width:60%" type="text" name="q" placeholder="Search with DuckDuckGo" aria-label="Search"/> <!--autofocus-->
+  <input style="width:60%" type="text" name="q" placeholder="Web Search" aria-label="Search"/> <!--autofocus-->
   <!--<button style="width:19.5%" type="submit">Search</button>-->
 </form>
 </p>
