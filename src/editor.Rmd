@@ -12,4 +12,4 @@ title: Simple editor[^1]
 
 
 
-[^1]: Just the [Ace](https://ace.c9.io/) editor: it is no [Vim](https://www.vim.org/) but it could come in handy anyhow sometimes.
+[^1]: Just the [Ace](https://ace.c9.io/) editor: it is no [Vim](https://www.vim.org/) but it could come in handy anyhow.
