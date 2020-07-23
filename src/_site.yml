@@ -14,6 +14,8 @@ navbar:
                 href: config.html
               - text: "Asteroids++"
                 href: astro.html
+              - text: "Simple editor"
+                href: editor.html
     right:
         - text: "Contacts"
           href: mail.html

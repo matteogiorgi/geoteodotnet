@@ -36,6 +36,7 @@ Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) and this is 
 * [Wiener attack](attack.html), a simple way to brake the RSA cryptosystem
 * [My GNU/Linux config](config.html), how I manage my desktop
 * [Asteroids++](astro.html), yet another Asteroids clone but way cooler
+* [Simple editor](editor.html), just something to write with
 
 <!--
 <p align="center">

@@ -1,0 +1,15 @@
+---
+title: Simple editor[^1]
+---
+
+
+
+
+<p align="center" style="margin-top:30px">
+  <embed style="border:1px solid #CCCCCC; border-radius:5px" src="ace.html" width="100%" height="500px"></embed>
+</p>
+
+
+
+
+[^1]: Just the [Ace](https://ace.c9.io/) editor: it is no [Vim](https://www.vim.org/) but it could come in handy anyhow sometimes.
