@@ -2,7 +2,7 @@ name: Matteo Giorgi
 output_dir: _site
 exclude: ["knit_site", "header.html", "footer.html"]
 navbar:
-    title: "Home"
+    title: "My island"
     left:
         - text: "Stuff"
           menu:
@@ -37,4 +37,3 @@ output:
             after_body: ./footer.html
         toc: false
         highlight: tango
-        #mathjax: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_HTMLorMML.js
