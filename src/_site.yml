@@ -6,16 +6,16 @@ navbar:
     left:
         - text: "Stuff"
           menu:
+              - text: "My GNU/Linux config"
+                href: config.html
+              - text: "Simple editor"
+                href: editor.html
               - text: "Computability notes"
                 href: notes.html
               - text: "Wiener attack"
                 href: attack.html
-              - text: "My GNU/Linux config"
-                href: config.html
               - text: "Asteroids++"
                 href: astro.html
-              - text: "Simple editor"
-                href: editor.html
     right:
         - text: "Contacts"
           href: mail.html
