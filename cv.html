@@ -132,12 +132,12 @@
         font-style: normal;
     }
     body {
+    	margin: 0rem;
+    	min-height: 100vh;
+        background-color: #FFFFFF;
         font-family: "Ubuntu", sans-serif;
         font-weight: 300;
         font-size: 1.90em;
-        background-color: #FFFFFF;
-    	margin: 0rem;
-    	min-height: 100vh;
     }
     #canvas, #text {
     	position: absolute;
@@ -146,9 +146,9 @@
     	left: 0;
     	z-index: -1;
     }
-    /*#text h1 {
-        opacity: 0.9
-    }*/
+    #text h1 {
+    	opacity: 0.9
+    }
     h1 {
         font-family: "Ubuntu", sans-serif;
         font-weight: 400;
@@ -597,7 +597,7 @@ $(document).ready(function () {
     const opts = { 
     	particleColor: "rgb(200,200,200)",
     	lineColor: "rgb(200,200,200)",
-    	particleAmount: 30,
+    	particleAmount: 100,
     	defaultSpeed: 1,
     	variantSpeed: 1,
     	defaultRadius: 2,
