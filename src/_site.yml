@@ -34,6 +34,7 @@ output:
         theme: "lumen"
         includes:
             in_header: ./header.html
+            before_body: ./prebody.html
             after_body: ./footer.html
         toc: false
         highlight: tango
