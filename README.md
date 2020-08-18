@@ -2,4 +2,4 @@
 
 # Matteo's island
 
-Hello there, welcome to [my page](https://www.geoteo.net)!
+Hello there, welcome to [my page](https://matteogiorgi.github.io)!
