@@ -2,7 +2,7 @@
 title: Headquarters
 ---
 
-Hello folks, I'm the alien living in [geoteo's head](inmyhead.html) and this is my `main`. Do you really want to know what is going on up here? Click [this](cv.html) or [that](cv.html), otherwise take a look at the stuff below or check out this [old dusty gear](cellar.html).
+Hello folks, I'm the alien living in [Matteo's head](inmyhead.html) and this is my `main`. Do you really want to know what is going on up here? Click [this](https://github.com/matteogiorgi) or [that](cv.html), otherwise take a look at the stuff below or check out this [old dusty gear](cellar.html).
 
 * [How I manage my desktop with Qtile](config.html)
 * [Some unfinished scribbles on Computability Theory](notes.html)
