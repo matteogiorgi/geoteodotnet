@@ -9,7 +9,7 @@ rm astro.html
 rm contact.html
 rm inmyhead.html
 rm cellar.html
-rm cv.html
+rm info.html
 pandoc -s -c style.css -H header.html -B prebody.html -A footer.html src/index.md --mathjax --highlight-style tango -o index.html -T Geoteo
 pandoc -s -c style.css -H header.html -B prebody.html -A footer.html src/config.md  --mathjax --highlight-style tango -o config.html -T Geoteo
 pandoc -s -c style.css -H header.html -B prebody.html -A footer.html src/notes.md --mathjax --highlight-style tango -o notes.html -T Geoteo
@@ -18,4 +18,4 @@ pandoc -s -c style.css -H header.html -B prebody.html -A footer.html src/astro.m
 pandoc -s -c style.css -H header.html -B prebody.html -A footer.html src/contact.md --mathjax --highlight-style tango -o contact.html -T Geoteo
 pandoc -s -c style.css -H header.html -B prebody.html -A footer.html src/inmyhead.md --mathjax --highlight-style tango -o inmyhead.html -T Geoteo
 pandoc -s -c style.css -H header.html -B prebody.html -A footer.html src/cellar.md --mathjax --highlight-style tango -o cellar.html -T Geoteo
-pandoc -s -c style.css -H header.html -B prebody.html -A footer.html src/cv.md --mathjax --highlight-style tango -o cv.html -T Geoteo
+pandoc -s -c style.css -H header.html -B prebody.html -A footer.html src/info.md --mathjax --highlight-style tango -o info.html -T Geoteo
