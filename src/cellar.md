@@ -6,7 +6,7 @@ title: "Matteo's cellar"
 
 
 <p align="center" style="margin-top:30px">
-  <img width="60%" style="border:1px solid #CCCCCC; border-radius:5px" src="assets/evolution.png"/>
+  <img width="60%" style="border:1px solid #CCCCCC; border-radius:5px" src="assets/smoke.png"/>
 </p>
 
 <div class="boxed"; style="margin-top:5px; margin-left:20%; margin-right:20%">
