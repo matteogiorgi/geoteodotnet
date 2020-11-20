@@ -20,7 +20,7 @@ title: "Matteo's cv"
 </p>
 
 <div class="boxed"; style="margin-top:5px; margin-left:20%; margin-right:20%">
-  <li><a href="https://matteogiorgi.github.io/cv/src/cv.pdf">Full Curriculum Vitae</a></li>
-  <li><a href="assets/exams.pdf">Exams transcript</a>&nbsp&nbsp&nbsp&nbsp&nbsp</li>
-  <li><a href="assets/cert.pdf">Language certificates</a></li>
+  <li><a href="https://matteogiorgi.github.io/cv/src/cv.pdf">Full Curriculum Vitae</a>&nbsp</li>
+  <li><a href="assets/exams.pdf">UniPi exams transcript</a></li>
+  <li><a href="assets/cert.pdf">Language certificates</a>&nbsp</li>
 </div>
