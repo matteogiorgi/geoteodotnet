@@ -29,6 +29,6 @@ title: "Matteo's personal info"
 
 <div class="boxed"; style="margin-top:5px; margin-left:20%; margin-right:20%">
   <i class="fas fa-signature"></i>&nbsp&nbsp<a href="https://matteogiorgi.github.io/cv/src/cv.pdf">Full Curriculum Vitae</a>&nbsp</br>
-  <i class="fas fa-paperclip"></i>&nbsp&nbsp<a href="assets/exams.pdf">UniPi exams transcript</a></br>
+  <i class="fas fa-graduation-cap"></i>&nbsp&nbsp<a href="assets/exams.pdf">UniPi exams transcript</a></br>
   <i class="fas fa-spell-check"></i>&nbsp&nbsp<a href="assets/cert.pdf">Language certificates</a>&nbsp</br>
 </div>
