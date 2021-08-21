@@ -1,4 +1,4 @@
-<img align="right" width="160" src="assets/pics/alien.gif">
+<img align="right" width="160" src="geoteo/pics/alien.gif">
 
 # Matteo's island
 
