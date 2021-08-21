@@ -1,6 +1,4 @@
----
-title: Computability notes
----
+# Computability notes
 
 I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.
 
@@ -14,7 +12,7 @@ render(commandArgs(trailingOnly=TRUE))
 
 You can take a look and download the notes [here](https://matteogiorgi.github.io/computability_notes/src/notes.pdf) or in the window below. Unfortunately there won't be any updates soon, anyhow it was quite fun to play with LaTex templates and the Rmarkdown package.
 
-<p align="center" style="margin-top:30px">
-  <embed style="border:1px solid #CCCCCC; border-radius:5px" src="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" type="application/pdf" width="100%" height="600px"/>
+<p align="center" style="margin-top:20px">
+  <embed style="border:1px solid #cccccc" src="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" type="application/pdf" width="100%" height="600px"/>
 </p>
 

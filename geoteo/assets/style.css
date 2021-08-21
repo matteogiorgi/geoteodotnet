@@ -1,8 +1,8 @@
 /* monospace semibold italic */
 @font-face {
     font-family: 'haskligsemibold_italic';
-    src: url('assets/hasklig-webfont/hasklig-nerd-font-semiboldit-webfont.woff2') format('woff2'),
-         url('assets/hasklig-webfont/hasklig-nerd-font-semiboldit-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-semiboldit-webfont.woff2') format('woff2'),
+         url('hasklig-webfont/hasklig-nerd-font-semiboldit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,8 +10,8 @@
 /* monospace regular italic */
 @font-face {
     font-family: 'haskligitalic';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-it-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-it-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-it-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-it-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,8 +19,8 @@
 /* monospace medium italic */
 @font-face {
     font-family: 'haskligmedium_italic';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-mediumit-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-mediumit-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-mediumit-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-mediumit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -28,8 +28,8 @@
 /* monospace light italic */
 @font-face {
     font-family: 'haskliglight_italic';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-lightit-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-lightit-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-lightit-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-lightit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -37,8 +37,8 @@
 /* monospace extralight italic */
 @font-face {
     font-family: 'haskligextralight_italic';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-extralightit-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-extralightit-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-extralightit-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-extralightit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -46,8 +46,8 @@
 /* monospace bold italic */
 @font-face {
     font-family: 'haskligbold_italic';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-boldit-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-boldit-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-boldit-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-boldit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -55,8 +55,8 @@
 /* monospace black italic */
 @font-face {
     font-family: 'haskligblack_italic';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-blackit-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-blackit-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-blackit-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-blackit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -64,8 +64,8 @@
 /* monospace semibold */
 @font-face {
     font-family: 'haskligsemibold';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-semibold-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-semibold-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-semibold-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -73,8 +73,8 @@
 /* monospace regular */
 @font-face {
     font-family: 'haskligregular';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-regular-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-regular-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-regular-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -82,8 +82,8 @@
 /* monospace medium */
 @font-face {
     font-family: 'haskligmedium';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-medium-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-medium-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-medium-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -91,8 +91,8 @@
 /* monospace light */
 @font-face {
     font-family: 'haskliglight';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-light-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-light-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-light-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -100,8 +100,8 @@
 /* monospace extralight */
 @font-face {
     font-family: 'haskligextralight';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-extralight-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-extralight-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-extralight-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -109,8 +109,8 @@
 /* monospace bold */
 @font-face {
     font-family: 'haskligbold';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-bold-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-bold-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-bold-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -118,8 +118,8 @@
 /* monospace black */
 @font-face {
     font-family: 'haskligblack';
-    src: url('assets/hasklig-webfont//hasklig-nerd-font-black-webfont.woff2') format('woff2'),
-         url('assets//ace-src//hasklig-nerd-font-black-webfont.woff') format('woff');
+    src: url('hasklig-webfont/hasklig-nerd-font-black-webfont.woff2') format('woff2'),
+         url('ace-src/hasklig-nerd-font-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -419,7 +419,7 @@ body {
   padding: 1em;
   margin: auto;
   max-width: 52em;
-  background: #fefefe;
+  background: #f8f8f8;
 }
 
 a {
@@ -547,10 +547,10 @@ pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
-  background-color: #f8f8f8;
+  background-color: #f8f8f3;
   padding: 10px 15px;
-  border:1px solid #CCCCCC;
-  border-radius:5px;
+  border:1px solid #cccccc;
+  /* border-radius:5px; */
 }
 
 b,
@@ -779,25 +779,31 @@ ul.articles {
 footer {
     font-size: 13px;
 }
+
 textarea {
     font-family: "haskligregular", monospace;
     font-size: 0.95em;
 }
+
 code {
     font-family: "haskligregular", monospace;
     font-size: 0.95em;
 }
+
 .sourceCode {
     font-family: "haskligregular", monospace;
     font-size: 0.95em;
 }
+
 .boxed {
     font-family: "haskligregular", monospace;
     font-size: 0.95em;
     text-align: center;
-    background-color: #F8F8F8;
-    border: 1px solid #CCCCCC;
-    border-radius: 5px;
     padding: 1.5em;
-    /*color: #158CBA;*/
+    border: 1px solid #cccccc;
+    background-color: #f8f8f3;
+    /* margin-left:20%; */
+    /* margin-right:20%; */
+    /* border-radius: 5px; */
+    /* color: #158CBA; */
 }

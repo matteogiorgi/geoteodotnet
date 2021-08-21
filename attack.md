@@ -1,9 +1,4 @@
----
-title: "Wiener attack"
----
-
-
-
+# Wiener attack
 
 Few years ago I wrote a brief paper regarding the RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. The attack states that when there is a small private exponent, the RSA module $N$ could be factorized in $\mathcal{O}\big(log_2(N)\big)$, let's take a peak on how it works using an example.
 
@@ -22,6 +17,6 @@ $$\biggl\lfloor \frac{e}{c_3} \biggr\rfloor = \biggl\lfloor \frac{58549809}{\fra
 
 Now that we found a possible value for $\phi$, we won: the two prime factors of the RSA module have to be $60317$ and $40577$. Was it too quick? Take a look at [this](https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf) paper below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.
 
-<p align="center" style="margin-top:30px">
-  <embed style="border:1px solid #CCCCCC; border-radius:5px" src="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px"/>
+<p align="center" style="margin-top:20px">
+  <embed style="border:1px solid #cccccc" src="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px"/>
 </p>
