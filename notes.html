@@ -38,42 +38,43 @@
         -khtml-user-select: none; -moz-user-select: none;
         -ms-user-select: none; user-select: none;
         padding: 0 4px; width: 4em;
-        color: #aaaaaa;
+        color: #6272a4;
       }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #6272a4;  padding-left: 4px; }
     div.sourceCode
-      {  background-color: #f8f8f8; }
+      {  background-color: #242630; }
     @media screen {
     pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
     }
-    code span.al { color: #ef2929; } /* Alert */
-    code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
-    code span.at { color: #c4a000; } /* Attribute */
-    code span.bn { color: #0000cf; } /* BaseN */
-    code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #4e9a06; } /* Char */
-    code span.cn { color: #000000; } /* Constant */
-    code span.co { color: #8f5902; font-style: italic; } /* Comment */
-    code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
-    code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
-    code span.dt { color: #204a87; } /* DataType */
-    code span.dv { color: #0000cf; } /* DecVal */
-    code span.er { color: #a40000; font-weight: bold; } /* Error */
+    code span.al { color: #ff5555; font-weight: bold; } /* Alert */
+    code span.an { color: #f1fa8c; font-weight: bold; } /* Annotation */
+    code span.at { color: #f1fa8c; } /* Attribute */
+    code span.bn { color: #bd93f9; } /* BaseN */
+    code span.bu { color: #50fa7b; } /* BuiltIn */
+    code span.cf { color: #ff79c6; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #f1fa8c; } /* Char */
+    code span.cn { color: #bd93f9; } /* Constant */
+    code span.co { color: #6272a4; } /* Comment */
+    code span.cv { color: #ff79c6; font-weight: bold; } /* CommentVar */
+    code span.do { color: #f8f8f2; } /* Documentation */
+    code span.dt { color: #8be9fd; } /* DataType */
+    code span.dv { color: #bd93f9; } /* DecVal */
+    code span.er { color: #ff5555; font-weight: bold; } /* Error */
     code span.ex { } /* Extension */
-    code span.fl { color: #0000cf; } /* Float */
-    code span.fu { color: #000000; } /* Function */
-    code span.im { } /* Import */
-    code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
-    code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
-    code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
-    code span.ot { color: #8f5902; } /* Other */
-    code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
-    code span.sc { color: #000000; } /* SpecialChar */
-    code span.ss { color: #4e9a06; } /* SpecialString */
-    code span.st { color: #4e9a06; } /* String */
-    code span.va { color: #000000; } /* Variable */
-    code span.vs { color: #4e9a06; } /* VerbatimString */
-    code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+    code span.fl { color: #bd93f9; } /* Float */
+    code span.fu { color: #50fa7b; } /* Function */
+    code span.im { color: #ff79c6; font-weight: bold; } /* Import */
+    code span.in { color: #f8f8f2; font-weight: bold; } /* Information */
+    code span.kw { color: #ff79c6; font-weight: bold; } /* Keyword */
+    code span.op { color: #f8f8f2; } /* Operator */
+    code span.ot { color: #f8f8f2; } /* Other */
+    code span.pp { color: #ff79c6; } /* Preprocessor */
+    code span.sc { color: #f1fa8c; } /* SpecialChar */
+    code span.ss { color: #f1fa8c; } /* SpecialString */
+    code span.st { color: #f1fa8c; } /* String */
+    code span.va { color: #f8f8f2; } /* Variable */
+    code span.vs { color: #f1fa8c; } /* VerbatimString */
+    code span.wa { color: #ffb86c; font-weight: bold; } /* Warning */
   </style>
   <link rel="stylesheet" href="style.css" />
   <!--[if lt IE 9]>
@@ -86,7 +87,26 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
+<!--
 <nav class="menu">
+<div class="nav-left">
+<ul>
+  <li><a href="index.html"><img class="logo" src="assets/geoteo.png" alt="">Index</a></li>
+  <li><a href="index.html"><i class="fas fa-swatchbook"></i> Index</a></li>
+</ul>
+</div>
+<div class="nav-right">
+<ul>
+  <li><a href="info.html"><i class="fas fa-user-astronaut"></i> info</a></li>
+  <li><a href="contact.html"><i class="fas fa-mail-bulk"></i> contact</a></li>
+  <li><a href="https://github.com/matteogiorgi"><i class="fab fa-github"></i> Code on github</a></li>
+</ul>
+</div>
+</nav>
+-->
+
+
+<nav class="menu" style="margin-bottom: 60px;">
 <div class="nav-left">
 <ul>
   <li><a href="index.html"><img class="logo" src="assets/geoteo.png" alt="">geoteo.net</a></li>
@@ -100,8 +120,18 @@
   <li><a href="cellar.html"><i class="fas fa-bowling-ball"></i> cellar</a></li>
 </ul>
 </div>
+<hr style="height:1px;border-width:0;color:#44475a;background-color:#44475a">
 </nav>
 
+
+<!--
+<p id="title" style="font-size: 2.0em; font-weight: 600; color: #bd93f9; text-align: center; width: 100%;">
+  <script>
+    var x = document.title;
+    document.getElementById("title").innerHTML = x;
+  </script>
+</p>
+-->
 <h1 id="computability-notes">Computability notes</h1>
 <p>I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.</p>
 <p>The notes are written in italian and follow professor <a href="http://pages.di.unipi.it/degano/">P. Degano</a> lectures at <a href="https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/">B.Sc. Computer Science</a> University of Pisa. The source code can be compiled using R with <a href="https://cran.r-project.org/web/packages/rmarkdown/index.html">Rmarkdown</a> package, just use this tiny Rscript below.</p>
@@ -109,11 +139,57 @@
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(rmarkdown)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">render</span>(<span class="fu">commandArgs</span>(<span class="at">trailingOnly=</span><span class="cn">TRUE</span>))</span></code></pre></div>
 <p>You can take a look and download the notes <a href="https://matteogiorgi.github.io/computability_notes/src/notes.pdf">here</a> or in the window below. Unfortunately there won’t be any updates soon, anyhow it was quite fun to play with LaTex templates and the Rmarkdown package.</p>
-<p align="center" style="margin-top:20px">
-<embed style="border:1px solid #cccccc" src="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" type="application/pdf" width="100%" height="600px"/>
+<p><embed src="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" style="width:100.0%" height="600" /></p>
+<!--
+<p style="text-align: center; margin-top: 30px; width: 100%;">
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i></a>&nbsp
+  <a href="https://github.com/matteogiorgi"><i class="fab fa-github"></i></a>&nbsp
+  <a href="index.html"><i class="fas fa-swatchbook"></i></a>
 </p>
+-->
+
+
+<!--
+<nav class="menu">
+<div class="nav-center">
+<ul>
+  <li><a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i>&nbsp</a></li>
+  <li><a href="https://github.com/matteogiorgi"><i class="fab fa-github"></i>&nbsp</a></li>
+  <li><a href="index.html"><i class="fas fa-swatchbook"></i></a></li>
+</ul>
+</div>
+</nav>
+-->
+
+
+<!--
 <p style="text-align: center; margin-top: 30px; width: 100%;">
   Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i></a> by geoteo.net
+</p>
+-->
+
+
+<!--
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-center">
+  <li><a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i></a></li>&nbsp
+  <li><a href="index.html"><i class="fas fa-home"></i></a></li>&nbsp
+  <li><a href="https://github.com/matteogiorgi"><i class="fab fa-github"></i></a></li>
+</ul>
+</div>
+</nav>
+-->
+
+<p style="color: #bfbfbf; margin-top: 60px; width: 100%;">
+  <hr style="height:1px;border-width:0;color:#44475a;background-color:#44475a">
+  <span style="font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 30px;">Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> BY-NC 4.0</a></span>
+  <span id="title" style="font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 30px;">
+    <script>
+      var x = document.title;
+      document.getElementById("title").innerHTML = x;
+    </script>
+  </span>
 </p>
 </body>
 </html>

@@ -12,7 +12,4 @@ render(commandArgs(trailingOnly=TRUE))
 
 You can take a look and download the notes [here](https://matteogiorgi.github.io/computability_notes/src/notes.pdf) or in the window below. Unfortunately there won't be any updates soon, anyhow it was quite fun to play with LaTex templates and the Rmarkdown package.
 
-<p align="center" style="margin-top:20px">
-  <embed style="border:1px solid #cccccc" src="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" type="application/pdf" width="100%" height="600px"/>
-</p>
-
+![](https://matteogiorgi.github.io/computability_notes/src/notes.pdf){ width=100% height=600px }

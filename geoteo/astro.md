@@ -4,6 +4,4 @@ Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), 
 
 This one is a replica (with few additions) and it is written in JavaScript using [P5.js](https://p5js.org/) libraries; feel free to play with it [here](https://matteogiorgi.github.io/asteroids_plus_plus/src) or in the window below using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs.
 
-<p align="center" style="margin-top:20px">
-  <embed style="border:1px solid #cccccc" src="https://matteogiorgi.github.io/asteroids_plus_plus/src" width="100%" height="500px"></embed>
-</p>
+<p align="center"><embed src="https://matteogiorgi.github.io/asteroids_plus_plus/src" width="100%" height="500px"></embed></p>

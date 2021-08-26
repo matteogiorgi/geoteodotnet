@@ -412,32 +412,32 @@ html {
 }
 
 body {
-  color: #444;
+  color: #f8f8f2;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   line-height: 1.5em;
   padding: 1em;
   margin: auto;
   max-width: 52em;
-  background: #f8f8f8;
+  background: #282a36;
 }
 
-a {
-  color: #0645ad;
+a{
+  color: #8be9fd;
   text-decoration: none;
 }
 
 a:visited {
-  color: #0b0080;
+  color: #8be9fd;
 }
 
 a:hover {
-  color: #06e;
+  color: #f1fa8c;
   cursor:pointer;
 }
 
 a:active {
-  color: #faa700;
+  color: #50fa7b;
 }
 
 a:focus {
@@ -450,23 +450,19 @@ a:active {
 }
 
 ::-moz-selection {
-  background: rgba(255, 255, 0, 0.3);
-  color: #000;
+  background: #44475a;
 }
 
 ::selection {
-  background: rgba(255, 255, 0, 0.3);
-  color: #000;
+  background: #44475a;
 }
 
 a::-moz-selection {
-  background: rgba(255, 255, 0, 0.3);
-  color: #0645ad;
+  background: #44475a;
 }
 
 a::selection {
-  background: rgba(255, 255, 0, 0.3);
-  color: #0645ad;
+  background: #44475a;
 }
 
 p {
@@ -484,7 +480,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  color: #111;
+  color: #ff79c6;
   line-height: 1em;
 }
 
@@ -495,16 +491,18 @@ h6 {
 }
 
 h1 {
-  text-align: center;
-  font-size: 1.5em;
+  font-size: 1.6em;
+  /* text-decoration: underline; */
+  /* text-align: center; */
+  /* margin-top: 60px; */
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.0em;
 }
 
 h4 {
@@ -520,17 +518,22 @@ h6 {
 }
 
 blockquote {
-  color: #666666;
+  color: #f8f8f2;
+  background-color: #1e1f29;
   margin: 0;
   padding-left: 3em;
-  border-left: 0.5em #eee solid;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-left: 0.5em #6272a4 solid;
+  font-style: italic;
 }
 
 hr {
   display: block;
   border: 0;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid #1e1f29;
+  border-bottom: 1px solid #6272a4;
   margin: 1em 0;
   padding: 0;
 }
@@ -547,10 +550,10 @@ pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
-  background-color: #f8f8f3;
+  background-color: #1e1f29;
   padding: 10px 15px;
-  border:1px solid #cccccc;
-  /* border-radius:5px; */
+  border:1px solid #1e1f29;
+  border-radius:0px;
 }
 
 b,
@@ -644,7 +647,7 @@ td {
 @media print {
   * {
     background: transparent !important;
-    color: black !important;
+    color: #f8f8f2 !important;
     filter: none !important;
     -ms-filter: none !important;
   }
@@ -662,7 +665,7 @@ td {
   hr {
     height: 1px;
     border: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #1e1f29;
   }
 
   a[href]:after {
@@ -674,14 +677,14 @@ td {
   }
 
   .ir a:after,
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
     content: "";
   }
 
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #6272a4;
     padding-right: 1em;
     page-break-inside: avoid;
   }
@@ -715,6 +718,7 @@ td {
     page-break-after: avoid;
   }
 }
+
 nav ul {
     margin: 0;
     padding: 0;
@@ -726,13 +730,15 @@ nav ul li {
     display: inline-block;
     list-style-type: none;
 }
+
 /* Create a style for the first level items */
 nav > div > ul > li > a {
-    color: #333 !important;
+    color: #bfbfbf !important;
     display: block;
     line-height: 2em;
     padding: 0.5em 0em;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav > div.nav-right > ul > li > a {
@@ -740,8 +746,13 @@ nav > div.nav-right > ul > li > a {
 }
 
 nav > div > ul > li > a:hover {
-    color: #aaa !important;
+    color: #f1fa8c !important;
 }
+
+nav > div > ul > li > a:active {
+    color: #50fa7b !important;
+}
+
 .nav-left {
     float: left;
 }
@@ -764,7 +775,7 @@ article img {
 
 p.date {
     font-size: 13px;
-    color: #666;
+    color: #44475a;
 }
 
 ul.articles {
@@ -799,11 +810,33 @@ code {
     font-family: "haskligregular", monospace;
     font-size: 0.95em;
     text-align: center;
+    background-color: #1e1f29;
+    border: 1px solid #1e1f29;
+    border-radius: 0px;
     padding: 1.5em;
-    border: 1px solid #cccccc;
-    background-color: #f8f8f3;
-    /* margin-left:20%; */
-    /* margin-right:20%; */
-    /* border-radius: 5px; */
-    /* color: #158CBA; */
+}
+
+td, th {
+  width: 5rem;
+  height: 2rem;
+  border: 1px solid #6272a4;
+  text-align: center;
+  padding: 0.25rem;
+}
+
+th {
+  background: #44475a;
+}
+
+td {
+  vertical-align: center;
+  background: #282a36;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  font-size: 1.6em;
+  margin-top: 1.5em;
 }
