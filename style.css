@@ -746,11 +746,11 @@ nav > div.nav-right > ul > li > a {
 }
 
 nav > div > ul > li > a:hover {
-    color: #f1fa8c !important;
+    color: #f8f8f2 !important;
 }
 
 nav > div > ul > li > a:active {
-    color: #50fa7b !important;
+    color: #bd93f9 !important;
 }
 
 .nav-left {
