@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<div id="editor">A markdown editor with the whole shebang you need to write some simple notes.
+<div id="editor">A tiny markdown editor with the whole shebang for simple note taking.
 </div>
 
 <script src="ace.js" type="text/javascript" charset="utf-8"></script>
@@ -29,12 +29,13 @@
     editor.session.setUseWorker(false)
     editor.setOptions({
         fontFamily: "hasklig",
-        fontSize: "10pt"
+        fontSize: "10pt",
     });
-    editor.setOption("wrap", true)
+    editor.setOption("wrap", true);
     editor.setShowPrintMargin(false);
-    editor.container.style.lineHeight = 1.5
-    editor.renderer.updateFontSize()
+    editor.container.style.lineHeight = 1.5;
+    editor.renderer.updateFontSize();
+    editor.selection.moveTo(2,1);
 </script>
 </body>
 </html>
