@@ -801,6 +801,15 @@ code {
     font-size: 0.95em;
 }
 
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    display: block;
+}
+
 .sourceCode {
     font-family: "haskligregular", monospace;
     font-size: 0.95em;
@@ -814,6 +823,22 @@ code {
     border: 1px solid #1e1f29;
     border-radius: 0px;
     padding: 1.5em;
+}
+
+.minied {
+  font-family: "haskligregular", monospace;
+  font-size: 0.95em;
+  color: #f8f8f2;
+  background-color: #1e1f29;
+  border-left: 0.5em #6272a4 solid;
+  padding:1rem;
+  outline: none;
+}
+
+.minied[placeholder]:empty:before,
+.minied[contentEditable="true"]:empty:not(:focus):before {
+  content: attr(placeholder);
+  color: #6272a4; 
 }
 
 td, th {

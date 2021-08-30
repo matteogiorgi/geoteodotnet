@@ -1,4 +1,4 @@
-# Qtile window-manager
+# Qtile workflow
 
 I've been using [Qtile](http://www.qtile.org/) for a while now and it's a fantastic window manager. Just like [dwm](https://dwm.suckless.org), [Xmonad](https://xmonad.org) or [Awesome](https://awesomewm.org/), it organises its windows dynamically keeping them in a stack with predefined layouts so the user can choose the layout he prefers best and let the wm do the dirty work.
 

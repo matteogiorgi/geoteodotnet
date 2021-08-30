@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- https://github.com/ajaxorg/ace-builds/tree/master/src-noconflict -->
+<html lang="en">
+<head>
+<title>ACE in Action</title>
+<style type="text/css" media="screen">
+    #editor { 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .ace_scrollbar {
+        display: none !important;
+    }
+</style>
+</head>
+<body>
+
+<div id="editor">A markdown editor with the whole shebang you need to write some simple notes.</div>
+
+<script src="ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/dracula");
+    editor.session.setMode("ace/mode/markdown");
+    editor.session.setUseWorker(false)
+    editor.setOptions({
+        fontFamily: "hasklig",
+        fontSize: "10pt"
+    });
+    editor.setOption("wrap", true)
+    editor.setShowPrintMargin(false);
+    editor.container.style.lineHeight = 1.5
+    editor.renderer.updateFontSize()
+</script>
+</body>
+</html>

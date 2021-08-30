@@ -1,4 +1,4 @@
-# Matteo's cellar
+# Cellar
 
 ![](pics/smoke.png)
 

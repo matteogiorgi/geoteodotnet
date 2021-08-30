@@ -1,4 +1,4 @@
-# Matteo's comics
+# Comics
 
 ![](pics/administration.png)
 
