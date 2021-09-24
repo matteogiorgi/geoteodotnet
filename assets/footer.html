@@ -1,10 +1,19 @@
 <p style="color: #bfbfbf; margin-top: 60px; width: 100%;">
   <hr style="height:1px;border-width:0;color:#44475a;background-color:#44475a">
-  <span style="font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 30px;">Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> BY-NC 4.0</a></span>
+  <span style="font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 30px;">
+    Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> BY-NC 4.0</a>
+  </span>
   <span id="title" style="font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 30px;">
     <script>
-      var x = document.title;
-      document.getElementById("title").innerHTML = x;
+      <!-- var x = document.title; -->
+      <!-- document.getElementById("title").innerHTML = x; -->
+      var d = new Date();
+      var date = d.getDate();
+      var year = d.getFullYear();
+      var month = d.getMonth();
+      var monthArr = ["Jan", "Feb","Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov","Dec"];
+      month = monthArr[month];
+      document.write("Last update: "+month+" "+date+", "+year);
     </script>
   </span>
 </p>
