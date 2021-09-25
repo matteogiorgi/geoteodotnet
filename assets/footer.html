@@ -4,16 +4,28 @@
     Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> BY-NC 4.0</a>
   </span>
   <span id="title" style="font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 30px;">
-    <script>
-      <!-- var x = document.title; -->
-      <!-- document.getElementById("title").innerHTML = x; -->
-      var d = new Date();
-      var date = d.getDate();
-      var year = d.getFullYear();
-      var month = d.getMonth();
-      var monthArr = ["Jan", "Feb","Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov","Dec"];
-      month = monthArr[month];
-      document.write("Last update: "+month+" "+date+", "+year);
+    <script type="text/JavaScript" language="JavaScript">
+      function date_ddmmmyy(date) {
+        var d = date.getDate();
+        var m = date.getMonth() + 1;
+        var y = date.getYear();
+        if (y >= 2000) { y -= 2000; }
+        if (y >= 100) { y -= 100; }
+        var mmm =
+          ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
+          ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
+          ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
+          (10==m)?'Oct':(11==m)?'Nov':'Dec';
+        return mmm + " " + (d<10?"0"+d:d) + ", 20" + (y<10?"0"+y:y);
+      }
+      function date_lastmodified() {
+        var lmd = document.lastModified;
+        var s = "Unknown";
+        var d1;
+        if (0 != (d1=Date.parse(lmd))) { s = "" + date_ddmmmyy(new Date(d1)); }
+        return s;
+      }
+      document.write("Last update: " + date_lastmodified());
     </script>
   </span>
 </p>
