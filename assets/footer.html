@@ -4,28 +4,22 @@
     Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> BY-NC 4.0</a>
   </span>
   <span id="title" style="font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 30px;">
-    <script type="text/JavaScript" language="JavaScript">
-      function date_ddmmmyy(date) {
-        var d = date.getDate();
-        var m = date.getMonth() + 1;
-        var y = date.getYear();
-        if (y >= 2000) { y -= 2000; }
-        if (y >= 100) { y -= 100; }
-        var mmm =
-          ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
-          ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
-          ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
-          (10==m)?'Oct':(11==m)?'Nov':'Dec';
-        return mmm + " " + (d<10?"0"+d:d) + ", 20" + (y<10?"0"+y:y);
+    <script>
+      function lastmod(date) {
+        let m = date.getMonth() + 1;
+        let d = date.getDate();
+        let y = date.getYear();
+        y = ( y>=2000 ) ? y-=2000 : y
+        y = ( y>=100 ) ? y-=100 : y
+        let mmm = ( 1==m ) ? 'Jan' : ( 2==m ) ? 'Feb' : ( 3==m ) ? 'Mar' :
+                  ( 4==m ) ? 'Apr' : ( 5==m ) ? 'May' : ( 6==m ) ? 'Jun' :
+                  ( 7==m ) ? 'Jul' : ( 8==m ) ? 'Aug' : ( 9==m ) ? 'Sep' :
+                  ( 10==m ) ? 'Oct' : ( 11==m ) ? 'Nov' : 'Dec';
+        let ddd = ( d<10 ) ? '0'+d : d
+        let yyy = ( y<10 ) ? '200'+y : '20'+y
+        return mmm + ' ' + ddd + ', ' + yyy;
       }
-      function date_lastmodified() {
-        var lmd = document.lastModified;
-        var s = "Unknown";
-        var d1;
-        if (0 != (d1=Date.parse(lmd))) { s = "" + date_ddmmmyy(new Date(d1)); }
-        return s;
-      }
-      document.write("Last update: " + date_lastmodified());
+      document.write('Last modified: ' + lastmod(new Date(document.lastModified)));
     </script>
   </span>
 </p>
