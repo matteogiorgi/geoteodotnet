@@ -3,7 +3,8 @@
   <span style="font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 30px;">
     Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> BY-NC 4.0</a>
   </span>
-  <span id="title" style="font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 30px;">
+  <span style="font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 30px;">
+    <a href="https://calendar.google.com"><i class="fas fa-history"></i></a>
     <script>
       function lastmod(date) {
         let m = date.getMonth() + 1;
@@ -19,7 +20,7 @@
         let yyy = ( y<10 ) ? '200'+y : '20'+y
         return mmm + ' ' + ddd + ', ' + yyy;
       }
-      document.write('Last modified: ' + lastmod(new Date(document.lastModified)));
+      document.write(lastmod(new Date(document.lastModified)));
     </script>
   </span>
 </p>
