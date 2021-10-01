@@ -1,4 +1,4 @@
-# Contacts and info
+# Contacts & info
 
 ![](pics/mail.png)
 
