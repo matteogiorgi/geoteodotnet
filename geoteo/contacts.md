@@ -1,6 +1,6 @@
 # Contacts & info
 
-![](pics/mail.png)
+[![](pics/mail.png)](index.md)
 
 > - Curriculum: [`matteo.cv`](https://matteogiorgi.github.io/cv/src/cv.pdf)
 > - Github: [`github.com/matteogiorgi`](https://github.com/matteogiorgi)

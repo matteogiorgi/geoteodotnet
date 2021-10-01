@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>geoteo – web</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #6272a4;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #6272a4;  padding-left: 4px; }
+    div.sourceCode
+      {  background-color: #282a36; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff5555; font-weight: bold; } /* Alert */
+    code span.an { color: #f1fa8c; font-weight: bold; } /* Annotation */
+    code span.at { color: #f1fa8c; } /* Attribute */
+    code span.bn { color: #bd93f9; } /* BaseN */
+    code span.bu { color: #50fa7b; } /* BuiltIn */
+    code span.cf { color: #ff79c6; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #f1fa8c; } /* Char */
+    code span.cn { color: #bd93f9; } /* Constant */
+    code span.co { color: #6272a4; } /* Comment */
+    code span.cv { color: #ff79c6; font-weight: bold; } /* CommentVar */
+    code span.do { color: #f8f8f2; } /* Documentation */
+    code span.dt { color: #8be9fd; } /* DataType */
+    code span.dv { color: #bd93f9; } /* DecVal */
+    code span.er { color: #ff5555; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #bd93f9; } /* Float */
+    code span.fu { color: #50fa7b; } /* Function */
+    code span.im { color: #ff79c6; font-weight: bold; } /* Import */
+    code span.in { color: #f8f8f2; font-weight: bold; } /* Information */
+    code span.kw { color: #ff79c6; font-weight: bold; } /* Keyword */
+    code span.op { color: #f8f8f2; } /* Operator */
+    code span.ot { color: #f8f8f2; } /* Other */
+    code span.pp { color: #ff79c6; } /* Preprocessor */
+    code span.sc { color: #f1fa8c; } /* SpecialChar */
+    code span.ss { color: #f1fa8c; } /* SpecialString */
+    code span.st { color: #f1fa8c; } /* String */
+    code span.va { color: #f8f8f2; } /* Variable */
+    code span.vs { color: #f1fa8c; } /* VerbatimString */
+    code span.wa { color: #ffb86c; font-weight: bold; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="assets/style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/geoteo.png">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<!-- Prebody for a geoteo.net style page -->
+
+<!--
+<nav class="menu" style="margin-bottom: 0px;">
+  <div class="nav-left">
+    <ul>
+      <li><a href="index.html"><img class="logo" src="assets/geoteo.png" alt="geoteo" style="width: 25px;"><span class="sitename">Geoteo</span></a></li>
+    </ul>
+  </div>
+  <div class="nav-right">
+    <ul>
+      <li><a href="info.html"><i class="fas fa-meteor"></i> info</a></li>
+      <li><a href="contacts.html"><i class="fas fa-shipping-fast"></i> contacts</a></li>
+      <li><a href="comics.html"><i class="fas fa-kiwi-bird"></i> comics</a></li>
+      <li><a href="cellar.html"><i class="fas fa-bowling-ball"></i> cellar</a></li>
+    </ul>
+  </div>
+</nav>
+-->
+<h1 id="how-web-works">How Web Works</h1>
+<blockquote>
+<p>We already know what could happend if a fool types <a href="https://www.youtube.com/watch?v=v2FMqtC1x9Y">google into google</a>, but what happens behind the scenes when we type google.com in a browser? (This is just a rewrite of <a href="https://github.com/vasanthk/how-web-works"><code>how-web-works</code></a> by <a href="https://www.vasanthk.com">vasanthk</a>).</p>
+</blockquote>
+<h2 id="googles-g-key-is-pressed">Google’s ‘g’ key is pressed</h2>
+<p>When you just press “g” the browser receives the event and the entire auto-complete machinery kicks into high gear. Depending on your browser’s algorithm and if you are in private/incognito mode or not various suggestions will be presented to you in the dropbox below the URL bar. Most of these algorithms prioritize results based on search history and bookmarks. You are going to type “google.com” so none of it matters, but a lot of code will run before you get there and the suggestions will be refined with each key press. It may even suggest “google.com” before you type it.</p>
+<h2 id="when-you-hit-enter">When you hit ‘Enter’</h2>
+<p>To pick a zero point, let’s choose the Enter key on the keyboard hitting the bottom of its range. At this point, an electrical circuit specific to the enter key is closed (either directly or capacitively). This allows a small amount of current to flow into the logic circuitry of the keyboard, which scans the state of each key switch, debounces the electrical noise of the rapid intermittent closure of the switch, and converts it to a keycode integer, in this case 13. The keyboard controller then encodes the keycode for transport to the computer. This is now almost universally over a Universal Serial Bus (USB) or Bluetooth connection.</p>
+<ul>
+<li>In the case of the USB keyboard:
+<ul>
+<li>The keycode generated is stored by internal keyboard circuitry memory in a register called “endpoint”.</li>
+<li>The host USB controller polls that “endpoint” every ~10ms, so it gets the keycode value stored on it.</li>
+<li>This value goes to the USB SIE (Serial Interface Engine) sent at a maximum speed of 1.5 Mb/s (USB 2.0).</li>
+<li>This serial signal is then decoded at the computer’s host USB controller, and interpreted by the computer’s Human Interface Device (HID) universal keyboard device driver.</li>
+<li>The value of the key is then passed into the operating system’s hardware abstraction layer.</li>
+</ul></li>
+<li>In the case of touch screen keyboards:
+<ul>
+<li>When the user puts their finger on a modern capacitive touch screen, a tiny amount of current gets transferred to the finger. This completes the circuit through the electrostatic field of the conductive layer and creates a voltage drop at that point on the screen. The screen controller then raises an interrupt reporting the coordinate of the ‘click’.</li>
+<li>Then the mobile OS notifies the current focused application of a click event in one of its GUI elements (which now is the virtual keyboard application buttons).</li>
+<li>The virtual keyboard can now raise a software interrupt for sending a ‘key pressed’ message back to the OS.</li>
+<li>This interrupt notifies the current focused application of a ‘key pressed’ event.</li>
+</ul></li>
+</ul>
+<h2 id="parse-the-url">Parse the URL</h2>
+<p>The browser now has the following information contained in the URL (Uniform Resource Locator):</p>
+<ul>
+<li>Protocol “http”: Use ‘Hyper Text Transfer Protocol’</li>
+<li>Resource “/”: Retrieve main (index) page</li>
+</ul>
+<p>When no protocol or valid domain name is given the browser proceeds to feed the text given in the address box to the browser’s default web search engine.</p>
+<h2 id="check-hsts-list">Check HSTS list</h2>
+<ul>
+<li>The browser checks its “preloaded HSTS (HTTP Strict Transport Security)” list. This is a list of websites that have requested to be contacted via HTTPS only.</li>
+<li>If the website is in the list, the browser sends its request via HTTPS instead of HTTP. Otherwise, the initial request is sent via HTTP.</li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> The website can still use the HSTS policy without being in the HSTS list. The first HTTP request to the website by a user will receive a response requesting that the user only send HTTPS requests. However, this single HTTP request could potentially leave the user vulnerable to a <a href="http://www.yourdictionary.com/downgrade-attack">downgrade attack</a>, which is why the HSTS list is included in modern web browsers.</p>
+</blockquote>
+<h2 id="dns-lookup">DNS lookup</h2>
+<p>The browser tries to figure out the IP address for the entered domain. The DNS lookup proceeds as follows:</p>
+<ul>
+<li><strong>Browser cache:</strong> The browser caches DNS records for some time. Interestingly, the OS does not tell the browser the time-to-live for each DNS record, and so the browser caches them for a fixed duration (varies between browsers, 2 – 30 minutes).</li>
+<li><strong>OS cache:</strong> If the browser cache does not contain the desired record, the browser makes a system call (gethostbyname in Windows). The OS has its own cache.</li>
+<li><strong>Router cache:</strong> The request continues on to your router, which typically has its own DNS cache.</li>
+<li><strong>ISP DNS cache:</strong> The next place checked is the cache ISP’s DNS server. With a cache, naturally.</li>
+<li><strong>Recursive search:</strong> Your ISP’s DNS server begins a recursive search, from the root nameserver, through the .com top-level nameserver, to Google’s nameserver. Normally, the DNS server will have names of the .com nameservers in cache, and so a hit to the root nameserver will not be necessary.</li>
+</ul>
+<p>Here is a diagram of what a recursive DNS search looks like:</p>
+<p align="center">
+<img src="http://igoro.com/wordpress/wp-content/uploads/2010/02/500pxAn_example_of_theoretical_DNS_recursion_svg.png" alt="Recursive DNS search"/>
+</p>
+<p>One worrying thing about DNS is that the entire domain like wikipedia.org or facebook.com seems to map to a single IP address. Fortunately, there are ways of mitigating the bottleneck:</p>
+<ul>
+<li><strong>Round-robin DNS</strong> is a solution where the DNS lookup returns multiple IP addresses, rather than just one. For example, facebook.com actually maps to four IP addresses.</li>
+<li><strong>Load-balancer</strong> is the piece of hardware that listens on a particular IP address and forwards the requests to other servers. Major sites will typically use expensive high-performance load balancers.</li>
+<li><strong>Geographic DNS</strong> improves scalability by mapping a domain name to different IP addresses, depending on the client’s geographic location. This is great for hosting static content so that different servers don’t have to update shared state.</li>
+<li><strong>Anycast</strong> is a routing technique where a single IP address maps to multiple physical servers. Unfortunately, anycast does not fit well with TCP and is rarely used in that scenario.</li>
+</ul>
+<p>Most of the DNS servers themselves use anycast to achieve high availability and low latency of the DNS lookups. Users of an anycast service (DNS is an excellent example) will always connect to the ‘closest’ (from a routing protocol perspective) DNS server. This reduces latency, as well as providing a level of load-balancing (assuming that your consumers are evenly distributed around your network).</p>
+<h2 id="opening-of-a-socket-tls-handshake">Opening of a socket + TLS handshake</h2>
+<ul>
+<li>Once the browser receives the IP address of the destination server, it takes that and the given port number from the URL (the HTTP protocol defaults to port 80, and HTTPS to port 443), and makes a call to the system library function named socket and requests a <a href="http://www.webopedia.com/TERM/T/TCP.html">TCP</a> <a href="http://www.webopedia.com/TERM/S/socket.html">socket</a> stream.</li>
+<li>The client computer sends a ClientHello message to the server with its TLS version, list of cipher algorithms and compression methods available.</li>
+<li>The server replies with a ServerHello message to the client with the TLS version, selected cipher, selected compression methods and the server’s public certificate signed by a CA (Certificate Authority). The certificate contains a public key that will be used by the client to encrypt the rest of the handshake until a symmetric key can be agreed upon.</li>
+<li>The client verifies the server digital certificate against its list of trusted CAs. If trust can be established based on the CA, the client generates a string of pseudo-random bytes and encrypts this with the server’s public key. These random bytes can be used to determine the symmetric key.</li>
+<li>The server decrypts the random bytes using its private key and uses these bytes to generate its own copy of the symmetric master key.</li>
+<li>The client sends a Finished message to the server, encrypting a hash of the transmission up to this point with the symmetric key.</li>
+<li>The server generates its own hash, and then decrypts the client-sent hash to verify that it matches. If it does, it sends its own Finished message to the client, also encrypted with the symmetric key.</li>
+<li>From now on the TLS session transmits the application (HTTP) data encrypted with the agreed symmetric key.</li>
+</ul>
+<h2 id="http-protocol">HTTP protocol</h2>
+<p>You can be pretty sure that dynamic sites such as Facebook/Gmail will not be served from the browser cache because dynamic pages expire either very quickly or immediately (expiry date set to past).</p>
+<p>If the web browser used was written by Google, instead of sending an HTTP request to retrieve the page, it will send a request to try and negotiate with the server an “upgrade” from HTTP to the SPDY protocol. Note that SPDY is being deprecated in favor of HTTP/2 in latest versions of Chrome.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>GET http://www.google.com/ HTTP/1.1</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Accept: application/x-ms-application, image/jpeg, application/xaml+xml, [...]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; [...]</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>Accept-Encoding: gzip, deflate</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Connection: Keep-Alive</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Host: google.com</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Cookie: datr=1265876274-[...]; locale=en_US; lsd=WW[...]; c_user=2101[...]</span></code></pre></div>
+<p>The GET request names the URL to fetch: “http://www.google.com/”. The browser identifies itself (User-Agent header), and states what types of responses it will accept (Accept and Accept-Encoding headers). The Connection header asks the server to keep the TCP connection open for further requests.</p>
+<p>The request also contains the cookies that the browser has for this domain. As you probably already know, cookies are key-value pairs that track the state of a web site in between different page requests. And so the cookies store the name of the logged-in user, a secret number that was assigned to the user by the server, some of user’s settings, etc. The cookies will be stored in a text file on the client, and sent to the server with every request.</p>
+<p>HTTP/1.1 defines the “close” connection option for the sender to signal that the connection will be closed after completion of the response. For example, Connection: close.</p>
+<p>After sending the request and headers, the web browser sends a single blank newline to the server indicating that the content of the request is done. The server responds with a response code denoting the status of the request and responds with a response of the form: <strong>200 OK [response headers]</strong></p>
+<p>Followed by a single newline, and then sends a payload of the HTML content of www.google.com. The server may then either close the connection, or if headers sent by the client requested it, keep the connection open to be reused for further requests.</p>
+<p>If the HTTP headers sent by the web browser included sufficient information for the web server to determine if the version of the file cached by the web browser has been unmodified since the last retrieval (ie. if the web browser included an ETag header), it may instead respond with a request of the form: <strong>304 Not Modified [response headers]</strong> and no payload, and the web browser instead retrieves the HTML from its cache.</p>
+<p>After parsing the HTML, the web browser (and server) repeats this process for every resource (image, CSS, favicon.ico, etc) referenced by the HTML page, except instead of GET / HTTP/1.1 the request will be</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>GET /$(URL relative to www.google.com) HTTP/1.1.</span></code></pre></div>
+<p>If the HTML referenced a resource on a different domain than www.google.com, the web browser goes back to the steps involved in resolving the other domain, and follows all steps up to this point for that domain. The Host header in the request will be set to the appropriate server name instead of google.com.</p>
+<blockquote>
+<p><strong>Gotcha:</strong></p>
+<ul>
+<li>The trailing slash in the URL “http://facebook.com/” is important. In this case, the browser can safely add the slash. For URLs of the form http://example.com/folderOrFile, the browser cannot automatically add a slash, because it is not clear whether folderOrFile is a folder or a file. In such cases, the browser will visit the URL without the slash, and the server will respond with a redirect, resulting in an unnecessary roundtrip.</li>
+<li>The server might respond with a 301 Moved Permanently response to tell the browser to go to “http://www.google.com/” instead of “http://google.com/”. There are interesting reasons why the server insists on the redirect instead of immediately responding with the web page that the user wants to see.</li>
+</ul>
+</blockquote>
+<p>One reason has to do with search engine rankings. See, if there are two URLs for the same page, say http://www.vasanth.com/ and http://vasanth.com/, search engine may consider them to be two different sites, each with fewer incoming links and thus a lower ranking. Search engines understand permanent redirects (301), and will combine the incoming links from both sources into a single ranking. Also, multiple URLs for the same content are not cache-friendly. When a piece of content has multiple names, it will potentially appear multiple times in caches.</p>
+<blockquote>
+<p><strong>Note:</strong> HTTP response starts with the returned status code from the server. Following is a very brief summary of what a status code denotes:</p>
+<ul>
+<li>1xx indicates an informational message only</li>
+<li>2xx indicates success of some kind</li>
+<li>3xx redirects the client to another URL</li>
+<li>4xx indicates an error on the client’s part</li>
+<li>5xx indicates an error on the server’s part</li>
+</ul>
+</blockquote>
+<h2 id="http-server-request-handle">HTTP Server Request Handle</h2>
+<p>The HTTPD (HTTP Daemon) server is the one handling the requests/responses on the server side. The most common HTTPD servers are Apache or nginx for Linux and IIS for Windows.</p>
+<ul>
+<li>The HTTPD (HTTP Daemon) receives the request.</li>
+<li>The server breaks down the request to the following parameters:
+<ul>
+<li>HTTP Request Method (either GET, POST, HEAD, PUT and DELETE). In the case of a URL entered directly into the address bar, this will be GET.</li>
+<li>Domain, in this case - google.com.</li>
+<li>Requested path/page, in this case - / (as no specific path/page was requested, / is the default path).</li>
+<li>The server verifies that there is a Virtual Host configured on the server that corresponds with google.com.</li>
+</ul></li>
+<li>The server verifies that google.com can accept GET requests.</li>
+<li>The server verifies that the client is allowed to use this method (by IP, authentication, etc.).</li>
+<li>If the server has a rewrite module installed (like mod_rewrite for Apache or URL Rewrite for IIS), it tries to match the request against one of the configured rules. If a matching rule is found, the server uses that rule to rewrite the request.</li>
+<li>The server goes to pull the content that corresponds with the request, in our case it will fall back to the index file, as “/” is the main file (some cases can override this, but this is the most common method).</li>
+<li>The server parses the file according to the request handler. A request handler is a program (in ASP.NET, PHP, Ruby, …) that reads the request and generates the HTML for the response. If Google is running on PHP, the server uses PHP to interpret the index file, and streams the output to the client.</li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> One interesting difficulty that every dynamic website faces is how to store data. Smaller sites will often have a single SQL database to store their data, but sites that store a large amount of data and/or have many visitors have to find a way to split the database across multiple machines. Solutions include sharding (splitting up a table across multiple databases based on the primary key), replication, and usage of simplified databases with weakened consistency semantics.</p>
+</blockquote>
+<h2 id="server-response">Server Response</h2>
+<p>Here is the response that the server generated and sent back:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>HTTP/1.1 200 OK</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>Cache-Control: private, no-store, no-cache, must-revalidate, post-check=0,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    pre-check=0</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>Expires: Sat, 01 Jan 2000 00:00:00 GMT</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>P3P: CP=&quot;DSP LAW&quot;</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>Pragma: no-cache</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>Content-Encoding: gzip</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>Content-Type: text/html; charset=utf-8</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>X-Cnection: close</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>Transfer-Encoding: chunked</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>Date: Fri, 12 Feb 2010 09:05:55 GMT</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>2b3</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>��������T�n�@����[...]</span></code></pre></div>
+<p>The entire response is 36 kB, the bulk of them in the byte blob at the end that I trimmed.</p>
+<p>The <strong>Content-Encoding</strong> header tells the browser that the response body is compressed using the gzip algorithm. After decompressing the blob, you’ll see the HTML you’d expect:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;!DOCTYPE </span>html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;   </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>      &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;<span class="dt">&gt;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;html</span> <span class="er">xmlns</span><span class="ot">=</span><span class="st">&quot;http://www.w3.org/1999/xhtml&quot;</span> <span class="er">xml:lang</span><span class="ot">=</span><span class="st">&quot;en&quot;</span> </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ot">      lang=</span><span class="st">&quot;en&quot;</span> <span class="er">id</span><span class="ot">=</span><span class="st">&quot;google&quot;</span> <span class="er">class</span><span class="ot">=</span><span class="st">&quot; no_js&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;head&gt;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;meta</span> <span class="er">http-equiv</span><span class="ot">=</span><span class="st">&quot;Content-type&quot;</span> <span class="er">content</span><span class="ot">=</span><span class="st">&quot;text/html; charset=utf-8&quot;</span> <span class="kw">/&gt;</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;meta</span> <span class="er">http-equiv</span><span class="ot">=</span><span class="st">&quot;Content-language&quot;</span> <span class="er">content</span><span class="ot">=</span><span class="st">&quot;en&quot;</span> <span class="kw">/&gt;</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>...</span></code></pre></div>
+<p>Notice the header that sets Content-Type to text/html. The header instructs the browser to render the response content as HTML, instead of say downloading it as a file. The browser will use the header to decide how to interpret the response, but will consider other factors as well, such as the extension of the URL.</p>
+<h2 id="behind-the-scenes-of-the-browser">Behind the scenes of the Browser</h2>
+<p>Once the server supplies the resources (HTML, CSS, JS, images, etc.) to the browser it undergoes the below process: * Parsing - HTML, CSS, JS * Rendering - Construct DOM Tree → Render Tree → Layout of Render Tree → Painting the render tree</p>
+<h2 id="the-browsers-high-level-structure">The browser’s high level structure</h2>
+<ol type="1">
+<li><strong>User Interface:</strong> Includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.</li>
+<li><strong>Browser Engine:</strong> <a href="http://stackoverflow.com/a/5600887/1672655">Marshals</a> actions between the UI and the rendering engine.</li>
+<li><strong>Rendering Engine:</strong> Responsible for displaying requested content. For eg. the rendering engine parses HTML and CSS, and displays the parsed content on the screen.</li>
+<li><strong>Networking:</strong> For network calls such as HTTP requests, using different implementations for different platforms (behind a platform-independent interface).</li>
+<li><strong>UI Backend:</strong> Used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath it uses operating system user interface methods.</li>
+<li><strong>JavaScript Engine:</strong> Interpreter used to parse and execute JavaScript code.</li>
+<li><strong>Data Storage:</strong> This is a persistence layer. The browser may need to save data locally, such as cookies. Browsers also support storage mechanisms such as <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">localStorage</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">IndexedDB</a> and <a href="https://developer.chrome.com/apps/fileSystem">FileSystem</a>.</li>
+</ol>
+<p align="center">
+<img src="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/layers.png" alt="Browser Components"/>
+</p>
+<p>Let’s start, with the simplest possible case: a plain HTML page with some text and a single image. What does the browser need to do to process this simple page?</p>
+<ol type="1">
+<li><strong>Conversion:</strong> the browser reads the raw bytes of the HTML off the disk or network and translates them to individual characters based on specified encoding of the file (e.g. UTF-8).</li>
+<li><strong>Tokenizing:</strong> the browser converts strings of characters into distinct tokens specified by the W3C HTML5 standard - e.g. “
+<html>
+”, “
+<body>
+” and other strings within the “angle brackets”. Each token has a special meaning and a set of rules.</li>
+<li><strong>Lexing:</strong> the emitted tokens are converted into “objects” which define their properties and rules.</li>
+<li><strong>DOM construction:</strong> Finally, because the HTML markup defines relationships between different tags (some tags are contained within tags) the created objects are linked in a tree data structure that also captures the parent-child relationships defined in the original markup: HTML object is a parent of the body object, the body is a parent of the paragraph object, and so on.</li>
+</ol>
+<p align="center">
+<img src="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/full-process.png" alt="DOM Construction Process"/>
+</p>
+<p>The final output of this entire process is the Document Object Model, or the “DOM” of our simple page, which the browser uses for all further processing of the page.</p>
+<p>Every time the browser has to process HTML markup it has to step through all of the steps above: convert bytes to characters, identify tokens, convert tokens to nodes, and build the DOM tree. This entire process can take some time, especially if we have a large amount of HTML to process.</p>
+<p align="center">
+<img src="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/dom-timeline.png" alt="Tracing DOM construction in DevTools"/>
+</p>
+<p>If you open up Chrome DevTools and record a timeline while the page is loaded, you can see the actual time taken to perform this step — in the example above, it took us ~5ms to convert a chunk of HTML bytes into a DOM tree. Of course, if the page was larger, as most pages are, this process might take significantly longer. You will see in our future sections on creating smooth animations that this can easily become your bottleneck if the browser has to process large amounts of HTML.</p>
+<h2 id="rendering-engine">Rendering Engine</h2>
+<p>A rendering engine is a software component that takes marked up content (such as HTML, XML, image files, etc.) and formatting information (such as CSS, XSL, etc.) and displays the formatted content on the screen.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Browser</th>
+<th style="text-align: center;">Engine</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Chrome</td>
+<td style="text-align: center;">Blink (a fork of WebKit)</td>
+</tr>
+<tr class="even">
+<td>Firefox</td>
+<td style="text-align: center;">Gecko</td>
+</tr>
+<tr class="odd">
+<td>Safari</td>
+<td style="text-align: center;">Webkit</td>
+</tr>
+<tr class="even">
+<td>Opera</td>
+<td style="text-align: center;">Blink (Presto if &lt; v15)</td>
+</tr>
+<tr class="odd">
+<td>Internet Explorer</td>
+<td style="text-align: center;">Trident</td>
+</tr>
+<tr class="even">
+<td>Edge</td>
+<td style="text-align: center;">EdgeHTML</td>
+</tr>
+</tbody>
+</table>
+<p>WebKit is an open source rendering engine which started as an engine for the Linux platform and was modified by Apple to support Mac and Windows.</p>
+<p>The rendering engine is single threaded. Almost everything, except network operations, happens in a single thread. In Firefox and Safari this is the main thread of the browser. In Chrome it’s the tab process main thread. Network operations can be performed by several parallel threads. The number of parallel connections is limited (usually 6-13 connections per hostname).</p>
+<p>The browser main thread is an event loop. It’s an infinite loop that keeps the process alive. It waits for events (like layout and paint events) and processes them.</p>
+<p>Note: Browsers such as Chrome run multiple instances of the rendering engine: one for each tab. Each tab runs in a separate process.</p>
+<h2 id="the-main-flow">The Main flow</h2>
+<p>The rendering engine will start getting the contents of the requested document from the networking layer. This is usually done in 8KB chunks.</p>
+<p>After that the basic flow of the rendering engine is:</p>
+<p align="center">
+<img src="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/flow.png" alt="Rendering engine basic flow"/>
+</p>
+<p>The rendering engine will start parsing the HTML document and convert elements to <a href="http://domenlightenment.com/">DOM</a> nodes in a tree called the <strong>“content tree”</strong>.</p>
+<p>The engine will parse the style data, both in external CSS files and in style elements. Styling information together with visual instructions in the HTML will be used to create another tree: the <strong>render tree</strong>. The render tree contains rectangles with visual attributes like color and dimensions. The rectangles are in the right order to be displayed on the screen.</p>
+<p>After the construction of the render tree it goes through a <strong>“layout”</strong> process. This means giving each node the exact coordinates where it should appear on the screen.</p>
+<p>The next stage is <strong>painting</strong>-the render tree will be traversed and each node will be painted using the UI backend layer.</p>
+<p>It’s important to understand that this is a gradual process. For better user experience, the rendering engine will try to display contents on the screen as soon as possible. It will not wait until all HTML is parsed before starting to build and layout the render tree. Parts of the content will be parsed and displayed, while the process continues with the rest of the contents that keeps coming from the network.</p>
+<p>Given below is Webkit’s flow:</p>
+<p align="center">
+<img src="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/webkitflow.png" alt="Webkit main flow"/>
+</p>
+<h2 id="parsing-basics">Parsing Basics</h2>
+<p><strong>Parsing:</strong> Translating the document to a structure the code can use. The result of parsing is usually a tree of nodes that represent the structure of the document.</p>
+<p><strong>Grammar:</strong> Parsing is based on the syntax rules the document obeys: the language or format it was written in. Every format you can parse must have deterministic grammar consisting of vocabulary and syntax rules. It is called a <strong>context free grammar</strong>.</p>
+<p>Parsing can be separated into two sub processes: lexical analysis and syntax analysis.</p>
+<p><strong>Lexical analysis:</strong> The process of breaking the input into tokens. Tokens are the language vocabulary: the collection of valid building blocks.</p>
+<p><strong>Syntax analysis:</strong> The applying of the language syntax rules.</p>
+<p>Parsers usually divide the work between two components: the lexer (sometimes called tokenizer) that is responsible for breaking the input into valid tokens, and the parser that is responsible for constructing the parse tree by analyzing the document structure according to the language syntax rules. The lexer knows how to strip irrelevant characters like white spaces and line breaks.</p>
+<p align="center">
+<img src="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image011.png" alt="Source document to parse tree"/>
+</p>
+<p>The parsing process is iterative. The parser will usually ask the lexer for a new token and try to match the token with one of the syntax rules. If a rule is matched, a node corresponding to the token will be added to the parse tree and the parser will ask for another token.</p>
+<p>If no rule matches, the parser will store the token internally, and keep asking for tokens until a rule matching all the internally stored tokens is found. If no rule is found then the parser will raise an exception. This means the document was not valid and contained syntax errors.</p>
+<p>The job of the HTML parser is to parse the HTML markup into a parse tree. HTML definition is in a DTD (Document Type Definition) format. This format is used to define languages of the SGML family. The format contains definitions for all allowed elements, their attributes and hierarchy. As we saw earlier, the HTML DTD doesn’t form a context free grammar.</p>
+<p>HTML parsing algorithm consists of two stages: tokenization and tree construction.</p>
+<p><strong>Tokenization</strong> is the lexical analysis, parsing the input into tokens. Among HTML tokens are start tags, end tags, attribute names and attribute values. The tokenizer recognizes the token, gives it to the tree constructor, and consumes the next character for recognizing the next token, and so on until the end of the input.</p>
+<p align="center">
+<img src="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image017.png" alt="HTML parsing flow"/>
+</p>
+<h2 id="dom-tree">DOM Tree</h2>
+<p>The output tree (the “parse tree”) is a tree of DOM element and attribute nodes. DOM is short for Document Object Model. It is the object presentation of the HTML document and the interface of HTML elements to the outside world like JavaScript. The root of the tree is the “Document” object.</p>
+<p>The DOM has an almost one-to-one relation to the markup. For example:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;html&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;body&gt;</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;p&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>      Hello World</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;/p&gt;</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;div&gt;</span> <span class="kw">&lt;img</span> <span class="er">src</span><span class="ot">=</span><span class="st">&quot;example.png&quot;</span><span class="kw">/&gt;&lt;/div&gt;</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/body&gt;</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/html&gt;</span></span></code></pre></div>
+<p>This markup would be translated to the following DOM tree:</p>
+<p align="center">
+<img src="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image015.png" alt="DOM Tree"/>
+</p>
+<h3 id="why-is-the-dom-slow">Why is the DOM slow?</h3>
+<p>The short answer is that the DOM is not slow. Adding &amp; removing a DOM node is a few pointer swaps, not much more than setting a property on the JS object.</p>
+<p>However, layout is slow. When you touch the DOM in any way, you set a dirty bit on the whole tree that tells the browser it needs to figure out where everything goes again. When JS hands control back to the browser, it invokes its layout algorithm (or more technically, it invokes its CSS recalc algorithm, then layout, then repaint, then re-compositing) to redraw the screen. The layout algorithm is quite complex - read the CSS spec to understand some of the rules - and that means it often has to make non-local decisions.</p>
+<p>Worse, layout is triggered synchronously by accessing certain properties. Among those are getComputedStyleValue(), getBoundingClientWidth(), .offsetWidth, .offsetHeight, etc, which makes them stupidly easy to run into. Full list is <a href="https://gist.github.com/paulirish/5d52fb081b3570c81e3a">here</a>. Because of this, a lot of Angular and JQuery code is stupidly slow. One layout will blow your entire frame budget on a mobile device. When I measured Google Instant c. 2013, it caused 13 layouts in one query, and locked up the screen for nearly 2 seconds on a mobile device. (It’s since been sped up.)</p>
+<p>React doesn’t help speed up layout - if you want butter-smooth animations on a mobile web browser, you need to resort to other techniques like limiting everything you do in a frame to operations that can be performed on the GPU. But what it does do is ensure that there is at most one layout performed each time you update the state of the page. That’s often quite an improvement on the status quo.</p>
+<h2 id="render-tree">Render Tree</h2>
+<p>While the DOM tree is being constructed, the browser constructs another tree, the render tree. This tree is of visual elements in the order in which they will be displayed. It is the visual representation of the document. The purpose of this tree is to enable painting the contents in their correct order.</p>
+<p>A renderer knows how to lay out and paint itself and its children. Each renderer represents a rectangular area usually corresponding to a node’s CSS box.</p>
+<h2 id="render-trees-relation-to-the-dom-tree">Render tree’s relation to the DOM tree</h2>
+<p>The renderers correspond to DOM elements, but the relation is not one to one. Non-visual DOM elements will not be inserted in the render tree. An example is the “head” element. Also elements whose display value was assigned to “none” will not appear in the tree (whereas elements with “hidden” visibility will appear in the tree).</p>
+<p>There are DOM elements which correspond to several visual objects. These are usually elements with complex structure that cannot be described by a single rectangle. For example, the “select” element has three renderers: one for the display area, one for the drop down list box and one for the button. Also when text is broken into multiple lines because the width is not sufficient for one line, the new lines will be added as extra renderers.</p>
+<p>Some render objects correspond to a DOM node but not in the same place in the tree. Floats and absolutely positioned elements are out of flow, placed in a different part of the tree, and mapped to the real frame. A placeholder frame is where they should have been.</p>
+<p align="center">
+<img src="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image025.png" alt="The render tree and the corresponding DOM tree"/>
+</p>
+<p>In WebKit the process of resolving the style and creating a renderer is called “attachment”. Every DOM node has an “attach” method. Attachment is synchronous, node insertion to the DOM tree calls the new node “attach” method.</p>
+<p>Building the render tree requires calculating the visual properties of each render object. This is done by calculating the style properties of each element. The style includes style sheets of various origins, inline style elements and visual properties in the HTML (like the “bgcolor” property).The later is translated to matching CSS style properties.</p>
+<h2 id="css-parsing">CSS Parsing</h2>
+<p>CSS Selectors are matched by browser engines from right to left. Keep in mind that when a browser is doing selector matching it has one element (the one it’s trying to determine style for) and all your rules and their selectors and it needs to find which rules match the element. This is different from the usual jQuery thing, say, where you only have one selector and you need to find all the elements that match that selector.</p>
+<p>A selector’s specificity is calculated as follows:</p>
+<ul>
+<li>Count 1 if the declaration it is from is a ‘style’ attribute rather than a rule with a selector, 0 otherwise (= a)</li>
+<li>Count the number of ID selectors in the selector (= b)</li>
+<li>Count the number of class selectors, attributes selectors, and pseudo-classes in the selector (= c)</li>
+<li>Count the number of element names and pseudo-elements in the selector (= d)</li>
+<li>Ignore the universal selector</li>
+</ul>
+<p>Concatenating the three numbers a-b-c-d (in a number system with a large base) gives the specificity. The number base you need to use is defined by the highest count you have in one of a, b, c and d (examples).</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode txt"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>*               /* a=0 b=0 c=0 -&gt; specificity =   0 */</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>LI              /* a=0 b=0 c=1 -&gt; specificity =   1 */</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>UL LI           /* a=0 b=0 c=2 -&gt; specificity =   2 */</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>UL OL+LI        /* a=0 b=0 c=3 -&gt; specificity =   3 */</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>H1 + *[REL=up]  /* a=0 b=1 c=1 -&gt; specificity =  11 */</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>UL OL LI.red    /* a=0 b=1 c=3 -&gt; specificity =  13 */</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>LI.red.level    /* a=0 b=2 c=1 -&gt; specificity =  21 */</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>#x34y           /* a=1 b=0 c=0 -&gt; specificity = 100 */</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>#s12:not(FOO)   /* a=1 b=0 c=1 -&gt; specificity = 101 */</span></code></pre></div>
+<p>Why does the CSSOM have a tree structure? When computing the final set of styles for any object on the page, the browser starts with the most general rule applicable to that node (e.g. if it is a child of body element, then all body styles apply) and then recursively refines the computed styles by applying more specific rules - i.e. the rules “cascade down”.</p>
+<p>WebKit uses a flag that marks if all top level style sheets (including <span class="citation" data-cites="imports">@imports</span>) have been loaded. If the style is not fully loaded when attaching, place holders are used and it is marked in the document, and they will be recalculated once the style sheets were loaded.</p>
+<h2 id="layout">Layout</h2>
+<p>When the renderer is created and added to the tree, it does not have a position and size. Calculating these values is called layout or reflow.</p>
+<p>HTML uses a flow based layout model, meaning that most of the time it is possible to compute the geometry in a single pass. Elements later ‘in the flow’ typically do not affect the geometry of elements that are earlier ‘in the flow’, so layout can proceed left-to-right, top-to-bottom through the document. The coordinate system is relative to the root frame. Top and left coordinates are used.</p>
+Layout is a recursive process. It begins at the root renderer, which corresponds to the
+<html>
+<p>element of the HTML document. Layout continues recursively through some or all of the frame hierarchy, computing geometric information for each renderer that requires it.</p>
+<p>The position of the root renderer is 0,0 and its dimensions are the viewport–the visible part of the browser window. All renderers have a “layout” or “reflow” method, each renderer invokes the layout method of its children that need layout.</p>
+<p>In order not to do a full layout for every small change, browsers use a “dirty bit” system. A renderer that is changed or added marks itself and its children as “dirty”: needing layout. There are two flags: “dirty”, and “children are dirty” which means that although the renderer itself may be OK, it has at least one child that needs a layout.</p>
+<p>The layout usually has the following pattern:</p>
+<ul>
+<li>Parent renderer determines its own width.</li>
+<li>Parent goes over children and:
+<ul>
+<li>Place the child renderer (sets its x and y).</li>
+<li>Calls child layout if needed–they are dirty or we are in a global layout, or for some other reason–which calculates the child’s height.</li>
+</ul></li>
+<li>Parent uses children’s accumulative heights and the heights of margins and padding to set its own height–this will be used by the parent renderer’s parent.</li>
+<li>Sets its dirty bit to false.</li>
+</ul>
+<p>Also note, layout thrashing is where a web browser has to reflow or repaint a web page many times before the page is ‘loaded’. In the days before JavaScript’s prevalence, websites were typically reflowed and painted just once, but these days it is increasingly common for JavaScript to run on page load which can cause modifications to the DOM and therefore extra reflows or repaints. Depending on the number of reflows and the complexity of the web page, there is potential to cause significant delay when loading the page, especially on lower powered devices such as mobile phones or tablets.</p>
+<h2 id="painting">Painting</h2>
+<p>In the painting stage, the render tree is traversed and the renderer’s “paint()” method is called to display content on the screen. Painting uses the UI infrastructure component.</p>
+<p>Like layout, painting can also be global–the entire tree is painted–or incremental. In incremental painting, some of the renderers change in a way that does not affect the entire tree. The changed renderer invalidates its rectangle on the screen. This causes the OS to see it as a “dirty region” and generate a “paint” event. The OS does it cleverly and coalesces several regions into one.</p>
+<p>Before repainting, WebKit saves the old rectangle as a bitmap. It then paints only the delta between the new and old rectangles. The browsers try to do the minimal possible actions in response to a change. So changes to an elements color will cause only repaint of the element. Changes to the element position will cause layout and repaint of the element, its children and possibly siblings. Adding a DOM node will cause layout and repaint of the node. Major changes, like increasing font size of the “html” element, will cause invalidation of caches, relayout and repaint of the entire tree.</p>
+<p>There are three different positioning schemes:</p>
+<ul>
+<li><strong>Normal:</strong> the object is positioned according to its place in the document. This means its place in the render tree is like its place in the DOM tree and laid out according to its box type and dimensions</li>
+<li><strong>Float:</strong> the object is first laid out like normal flow, then moved as far left or right as possible</li>
+<li><strong>Absolute:</strong> the object is put in the render tree in a different place than in the DOM tree</li>
+</ul>
+<p>The positioning scheme is set by the “position” property and the “float” attribute.</p>
+<ul>
+<li>static and relative cause a normal flow</li>
+<li>absolute and fixed cause absolute positioning</li>
+</ul>
+<p>In static positioning no position is defined and the default positioning is used. In the other schemes, the author specifies the position: top, bottom, left, right.</p>
+<p><strong>Layers</strong> are specified by the z-index CSS property. It represents the third dimension of the box: its position along the “z axis”.</p>
+<p>The boxes are divided into stacks (called stacking contexts). In each stack the back elements will be painted first and the forward elements on top, closer to the user. In case of overlap the foremost element will hide the former element. The stacks are ordered according to the z-index property. Boxes with “z-index” property form a local stack.</p>
+<h2 id="trivia">Trivia</h2>
+<h3 id="the-birth-of-the-web">The birth of the web</h3>
+<p>Tim Berners-Lee, a British scientist at CERN, invented the World Wide Web (WWW) in 1989. The web was originally conceived and developed to meet the demand for automatic information-sharing between scientists in universities and institutes around the world.</p>
+<p>The first website at CERN - and in the world - was dedicated to the World Wide Web project itself and was hosted on Berners-Lee’s NeXT computer. The website described the basic features of the web; how to access other people’s documents and how to set up your own server. The NeXT machine - the original web server - is still at CERN. As part of the project to restore <a href="http://info.cern.ch/">the first website</a>, in 2013 CERN reinstated the world’s first website to its original address.</p>
+<p>On 30 April 1993 CERN put the World Wide Web software in the public domain. CERN made the next release available with an open license, as a more sure way to maximize its dissemination. Through these actions, making the software required to run a web server freely available, along with a <a href="http://line-mode.cern.ch/">basic browser</a> and a library of code, the web was allowed to flourish.</p>
+<hr />
+<blockquote>
+<p>More reading:</p>
+<ul>
+<li><a href="http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/">What really happens when you navigate to a URL</a></li>
+<li><a href="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/">How Browsers Work: Behind the scenes of modern web browsers</a></li>
+<li><a href="http://superuser.com/questions/31468/what-exactly-happens-when-you-browse-a-website-in-your-browser">What exactly happens when you browse a website in your browser?</a></li>
+<li><a href="https://github.com/alex/what-happens-when">What happens when</a></li>
+<li><a href="https://www.youtube.com/watch?v=SmE4OwHztCc">So how does the browser actually render a website</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model">Constructing the Object Model</a></li>
+<li><a href="https://medium.freecodecamp.com/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-b4584e63585c#.7l3tokoh1">How the Web Works: A Primer for Newcomers to Web Development (or anyone, really)</a></li>
+</ul>
+</blockquote>
+<!-- Footer for a geoteo.net style page -->
+
+<p style="color: #bfbfbf; margin-top: 1em; width: 100%;">
+  <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 3em">
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i></a>
+  </span>
+  <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 1.5em;">
+    <script>
+      function lastmod(date) {
+        let m = date.getMonth() + 1;
+        let d = date.getDate();
+        let y = date.getYear();
+        y = ( y>=2000 ) ? y-=2000 : y
+        y = ( y>=100 ) ? y-=100 : y
+        let mmm = ( 1==m ) ? 'Jan' : ( 2==m ) ? 'Feb' : ( 3==m ) ? 'Mar' :
+                  ( 4==m ) ? 'Apr' : ( 5==m ) ? 'May' : ( 6==m ) ? 'Jun' :
+                  ( 7==m ) ? 'Jul' : ( 8==m ) ? 'Aug' : ( 9==m ) ? 'Sep' :
+                  ( 10==m ) ? 'Oct' : ( 11==m ) ? 'Nov' : 'Dec';
+        let ddd = ( d<10 ) ? '0'+d : d
+        let yyy = ( y<10 ) ? '200'+y : '20'+y
+        return mmm + ' ' + ddd + ', ' + yyy;
+      }
+      document.write(lastmod(new Date(document.lastModified)));
+    </script>
+  </span>
+</p>
+
+
+
+
+<!-- Footer for a Notewiki style page -->
+
+<!--
+<p style="color: #bfbfbf; margin-top: 1em; width: 100%;">
+  <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 3em;">
+    <script>
+      function lastmod(date) {
+        let m = date.getMonth() + 1;
+        let d = date.getDate();
+        let y = date.getYear();
+        y = ( y>=2000 ) ? y-=2000 : y
+        y = ( y>=100 ) ? y-=100 : y
+        let mmm = ( 1==m ) ? 'Jan' : ( 2==m ) ? 'Feb' : ( 3==m ) ? 'Mar' :
+                  ( 4==m ) ? 'Apr' : ( 5==m ) ? 'May' : ( 6==m ) ? 'Jun' :
+                  ( 7==m ) ? 'Jul' : ( 8==m ) ? 'Aug' : ( 9==m ) ? 'Sep' :
+                  ( 10==m ) ? 'Oct' : ( 11==m ) ? 'Nov' : 'Dec';
+        let ddd = ( d<10 ) ? '0'+d : d
+        let yyy = ( y<10 ) ? '200'+y : '20'+y
+        return mmm + ' ' + ddd + ', ' + yyy;
+      }
+      document.write(lastmod(new Date(document.lastModified)));
+    </script>
+  </span>
+</p>
+-->
+</body>
+</html>
