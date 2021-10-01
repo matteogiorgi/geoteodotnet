@@ -77,6 +77,7 @@
     code span.wa { color: #ffb86c; font-weight: bold; } /* Warning */
   </style>
   <link rel="stylesheet" href="assets/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -111,8 +112,21 @@
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#! /usr/bin/env Rscript</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(rmarkdown)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">render</span>(<span class="fu">commandArgs</span>(<span class="at">trailingOnly=</span><span class="cn">TRUE</span>))</span></code></pre></div>
-<p>You can take a look and download the notes <a href="https://matteogiorgi.github.io/computability_notes/src/notes.pdf">here</a> or in the window below. Unfortunately there won’t be any updates soon, anyhow it was quite fun to play with LaTex templates and the Rmarkdown package.</p>
-<p><embed src="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" style="width:100.0%" height="600" /></p>
+<p>You can take a look and download the notes <a href="https://matteogiorgi.github.io/computability_notes/src/notes.pdf">here</a> or in the window below. Unfortunately there won’t be any updates soon, anyhow it was quite fun to play with <span class="math inline">\(\LaTeX\)</span> templates and the Rmarkdown package.</p>
+<!-- ![](https://matteogiorgi.github.io/computability_notes/src/notes.pdf){ width=100% height=600px } -->
+<div id="adobe-dc-view" style="height: 600px; width: 100%;">
+
+</div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+    document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+        var adobeDCView = new AdobeDC.View({clientId: "399bee0d1b55490496f961de7ffd3788", divId: "adobe-dc-view"});
+        adobeDCView.previewFile({
+            content:{location: {url: "https://matteogiorgi.github.io/computability_notes/src/notes.pdf"}},
+            metaData:{fileName: "notes.pdf"}
+        }, {embedMode: "SIZED_CONTAINER"});
+    });
+</script>
 <!-- Footer for a geoteo.net style page -->
 
 <p style="color: #bfbfbf; margin-top: 1em; width: 100%;">
