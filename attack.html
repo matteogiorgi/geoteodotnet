@@ -24,21 +24,25 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-<nav class="menu" style="margin-bottom: 30px;">
+<!-- Prebody for a geoteo.net style page -->
+
+<!--
+<nav class="menu" style="margin-bottom: 0px;">
   <div class="nav-left">
     <ul>
-      <li><a href="index.html"><img class="logo" src="assets/geoteo.png" alt="geoteo"><span class="sitename">Geoteo</span></a></li>
+      <li><a href="index.html"><img class="logo" src="assets/geoteo.png" alt="geoteo" style="width: 25px;"><span class="sitename">Geoteo</span></a></li>
     </ul>
   </div>
   <div class="nav-right">
     <ul>
-      <li><a href="info.html"><i class="fas fa-meteor"></i> Info</a></li>
-      <li><a href="contacts.html"><i class="fas fa-shipping-fast"></i> Contacts</a></li>
-      <li><a href="comics.html"><i class="fas fa-kiwi-bird"></i> Comics</a></li>
-      <li><a href="cellar.html"><i class="fas fa-bowling-ball"></i> Cellar</a></li>
+      <li><a href="info.html"><i class="fas fa-meteor"></i> info</a></li>
+      <li><a href="contacts.html"><i class="fas fa-shipping-fast"></i> contacts</a></li>
+      <li><a href="comics.html"><i class="fas fa-kiwi-bird"></i> comics</a></li>
+      <li><a href="cellar.html"><i class="fas fa-bowling-ball"></i> cellar</a></li>
     </ul>
   </div>
 </nav>
+-->
 <h1 id="wiener-attack">Wiener attack</h1>
 <p>Few years ago I wrote a brief paper regarding the RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with <a href="https://en.wikipedia.org/wiki/Continued_fraction">continued fractions</a> using <em>Legendre theorem</em>. The attack states that when there is a small private exponent, the RSA module <span class="math inline">\(N\)</span> could be factorized in <span class="math inline">\(\mathcal{O}\big(log_2(N)\big)\)</span>, let’s take a peak on how it works using an example.</p>
 <p>There are three numbers you need to know when we talk about the RSA cryptosystem: the module <span class="math inline">\(N\)</span> plus the exponents <span class="math inline">\(e\)</span> and <span class="math inline">\(d\)</span>. So, given the public key <span class="math inline">\((e,N)\)</span> of an RSA with a small private exponent <span class="math inline">\(d\)</span></p>
@@ -49,12 +53,13 @@
 <p><span class="math display">\[\biggl\lfloor \frac{e}{c_3} \biggr\rfloor = \biggl\lfloor \frac{58549809}{\frac{5}{209}} \biggr\rfloor = 2447382016\]</span></p>
 <p>Now that we found a possible value for <span class="math inline">\(\phi\)</span>, we won: the two prime factors of the RSA module have to be <span class="math inline">\(60317\)</span> and <span class="math inline">\(40577\)</span>. Was it too quick? Take a look at the paper <a href="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf">here</a> or in the window below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.</p>
 <p><embed src="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf" style="width:100.0%" height="600" /></p>
-<p style="color: #bfbfbf; margin-top: 30px; width: 100%;">
-  <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 30px;">
-    Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> BY-NC 4.0</a>
+<!-- Footer for a geoteo.net style page -->
+
+<p style="color: #bfbfbf; margin-top: 1em; width: 100%;">
+  <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 3em">
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i></a>
   </span>
-  <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 30px;">
-    Last update:
+  <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 1.5em;">
     <script>
       function lastmod(date) {
         let m = date.getMonth() + 1;
@@ -74,5 +79,34 @@
     </script>
   </span>
 </p>
+
+
+
+
+<!-- Footer for a Notewiki style page -->
+
+<!--
+<p style="color: #bfbfbf; margin-top: 1em; width: 100%;">
+  <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 3em;">
+    <script>
+      function lastmod(date) {
+        let m = date.getMonth() + 1;
+        let d = date.getDate();
+        let y = date.getYear();
+        y = ( y>=2000 ) ? y-=2000 : y
+        y = ( y>=100 ) ? y-=100 : y
+        let mmm = ( 1==m ) ? 'Jan' : ( 2==m ) ? 'Feb' : ( 3==m ) ? 'Mar' :
+                  ( 4==m ) ? 'Apr' : ( 5==m ) ? 'May' : ( 6==m ) ? 'Jun' :
+                  ( 7==m ) ? 'Jul' : ( 8==m ) ? 'Aug' : ( 9==m ) ? 'Sep' :
+                  ( 10==m ) ? 'Oct' : ( 11==m ) ? 'Nov' : 'Dec';
+        let ddd = ( d<10 ) ? '0'+d : d
+        let yyy = ( y<10 ) ? '200'+y : '20'+y
+        return mmm + ' ' + ddd + ', ' + yyy;
+      }
+      document.write(lastmod(new Date(document.lastModified)));
+    </script>
+  </span>
+</p>
+-->
 </body>
 </html>
