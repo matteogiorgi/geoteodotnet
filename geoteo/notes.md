@@ -12,7 +12,7 @@ render(commandArgs(trailingOnly=TRUE))
 
 To tell (all) the truth, this little project had a second purpose: create a $\LaTeX$ template to write reports/articles in markdown (so to be humanly readable even just through the source code), where I could easily edit every single chapter separately and maintain the code neat and clean.
 
-But there's more: I find [literate programming](http://literateprogramming.com) very useful and I've played with tools like [Wolfram Mathematica](https://www.wolfram.com/mathematica), [Jupyter Notebook](https://jupyter.org) and particularly [Org Mode](https://orgmode.org); needless to say I wanted to have something like this in my new template. Lucky me R has the [Knitr](https://yihui.org/knitr/) package that enables integration of R code into LaTeX, HTML and Markdown. Short story short, every block of code (no matter the language) inside the document is evalueted in the order it appears and the result compare just below each block.
+But there's more: I find [literate programming](http://literateprogramming.com) very useful and I've played with tools like [Wolfram Mathematica](https://www.wolfram.com/mathematica), [Jupyter Notebook](https://jupyter.org) and particularly [Org Mode](https://orgmode.org); needless to say I wanted to have something like this in my new template. Lucky me R has the [Knitr](https://yihui.org/knitr/) package that enables integration of R code into LaTeX, HTML and Markdown. Short story short, every block of code inside the document (no matter the language) is evalueted in the order it appears and the shell output is printed just below each block.
 
 One great advantage of this is the ability to write chunks of code to draw diagrams and graphs.
 
