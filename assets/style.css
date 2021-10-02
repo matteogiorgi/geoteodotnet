@@ -518,10 +518,10 @@ blockquote {
     color: #f8f8f2;
     background-color: #2e2f3e;
     margin: 0;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     border-left: 0.5em #6272a4 solid;
     font-style: italic;
 }
@@ -813,9 +813,7 @@ code {
 .sourceCode {
     font-family: "haskligregular", monospace;
     font-size: 0.95em;
-    background-color: #282a36;
-    border: 1px solid #282a36;
-    padding: 0em;
+    background-color: #2e2f3e;
 }
 
 td, th {
