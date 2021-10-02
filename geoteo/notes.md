@@ -10,18 +10,12 @@ require(rmarkdown)
 render(commandArgs(trailingOnly=TRUE))
 ~~~
 
-You can take a look and download the notes [here](https://matteogiorgi.github.io/computability_notes/src/notes.pdf) or in the window below. Unfortunately there won't be any updates soon, anyhow it was quite fun to play with $\LaTeX$ templates and the Rmarkdown package.
+To tell (all) the truth, this little project had a second purpose: create a $\LaTeX$ template to write reports/articles in markdown (so to be humanly readable even just through the source code), where I could easily edit every single chapter separately and maintain the code neat and clean.
 
-<!-- ![](https://matteogiorgi.github.io/computability_notes/src/notes.pdf){ width=100% height=600px } -->
+But there's more: I find [literate programming](http://literateprogramming.com) very useful and I've played with tools like [Wolfram Mathematica](https://www.wolfram.com/mathematica), [Jupyter Notebook](https://jupyter.org) and particularly [Org Mode](https://orgmode.org); needless to say I wanted to have something like this in my new template. Lucky me R has the [Knitr](https://yihui.org/knitr/) package that enables integration of R code into LaTeX, HTML and Markdown. Short story short, every block of code (no matter the language) inside the document is evalueted in the order it appears and the result compare just below each block.
 
-<div id="adobe-dc-view" style="height: 600px; width: 100%;"></div>
-<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-<script type="text/javascript">
-	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "399bee0d1b55490496f961de7ffd3788", divId: "adobe-dc-view"});
-		adobeDCView.previewFile({
-			content:{location: {url: "https://matteogiorgi.github.io/computability_notes/src/notes.pdf"}},
-			metaData:{fileName: "notes.pdf"}
-		}, {embedMode: "SIZED_CONTAINER"});
-	});
-</script>
+One great advantage of this is the ability to write chunks of code to draw diagrams and graphs.
+
+![](https://matteogiorgi.github.io/computability_notes/src/notes.pdf){ width=100% height=600px }
+
+You can take a look and download the notes [here](https://matteogiorgi.github.io/computability_notes/src/notes.pdf) or in the window above. Unfortunately there won't be any updates soon, anyhow it was quite fun to play with LaTeX templates and the Rmarkdown package.
