@@ -4,7 +4,7 @@ I know there is a vast bibliography on the subject but I just wanted to write so
 
 The notes are written in italian and follow professor [P. Degano](http://pages.di.unipi.it/degano/) lectures at [B.Sc. Computer Science](https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/) University of Pisa. The source code can be compiled using R with [Rmarkdown](https://cran.r-project.org/web/packages/rmarkdown/index.html) package, just use these teeny-tiny Rscript:
 
-~~~ {.r}
+~~~ r
 #! /usr/bin/env Rscript
 require(rmarkdown)
 render(commandArgs(trailingOnly=TRUE))
