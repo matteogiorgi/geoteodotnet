@@ -1,7 +1,9 @@
 # Geoteo
 
-[![](pics/island.png)](contacts.md)
-
+> [![](pics/island.png)](contacts.md)
+>
+> ---
+>
 > - [How I no long manage my desktop: an Awesome story](config.md)
 > - [Some unfinished scribbles on Computability Theory](notes.md)
 > - [Wiener attack, a simple way to brake the RSA Cryptosystem](attack.md)

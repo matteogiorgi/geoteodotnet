@@ -19,4 +19,6 @@ Now that we found a possible value for $\phi$, we won: the two prime factors of 
 
 ![](https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf){ width=100% height=600px }
 
+---
+
 I put some effort on the appearance too: all the work is written in $\LaTeX$ using the [Tufte-LaTeX](https://github.com/Tufte-LaTeX/tufte-latex) package with few modifications here and there.

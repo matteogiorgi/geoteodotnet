@@ -6,8 +6,10 @@ So I decided to change and I knew exactly what I wanted: my new window manager h
 
 The choice narrowed to [dwm](https://dwm.suckless.org), [Xmonad](https://xmonad.org), [Awesome](https://awesomewm.org) and the latter seems perfect for the job: I am no Lua programmer but with very little effort the wm is configured and it flies.
 
-![](pics/scrot_1.png){ width=100% }
-
-![](pics/scrot_2.png){ width=100% }
+> ![](pics/scrot_1.png){ width=100% }
+>
+> ---
+> 
+> ![](pics/scrot_2.png){ width=100% }
 
 To have a rough idea on how it works, browse through my [dotfiles](https://github.com/matteogiorgi/.dotfiles) or just take a look at the samples above.
