@@ -1,6 +1,6 @@
 # Wiener attack
 
-Few years ago I wrote a brief paper regarding the RSA protocol and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. The attack states that when there is a small private exponent, the RSA module $N$ could be factorized in $\mathcal{O}\big(log_2(N)\big)$, let's take a peak on how it works using an example.
+Few years ago I wrote a brief paper regarding the [RSA cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. The attack states that when there is a small private exponent, the RSA module $N$ could be factorized in $\mathcal{O}\big(log_2(N)\big)$, let's take a peak on how it works using an example.
 
 There are three numbers you need to know when we talk about the RSA cryptosystem: the module $N$ plus the exponents $e$ and $d$. So, given the public key $(e,N)$ of an RSA with a small private exponent $d$
 
