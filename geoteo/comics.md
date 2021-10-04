@@ -1,9 +1,5 @@
 # Comics
 
-![](pics/evolution.png)
+![&nbsp;](pics/evolution.png){ height=300 width=59.75% margin=auto }\ ![&nbsp;](pics/smoke.png){ height=300 width=39.75% margin=auto }
 
-![](pics/smoke.png)
-
-![](pics/administration.png)
-
-> You may have noticed some funny comics here and there through these pages but unfortunately they're not my work. Anyhow you can still find them inside the (in)famous [The UNIX-HATERS handbook](https://web.mit.edu/~simsong/www/ugh.pdf) from 1994 by Garfinkel, Weise and Strassmann.
+You certainly have noticed some funny comics here and there through these pages: they're hilarious, aren't they? Well, they're not my work but I suggest you take a peek at the 1994 (in)famously classic [The UNIX-HATERS handbook](https://web.mit.edu/~simsong/www/ugh.pdf) by Garfinkel, Weise and Strassmann.

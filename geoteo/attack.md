@@ -15,8 +15,8 @@ Using the search algorithm derived from Wiener Theorem, we notice that the fourt
 
 $$\biggl\lfloor \frac{e}{c_3} \biggr\rfloor = \biggl\lfloor \frac{58549809}{\frac{5}{209}} \biggr\rfloor = 2447382016$$
 
-Now that we found a possible value for $\phi$, we won: the two prime factors of the RSA module have to be $60317$ and $40577$. Was it too quick? Take a look at the paper [here](https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf) or in the window below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.
+Now that we found a possible value for $\phi$, we won: the two prime factors of the RSA module have to be $60317$ and $40577$. It was too quick, wasn't it? Take a look at the paper [here](https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf) or in the window below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.
 
 ![](https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf){ width=100% height=600px }
 
-The article is written using [Tufte-LaTeX](https://github.com/Tufte-LaTeX/tufte-latex) package with few tricks here and there.
+I put some effort on the appearance too: all the work is written in $\LaTeX$ using the [Tufte-LaTeX](https://github.com/Tufte-LaTeX/tufte-latex) package with few modifications here and there.

@@ -108,18 +108,18 @@
 -->
 <h1 id="computability-notes">Computability notes</h1>
 <p>I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.</p>
-<p>The notes are written in italian and follow professor <a href="http://pages.di.unipi.it/degano/">P. Degano</a> lectures at <a href="https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/">B.Sc. Computer Science</a> University of Pisa. The source code can be compiled using R with <a href="https://cran.r-project.org/web/packages/rmarkdown/index.html">Rmarkdown</a> package, just use this tiny Rscript below.</p>
+<p>The notes are written in italian and follow professor <a href="http://pages.di.unipi.it/degano/">P. Degano</a> lectures at <a href="https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/">B.Sc. Computer Science</a> University of Pisa. The source code can be compiled using R with <a href="https://cran.r-project.org/web/packages/rmarkdown/index.html">Rmarkdown</a> package, just use these teeny-tiny Rscript:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#! /usr/bin/env Rscript</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(rmarkdown)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">render</span>(<span class="fu">commandArgs</span>(<span class="at">trailingOnly=</span><span class="cn">TRUE</span>))</span></code></pre></div>
-<p>To tell (all) the truth, this little project had a second purpose: create a <span class="math inline">\(\LaTeX\)</span> template to write reports/articles in markdown (so to be humanly readable even just through the source code), where I could easily edit every single chapter separately and maintain the code neat and clean.</p>
-<p>But there’s more: I find <a href="http://literateprogramming.com">literate programming</a> very useful and I’ve played with tools like <a href="https://www.wolfram.com/mathematica">Wolfram Mathematica</a>, <a href="https://jupyter.org">Jupyter Notebook</a> and particularly <a href="https://orgmode.org">Org Mode</a>; needless to say I wanted to have something like this in my new template. Lucky me R has the <a href="https://yihui.org/knitr/">Knitr</a> package that enables integration of R code into LaTeX, HTML and Markdown. Short story short, every block of code inside the document (no matter the language) is evalueted in the order it appears and the shell output is printed just below each block.</p>
-<p>One great advantage of this is the ability to write chunks of code to draw diagrams and graphs.</p>
+<p>You can take a look and download the notes <a href="https://matteogiorgi.github.io/computability_notes/src/notes.pdf">here</a> or in the window below. Unfortunately there won’t be any updates soon, anyhow it was quite fun to play with LaTeX templates and the Rmarkdown package.</p>
 <p><embed src="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" style="width:100.0%" height="600" /></p>
-<p>You can take a look and download the notes <a href="https://matteogiorgi.github.io/computability_notes/src/notes.pdf">here</a> or in the window above. Unfortunately there won’t be any updates soon, anyhow it was quite fun to play with LaTeX templates and the Rmarkdown package.</p>
+<hr />
+<p>To tell the the all truth, this little project had a second purpose: create a <span class="math inline">\(\LaTeX\)</span> template to write reports/articles in markdown (so to be humanly readable even just through the source code), where I could easily edit every single chapter separately and maintain the code neat and clean.</p>
+<p>But there’s more: I find <a href="http://literateprogramming.com">literate programming</a> very useful and I’ve played with tools like <a href="https://www.wolfram.com/mathematica">Wolfram Mathematica</a>, <a href="https://jupyter.org">Jupyter Notebook</a> and particularly <a href="https://orgmode.org">Org Mode</a>; needless to say I wanted to have something like this in my new template. Lucky me R has the <a href="https://yihui.org/knitr/">Knitr</a> package that enables integration of R code into LaTeX, HTML and Markdown. Short story short, every block of code (no matter the language) is evalueted in the order it appears in the document and the shell output is printed just below each block.</p>
+<p>One great advantage of this, is the possibility to display graphs and diagrams inside the document just by writing chunks of code that can output them.</p>
 <!-- Footer for a geoteo.net style page -->
 
-<!--
 <p style="color: #bfbfbf; margin-top: 1em; width: 100%;">
   <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 3em">
     <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i></a>
@@ -144,13 +144,13 @@
     </script>
   </span>
 </p>
--->
 
 
 
 
 <!-- Footer for a Notewiki style page -->
 
+<!--
 <p style="color: #bfbfbf; margin-top: 1em; width: 100%;">
   <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 3em;">
     <script>
@@ -172,5 +172,6 @@
     </script>
   </span>
 </p>
+-->
 </body>
 </html>
