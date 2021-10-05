@@ -1,6 +1,6 @@
 # Geoteo
 
-> [![](pics/island.png)](contacts.md)
+> [![](pics/island.png)](contacts.md){ title="show contacts" }
 >
 > ---
 >
