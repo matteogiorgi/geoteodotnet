@@ -1,4 +1,4 @@
-# Comics
+# Unix comics
 
 > ![](pics/smoke.png){ width="49.5%" }
 > ![](pics/extraction.png){ width="49.5%" }
