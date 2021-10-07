@@ -20,8 +20,8 @@ Now that we found a possible value for $\phi$, we won: the two prime factors of 
 <!-- ![](https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf){ width=100% height=600px } -->
 
 <object data="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px">
-  <p><b>Example fallback content</b>: This browser does not support PDFs. Please download the PDF to view it: 
-  <a href="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf">Download PDF</a>.</p>
+  <p style="color: #bfbfbf; background-color: #2e2f3e; margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; font-style: italic;"><b>This browser does not support PDFs.</b> Download 
+  <a href="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf">Wiener attack</a>.</p>
 </object>
 
 ---
