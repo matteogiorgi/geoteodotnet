@@ -4,6 +4,7 @@
 >
 > ---
 >
+> - [A teamballo at ContHackT 2021](https://www.geoteo.net/conthackt2021/)
 > - [How I no long manage my desktop: an Awesome story](config.md)
 > - [Some unfinished scribbles on Computability Theory](notes.md)
 > - [How to brake the RSA Cryptosystem](attack.md)
