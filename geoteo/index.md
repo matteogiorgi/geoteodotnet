@@ -10,4 +10,3 @@
 > - [Yet another Asteroids clone but way cooler](astro.md)
 > - [A simple startpage for my web browser](start.html)
 > - [Some silly comics and a fun book to read](comics.md)
-> - [Notes from my last semester (in italian)](https://www.geoteo.net/notes)

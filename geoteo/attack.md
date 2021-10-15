@@ -1,4 +1,4 @@
-# Wiener attack
+# Wiener, attack!
 
 Few years ago I wrote a brief paper regarding the [RSA cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. The attack states that when there is a small private exponent, the RSA module $N$ could be factorized in $\mathcal{O}\big(log_2(N)\big)$, let's take a peak on how it works using an example.
 
@@ -15,13 +15,13 @@ Using the search algorithm derived from Wiener Theorem, we notice that the fourt
 
 $$\biggl\lfloor \frac{e}{c_3} \biggr\rfloor = \biggl\lfloor \frac{58549809}{\frac{5}{209}} \biggr\rfloor = 2447382016$$
 
-Now that we found a possible value for $\phi$, we won: the two prime factors of the RSA module have to be $60317$ and $40577$. It was too quick, wasn't it? Take a look at the paper [here](https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf) or in the window below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.
+Now that we found a possible value for $\phi$, we won: the two prime factors of the RSA module have to be $60317$ and $40577$. It was too quick, wasn't it? Take a look at the paper [here](https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf) or in the window below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.
 
-<!-- ![](https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf){ width=100% height=600px } -->
+<!-- ![](https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf){ width=100% height=600px } -->
 
-<object data="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px">
+<object data="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px">
 <p style="color: #bfbfbf; background-color: #2e2f3e; margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #44475a solid; font-style: italic;">
-  <a href="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf" title="Download PDF"><img src="pics/extraction.png" /></a>
+  <a href="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf" title="Download PDF"><img src="pics/extraction.png" /></a>
   <b>No PDF support, click above and download the thing.</b>
 </p>
 </object>

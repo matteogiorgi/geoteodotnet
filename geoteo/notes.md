@@ -10,13 +10,13 @@ require(rmarkdown)
 render(commandArgs(trailingOnly=TRUE))
 ~~~
 
-You can take a look and download the notes [here](https://matteogiorgi.github.io/computability_notes/src/notes.pdf) or in the window below. Unfortunately there won't be any updates soon, anyhow it was quite fun to play with LaTeX templates and the Rmarkdown package.
+You can take a look and download the notes [here](https://matteogiorgi.github.io/computability/src/notes.pdf) or in the window below. Unfortunately there won't be any updates soon, anyhow it was quite fun to play with LaTeX templates and the Rmarkdown package.
 
-<!-- ![](https://matteogiorgi.github.io/computability_notes/src/notes.pdf){ width=100% height=600px } -->
+<!-- ![](https://matteogiorgi.github.io/computability/src/notes.pdf){ width=100% height=600px } -->
 
-<object data="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" type="application/pdf" width="100%" height="600px">
+<object data="https://matteogiorgi.github.io/computability/src/notes.pdf" type="application/pdf" width="100%" height="600px">
 <p style="color: #bfbfbf; background-color: #2e2f3e; margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #44475a solid; font-style: italic;">
-  <a href="https://matteogiorgi.github.io/computability_notes/src/notes.pdf" title="Download PDF"><img src="pics/extraction.png" /></a>
+  <a href="https://matteogiorgi.github.io/computability/src/notes.pdf" title="Download PDF"><img src="pics/extraction.png" /></a>
   <b>No PDF support, click above and download the thing.</b>
 </p>
 </object>

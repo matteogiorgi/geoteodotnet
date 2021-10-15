@@ -43,7 +43,7 @@
   </div>
 </nav>
 -->
-<h1 id="wiener-attack">Wiener attack</h1>
+<h1 id="wiener-attack">Wiener, attack!</h1>
 <p>Few years ago I wrote a brief paper regarding the <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA cryptosystem</a> and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with <a href="https://en.wikipedia.org/wiki/Continued_fraction">continued fractions</a> using <em>Legendre theorem</em>. The attack states that when there is a small private exponent, the RSA module <span class="math inline">\(N\)</span> could be factorized in <span class="math inline">\(\mathcal{O}\big(log_2(N)\big)\)</span>, let’s take a peak on how it works using an example.</p>
 <p>There are three numbers you need to know when we talk about the RSA cryptosystem: the module <span class="math inline">\(N\)</span> plus the exponents <span class="math inline">\(e\)</span> and <span class="math inline">\(d\)</span>. So, given the public key <span class="math inline">\((e,N)\)</span> of an RSA with a small private exponent <span class="math inline">\(d\)</span></p>
 <p><span class="math display">\[(e,N) = (58549809,2447482909)\]</span></p>
@@ -51,17 +51,18 @@
 <p><span class="math display">\[\frac{e}{N} = \bigl[\,0;\,41,\,1,\,4,\,23,\,\dots\,\bigr]\]</span> <span class="math display">\[\{ c_i \}_{i{\leq}15} = \biggl\{0,\,\frac{1}{41},\,\frac{1}{42},\,\frac{5}{209},\,\frac{116}{4849},\,\dots\biggr\}\]</span></p>
 <p>Using the search algorithm derived from Wiener Theorem, we notice that the fourth convergent <span class="math inline">\(c_3{=}\frac{5}{209}\)</span> is the right candidate <span class="math inline">\(\widetilde{\phi}\)</span> for the Euler function <span class="math inline">\(\phi(N)\)</span>:</p>
 <p><span class="math display">\[\biggl\lfloor \frac{e}{c_3} \biggr\rfloor = \biggl\lfloor \frac{58549809}{\frac{5}{209}} \biggr\rfloor = 2447382016\]</span></p>
-<p>Now that we found a possible value for <span class="math inline">\(\phi\)</span>, we won: the two prime factors of the RSA module have to be <span class="math inline">\(60317\)</span> and <span class="math inline">\(40577\)</span>. It was too quick, wasn’t it? Take a look at the paper <a href="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf">here</a> or in the window below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.</p>
-<!-- ![](https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf){ width=100% height=600px } -->
-<object data="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px">
+<p>Now that we found a possible value for <span class="math inline">\(\phi\)</span>, we won: the two prime factors of the RSA module have to be <span class="math inline">\(60317\)</span> and <span class="math inline">\(40577\)</span>. It was too quick, wasn’t it? Take a look at the paper <a href="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf">here</a> or in the window below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.</p>
+<!-- ![](https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf){ width=100% height=600px } -->
+<object data="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px">
 <p style="color: #bfbfbf; background-color: #2e2f3e; margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #44475a solid; font-style: italic;">
-<a href="https://matteogiorgi.github.io/wiener_attack/src/wiener_attack.pdf" title="Download PDF"><img src="pics/extraction.png" /></a> <b>No PDF support, click above and download the thing.</b>
+<a href="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf" title="Download PDF"><img src="pics/extraction.png" /></a> <b>No PDF support, click above and download the thing.</b>
 </p>
 </object>
 <hr />
 <p>I put some effort on the appearance too: all the work is written in <span class="math inline">\(\LaTeX\)</span> using the <a href="https://github.com/Tufte-LaTeX/tufte-latex">Tufte-LaTeX</a> package with few modifications here and there.</p>
 <!-- Footer for a geoteo.net style page -->
 
+<!--
 <p style="color: #bfbfbf; margin-top: 1em; width: 100%;">
   <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 3em">
     <a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i></a>
@@ -86,13 +87,13 @@
     </script>
   </span>
 </p>
+-->
 
 
 
 
 <!-- Footer for a Notewiki style page -->
 
-<!--
 <p style="color: #bfbfbf; margin-top: 1em; width: 100%;">
   <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 3em;">
     <script>
@@ -114,6 +115,5 @@
     </script>
   </span>
 </p>
--->
 </body>
 </html>

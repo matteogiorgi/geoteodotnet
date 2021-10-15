@@ -4,7 +4,7 @@ Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), 
 
 Well, a while back I decided to recreate this classic in JavaScript using [P5.js](https://p5js.org/) libraries and this is the result:
 
-<p align="center"><embed src="https://matteogiorgi.github.io/asteroids_plus_plus/src" width="100%" height="500px"></embed></p>
+<p align="center"><embed src="https://matteogiorgi.github.io/asteroids/src" width="100%" height="500px"></embed></p>
 
 ---
 
