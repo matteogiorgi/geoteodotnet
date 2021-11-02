@@ -12,4 +12,4 @@ The choices narrowed to [dwm](https://dwm.suckless.org), [Xmonad](https://xmonad
 > 
 > ![](pics/scrot_2.png){ width=100% }
 
-To have a rough idea on how it works, browse through my [dotfiles](https://github.com/matteogiorgi/.dotfiles) or just take a look at the samples above.
+To have a rough idea on how it works, browse through my [deadfiles](https://github.com/matteogiorgi/.deadfiles) or just take a look at the samples above.
