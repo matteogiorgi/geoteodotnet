@@ -4,6 +4,7 @@
 >
 > ---
 >
+> - [Cleanchain temporary project page](cleanchain.md)
 > - [Our team at ContHackT 2021](conthackt.md)
 > - [How I no long manage my desktop: an Awesome story](config.md)
 > - [Some unfinished scribbles on Computability Theory](notes.md)
