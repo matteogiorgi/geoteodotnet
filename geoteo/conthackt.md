@@ -1,6 +1,6 @@
 # ContHackT 2021
 
-At the end of october 2021 [UniPi](https://www.unipi.it/), together with [CLab Pisa](http://contaminationlab.unipi.it/), organized an [hackathon](https://www.unipi.it/index.php/component/k2/item/22305-la-sfida-degli-studenti-unipi-per-lo-sviluppo-sostenibile-si-conclude-con-quattro-idee-vincitrici?Itemid=637) with the goal to promote entrepreneurial culture and innovation, enhancing ideas in an interdisciplinarity environment.
+At the end of october 2021 UniPi, together with [CLab Pisa](http://contaminationlab.unipi.it/conthackt-la-sfida-degli-studenti-unipi-per-lo-sviluppo-sostenibile-si-conclude-con-quattro-idee-vincitrici/), organized an hackathon with the goal to promote entrepreneurial culture and innovation, enhancing ideas in an interdisciplinarity environment.
 
 The target was to sharpen the skills of young potential entrepreneurs, allowing participants from different disciplinary fields to know each other and work together on common projects.
 
