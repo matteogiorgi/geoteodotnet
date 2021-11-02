@@ -12,4 +12,4 @@ The target was to sharpen the skills of young potential entrepreneurs, allowing 
 
 First prize was the access to *EUAcceL*: an event financed by the European Commission and promoted by the European Institute of Innovation and Technology; plus in january we are going to attend a master at Contamination Lab were hopefully we will take our project to the next level.
 
-Sure, we still are in an embryonic stage, but we love to work together discussing new ideas every day. I am confident we will pull something out of this: the moral is up high and the future looks promising.
+Sure, we still are in an embryonic stage, but we love to work together discussing new ideas every day. I am confident we will pull something out all of this: the moral is up high and the future looks promising.
