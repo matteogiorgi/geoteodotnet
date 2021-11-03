@@ -4,7 +4,6 @@
 >
 > ---
 >
-> - [Cleanchain temp page](https://www.geoteo.net/cleanchain)
 > - [Our team at ContHackT 2021](conthackt.md)
 > - [How I no long manage my desktop: an Awesome story](config.md)
 > - [Some unfinished scribbles on Computability Theory](notes.md)
