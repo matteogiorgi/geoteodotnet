@@ -1,6 +1,6 @@
 # Contacts & info
 
-> [![](pics/mail.png){ width=100% }](index.md){ title="Back home" }
+> ![](pics/mail.png){ width=100% }
 > 
 > ---
 > 

@@ -1,6 +1,6 @@
 # Geoteo
 
-> [![](pics/island.png){ width=100% }](contacts.md){ title="Show contacts/info" }
+> ![](pics/island.png){ width=100% }
 >
 > ---
 >
