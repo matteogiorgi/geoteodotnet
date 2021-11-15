@@ -10,4 +10,4 @@
 > - [How to brake the RSA Cryptosystem](attack.md)
 > - [Yet another Asteroids clone but way cooler](astro.md)
 > - [Some silly comics and a fun book to read](comics.md)
-> - [A simple startpage for my web browser](start.html)
+> - [A simple startpage for my web browser](start)
