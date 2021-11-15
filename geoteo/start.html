@@ -49,18 +49,6 @@
         url: 'https://www.duckduckgo.com',
       },
       {
-        key: 'vscode',
-        name: 'VSCode',
-        search: '/search?q={}',
-        url: 'https://vscode.dev/',
-      },
-      {
-        key: 'carnival',
-        name: 'Carnival',
-        search: '/search?q={}',
-        url: 'https://www.slidescarnival.com/',
-      },
-      {
         category: 'Mail',
         color: '#50fa7b',
         key: 'm1',
@@ -179,6 +167,7 @@
         name: 'GitPod',
         search: '/search?q={}',
         url: 'https://gitpod.io/',
+        <!-- url: 'https://vscode.dev/', -->
       },
       {
         category: 'Dictionary',
@@ -251,6 +240,30 @@
         name: 'SVGTools',
         search: '/search?q={}',
         url: 'https://svgtopng.com/',
+      },
+      {
+        category: 'Utils',
+        color: '#f1fa8c',
+        key: 'u1',
+        name: 'Replit',
+        search: '/search?q={}',
+        url: 'https://replit.com/',
+      },
+      {
+        category: 'Utils',
+        color: '#f1fa8c',
+        key: 'u2',
+        name: 'Carnival',
+        search: '/search?q={}',
+        url: 'https://www.slidescarnival.com/',
+      },
+      {
+        category: 'Utils',
+        color: '#f1fa8c',
+        key: 'u3',
+        name: 'YT1s',
+        search: '/search?q={}',
+        url: 'https://yt1s.com/',
       },
     ],
 
@@ -383,6 +396,12 @@
   @media (min-width: 1200px) {
     :root {
       --help-category-columns: 4;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    :root {
+      --help-category-columns: 5;
     }
   }
 
