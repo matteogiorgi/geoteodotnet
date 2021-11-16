@@ -37,6 +37,24 @@
     // be applied as-is to the command's "background" CSS property.
     commands: [
       {
+        key: '#',
+        name: 'Google',
+        search: '/search?hl={}',
+        url: 'https://www.google.com',
+      },
+      {
+        key: '@',
+        name: 'Brave',
+        search: '/search?q={}',
+        url: 'https://search.brave.com/',
+      },
+      {
+        key: '*',
+        name: 'DDGo',
+        search: '/?q={}',
+        url: 'https://www.duckduckgo.com',
+      },
+      {
         category: 'Search',
         color: '#44475a',
         key: 's1',
