@@ -1,4 +1,4 @@
-# An Awesome Arch workflow ([btw](https://iusearchbtw.lol))
+# An Awesome [Arch](https://www.geoteo.net/btw) workflow
 
 I've used [Qtile](http://www.qtile.org) for a while and I can tell it's a good window manager; it has its source code and config file written in Python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it. The only problem imo is stability: in more than one occasion I had to deal with [issues](https://github.com/qtile/qtile/issues) appearing just because of last updates.
 
@@ -12,4 +12,4 @@ The choices narrowed to [dwm](https://dwm.suckless.org), [Xmonad](https://xmonad
 > 
 > ![](pics/scrot_2.png){ width=100% }
 
-To have a rough idea on how it works, browse through my [deadfiles](https://github.com/matteogiorgi/.deadfiles) or just take a look at the samples above.
+These days I'm experimenting with other window managers but to have a rough idea on how this workflow works, browse through my [deadfiles](https://github.com/matteogiorgi/.deadfiles) or just take a look at the samples above.
