@@ -28,4 +28,4 @@ Now that we found a possible value for $\phi$, we won: the two prime factors of 
 
 ---
 
-I put some effort on the appearance too: all the work is written in $\LaTeX$ using the [Tufte-LaTeX](https://github.com/Tufte-LaTeX/tufte-latex) package with few modifications here and there that allow me to squeeze all the content in about 20 pages.
+I put some effort on the appearance too: all the work is written in $\LaTeX$ with the [Tufte-LaTeX](https://github.com/Tufte-LaTeX/tufte-latex) package, plus few modifications here and there allowed me to squeeze all the content in about 20 pages.

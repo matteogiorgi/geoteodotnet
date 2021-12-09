@@ -2,4 +2,7 @@
 
 # geoteo.net
 
-Hello there, [this](https://geoteo.net) is my page and [here](https://www.geoteo.net/start) there's a cool startpage for my browser ;)
+Hello there, this repo contains:
+
+- [my personal page](https://geoteo.net)
+- [a cool startpage for may browser](https://www.geoteo.net/start)
