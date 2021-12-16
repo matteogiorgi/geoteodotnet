@@ -2,6 +2,8 @@
 
 At the end of october 2021 UniPi, together with [CLab](https://contaminationlab.unipi.it/) Pisa, organized an [hackathon](http://contaminationlab.unipi.it/conthackt-foodmobilitydigital/) with the goal to promote entrepreneurial culture and innovation, enhancing ideas in an interdisciplinarity environment.
 
+## Pippo Pluto
+
 The target was to sharpen the skills of young potential entrepreneurs, allowing participants from different disciplinary fields to know each other and work together on common projects.
 
 ![](pics/hackathon.gif){ width=100% }
