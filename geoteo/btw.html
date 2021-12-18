@@ -23,8 +23,6 @@
         font-size: 3.50em;
         font-weight: 400;
         text-align: center;
-        margin-top: 150px;
-        margin-bottom: 0px;
     }
     h2 {
         font-family: "Ubuntu", sans-serif;
@@ -50,12 +48,17 @@
         color: #352e7e;
         text-decoration: none;
     }
-    .footer {
-        font-size: 1.50em;
-        text-align: center;
-        margin-top: 3em;
-        margin-bottom: 3em;
-        width: 100%;
+    .container { 
+        height: 600px;
+        position: relative;
+    }
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
     #vantaBirds {
         position: absolute;
@@ -1048,10 +1051,10 @@ VANTA.BIRDS({
 })
 </script>
 
-<h1>I use Arch btw.</h1>
-
-<div class="footer">
-    Keep it simple, <a href="https://archlinux.org/download/">get Arch Linux</a>.
+<div class="container">
+  <div class="center">
+    <p style="font-size:2.0em; font-weight:400;">I use <a href="https://archlinux.org/download/">Arch</a> btw.</p>
+  </div>
 </div>
 
 </body>
