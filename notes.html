@@ -4,8 +4,148 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>geoteo – notes</title>
+  <title>Geoteo – notes</title>
   <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     span.underline{text-decoration: underline;}
@@ -38,174 +178,103 @@
         -khtml-user-select: none; -moz-user-select: none;
         -ms-user-select: none; user-select: none;
         padding: 0 4px; width: 4em;
-        color: #6272a4;
+        color: #aaaaaa;
       }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #6272a4;  padding-left: 4px; }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
     div.sourceCode
-      {  background-color: #2e2f3e; }
+      {   }
     @media screen {
     pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
     }
-    code span.al { color: #ff5555; font-weight: bold; } /* Alert */
-    code span.an { color: #f1fa8c; font-weight: bold; } /* Annotation */
-    code span.at { color: #f1fa8c; } /* Attribute */
-    code span.bn { color: #bd93f9; } /* BaseN */
-    code span.bu { color: #50fa7b; } /* BuiltIn */
-    code span.cf { color: #ff79c6; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #f1fa8c; } /* Char */
-    code span.cn { color: #bd93f9; } /* Constant */
-    code span.co { color: #6272a4; } /* Comment */
-    code span.cv { color: #ff79c6; font-weight: bold; } /* CommentVar */
-    code span.do { color: #f8f8f2; } /* Documentation */
-    code span.dt { color: #8be9fd; } /* DataType */
-    code span.dv { color: #bd93f9; } /* DecVal */
-    code span.er { color: #ff5555; font-weight: bold; } /* Error */
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
     code span.ex { } /* Extension */
-    code span.fl { color: #bd93f9; } /* Float */
-    code span.fu { color: #50fa7b; } /* Function */
-    code span.im { color: #ff79c6; font-weight: bold; } /* Import */
-    code span.in { color: #f8f8f2; font-weight: bold; } /* Information */
-    code span.kw { color: #ff79c6; font-weight: bold; } /* Keyword */
-    code span.op { color: #f8f8f2; } /* Operator */
-    code span.ot { color: #f8f8f2; } /* Other */
-    code span.pp { color: #ff79c6; } /* Preprocessor */
-    code span.sc { color: #f1fa8c; } /* SpecialChar */
-    code span.ss { color: #f1fa8c; } /* SpecialString */
-    code span.st { color: #f1fa8c; } /* String */
-    code span.va { color: #f8f8f2; } /* Variable */
-    code span.vs { color: #f1fa8c; } /* VerbatimString */
-    code span.wa { color: #ffb86c; font-weight: bold; } /* Warning */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="assets/style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%237d6ee7%22></rect><path d=%22M32.27 77.81L32.27 77.81Q28.31 77.81 28.31 74.57L28.31 74.57L28.31 23.72Q29.93 22.10 33.17 22.10L33.17 22.10Q35.33 22.10 36.86 22.95Q38.39 23.81 39.65 26.06L39.65 26.06L56.84 54.86Q57.92 56.75 59.09 58.86Q60.26 60.98 61.34 63.09Q62.42 65.21 63.36 67.06Q64.31 68.90 64.94 70.16L64.94 70.16L65.30 70.07Q64.58 62.78 64.44 55.40Q64.31 48.02 64.31 41L64.31 41L64.31 22.82Q64.85 22.64 65.75 22.41Q66.65 22.19 67.73 22.19L67.73 22.19Q71.69 22.19 71.69 25.43L71.69 25.43L71.69 76.37Q70.88 77.09 69.62 77.50Q68.36 77.90 66.83 77.90L66.83 77.90Q64.67 77.90 63.14 77.05Q61.61 76.19 60.35 73.94L60.35 73.94L43.25 45.14Q42.17 43.34 40.95 41.18Q39.74 39.02 38.61 36.95Q37.49 34.88 36.55 32.99Q35.60 31.10 34.97 29.84L34.97 29.84L34.61 29.93Q35.06 34.25 35.33 39.79Q35.60 45.32 35.60 50.27L35.60 50.27L35.60 77.18Q35.15 77.36 34.20 77.58Q33.26 77.81 32.27 77.81Z%22 fill=%22%23fff%22></path></svg>" />
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <link href="assets/fontawesome/css/all.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="assets/geoteo.png">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-<!-- Prebody for a geoteo.net style page -->
-
-<!--
-<nav class="menu" style="margin-bottom: 0px;">
-  <div class="nav-left">
-    <ul>
-      <li><a href="index.html"><img class="logo" src="assets/geoteo.png" alt="geoteo" style="width: 25px;"><span class="sitename">Geoteo</span></a></li>
-    </ul>
-  </div>
-  <div class="nav-right">
-    <ul>
-      <li><a href="info.html"><i class="fas fa-meteor"></i> info</a></li>
-      <li><a href="contacts.html"><i class="fas fa-shipping-fast"></i> contacts</a></li>
-      <li><a href="comics.html"><i class="fas fa-kiwi-bird"></i> comics</a></li>
-      <li><a href="cellar.html"><i class="fas fa-bowling-ball"></i> cellar</a></li>
-    </ul>
-  </div>
+<nav class="site-nav">
+<b><a href="https://www.geoteo.net" style="text-decoration:none">Geoteo</a></b>  
+<b><a href="https://www.geoteo.net/contacts" style="text-decoration:none">About</a></b>
 </nav>
--->
-
-
-
-
-<!--
-<p style="margin-bottom: -0.3em; width: 100%;">
-  <span style="color: #6272a4; font-size: 2.0em; font-weight: 600; float:right">
-    <a style="color: inherit" href="https://matteogiorgi.github.io/cv/src/cv.pdf" title="Take a look at my CV"><i class="fas fa-pen-nib"></i></a>
-    <a style="color: inherit" href="https://www.geoteo.net/contacts" title="Contact me"><i class="fas fa-satellite-dish"></i></a>
-  </span>
-</p>
--->
-<h1 id="computability-notes">Computability notes</h1>
-<p>I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.</p>
-<p>The notes are written in italian and follow professor <a href="http://pages.di.unipi.it/degano/">P. Degano</a> lectures at <a href="https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/">B.Sc. Computer Science</a> University of Pisa. The source code can be compiled using R with <a href="https://cran.r-project.org/web/packages/rmarkdown/index.html">Rmarkdown</a> package, just use these teeny-tiny Rscript:</p>
+<hr />
+<h2 id="computability-notes">Computability notes</h2>
+<p>I know there is a vast bibliography on the subject but I just wanted
+to write something intuitive and easy to read on such essential and
+extensive topic for a computer scientist.</p>
+<p>The notes are written in italian and follow professor <a
+href="http://pages.di.unipi.it/degano/">P. Degano</a> lectures at <a
+href="https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/">B.Sc.
+Computer Science</a> University of Pisa. The source code can be compiled
+using R with <a
+href="https://cran.r-project.org/web/packages/rmarkdown/index.html">Rmarkdown</a>
+package, just use these teeny-tiny Rscript:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#! /usr/bin/env Rscript</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(rmarkdown)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">render</span>(<span class="fu">commandArgs</span>(<span class="at">trailingOnly=</span><span class="cn">TRUE</span>))</span></code></pre></div>
-<p>You can take a look and download the notes <a href="https://matteogiorgi.github.io/computability/src/notes.pdf">here</a> or in the window below. Unfortunately there won’t be any updates soon, anyhow it was quite fun to play with LaTeX templates and the Rmarkdown package.</p>
-<!-- ![](https://matteogiorgi.github.io/computability/src/notes.pdf){ width=100% height=600px } -->
+<p>You can take a look and download the notes <a
+href="https://matteogiorgi.github.io/computability/src/notes.pdf">here</a>
+or in the window below. Unfortunately there won’t be any updates soon,
+anyhow it was quite fun to play with LaTeX templates and the Rmarkdown
+package.</p>
 <object data="https://matteogiorgi.github.io/computability/src/notes.pdf" type="application/pdf" width="100%" height="600px">
-<p style="color: #bfbfbf; background-color: #2e2f3e; margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #44475a solid; font-style: italic;">
-<img src="pics/extraction.png" /> <b>No PDF support, <a href="https://matteogiorgi.github.io/computability/src/notes.pdf" title="Download PDF">click clack</a> and download the thing.</b>
+<p style="margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #bfbfbf solid; font-style: italic;">
+<img src="pics/extraction.png" /> No PDF support,
+<a href="https://web.mit.edu/~simsong/www/ugh.pdf" title="Download PDF">click
+clack</a> and download the thing.
 </p>
 </object>
-<hr />
-<p>To tell the the all truth, this little project had a second purpose: create a <span class="math inline">\(\LaTeX\)</span> template to write reports/articles in markdown (so to be humanly readable even just through the source code), where I could easily edit every single chapter separately and maintain the code neat and clean.</p>
-<p>But there’s more: I find <a href="http://literateprogramming.com">literate programming</a> very useful and I’ve played with tools like <a href="https://www.wolfram.com/mathematica">Wolfram Mathematica</a>, <a href="https://jupyter.org">Jupyter Notebook</a> and the magnificent Emacs mode <a href="https://orgmode.org">Org Mode</a>; needless to say I wanted to have something like this in my new template. Lucky me R has the <a href="https://yihui.org/knitr/">Knitr</a> package that enables integration of R code into LaTeX, HTML and Markdown. Short story short, every block of code (no matter the language) is evalueted in the order it appears in the document and the shell output is printed just below each block.</p>
-<p>One great advantage of this, is the possibility to display graphs and diagrams inside the document just by writing chunks of code that can output them.</p>
-<!-- Footer for a geoteo.net style page -->
-
-<p style="margin-top: 1em; width: 100%;">
-  <span style="color: #6272a4; font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 3em">
-    <a style="color: inherit" href="https://creativecommons.org/licenses/by-nc/4.0/" title="Licensed under Creative Commons"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i></a>
-  </span>
-  <span style="color: #6272a4; font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 3em;">
-    <a style="color: inherit" href="https://www.geoteo.net/contacts" title="Browse through my contacts"><i class="far fa-user-circle"></i> Contacts</a>
-    <!-- <a style="color: inherit" href="https://matteogiorgi.github.io/cv/src/cv.pdf" title="Take a look at my CV"><i class="fas fa-user-circle"></i> About me</a> -->
-  </span>
-</p>
-
-
-
-
-<!-- Old geoteo.net footer -->
-
-<!--
-<p style="color: #44475a; margin-top: 1em; width: 100%;">
-  <span style="color: #44475a; font-size: 0.8em; font-weight: 600; float:right; margin-bottom: 3em">
-    <a style="color: #6272a4" href="https://creativecommons.org/licenses/by-nc/4.0/" title="Licensed under Creative Commons"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i></a>
-  </span>
-  <span style="color: #44475a; font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 1.5em;">
-    <script>
-      function lastmod(date) {
-        let m = date.getMonth() + 1;
-        let d = date.getDate();
-        let y = date.getYear();
-        y = ( y>=2000 ) ? y-=2000 : y
-        y = ( y>=100 ) ? y-=100 : y
-        let mmm = ( 1==m ) ? 'Jan' : ( 2==m ) ? 'Feb' : ( 3==m ) ? 'Mar' :
-                  ( 4==m ) ? 'Apr' : ( 5==m ) ? 'May' : ( 6==m ) ? 'Jun' :
-                  ( 7==m ) ? 'Jul' : ( 8==m ) ? 'Aug' : ( 9==m ) ? 'Sep' :
-                  ( 10==m ) ? 'Oct' : ( 11==m ) ? 'Nov' : 'Dec';
-        let ddd = ( d<10 ) ? '0'+d : d
-        let yyy = ( y<10 ) ? '200'+y : '20'+y
-        return mmm + ' ' + ddd + ' ' + yyy;
-      }
-      document.write(lastmod(new Date(document.lastModified)));
-    </script>
-  </span>
-</p>
--->
-
-
-
-
-<!-- Footer for a Notewiki style page -->
-
-<!--
-<p style="color: #bfbfbf; margin-top: 1em; width: 100%;">
-  <span style="color: #bfbfbf; font-size: 0.8em; font-weight: 600; float:left; margin-bottom: 3em;">
-    <script>
-      function lastmod(date) {
-        let m = date.getMonth() + 1;
-        let d = date.getDate();
-        let y = date.getYear();
-        y = ( y>=2000 ) ? y-=2000 : y
-        y = ( y>=100 ) ? y-=100 : y
-        let mmm = ( 1==m ) ? 'Jan' : ( 2==m ) ? 'Feb' : ( 3==m ) ? 'Mar' :
-                  ( 4==m ) ? 'Apr' : ( 5==m ) ? 'May' : ( 6==m ) ? 'Jun' :
-                  ( 7==m ) ? 'Jul' : ( 8==m ) ? 'Aug' : ( 9==m ) ? 'Sep' :
-                  ( 10==m ) ? 'Oct' : ( 11==m ) ? 'Nov' : 'Dec';
-        let ddd = ( d<10 ) ? '0'+d : d
-        let yyy = ( y<10 ) ? '200'+y : '20'+y
-        return mmm + ' ' + ddd + ', ' + yyy;
-      }
-      document.write(lastmod(new Date(document.lastModified)));
-    </script>
-  </span>
-</p>
--->
+<p>To tell the the all truth, this little project had a second purpose:
+create a <span class="math inline">\(\LaTeX\)</span> template to write
+reports/articles in markdown (so to be humanly readable even just
+through the source code), where I could easily edit every single chapter
+separately and maintain the code neat and clean.</p>
+<p>But there’s more: I find <a
+href="http://literateprogramming.com">literate programming</a> very
+useful and I’ve played with tools like <a
+href="https://www.wolfram.com/mathematica">Wolfram Mathematica</a>, <a
+href="https://jupyter.org">Jupyter Notebook</a> and the magnificent
+Emacs mode <a href="https://orgmode.org">Org Mode</a>; needless to say I
+wanted to have something like this in my new template. Lucky me R has
+the <a href="https://yihui.org/knitr/">Knitr</a> package that enables
+integration of R code into LaTeX, HTML and Markdown. Short story short,
+every block of code (no matter the language) is evalueted in the order
+it appears in the document and the shell output is printed just below
+each block.</p>
+<p>One great advantage of this, is the possibility to display graphs and
+diagrams inside the document just by writing chunks of code that can
+output them.</p>
 </body>
 </html>
