@@ -1,6 +1,6 @@
 <nav class="site-nav">
     <b><a href="https://www.geoteo.net" style="text-decoration:none">Geoteo</a></b>&nbsp;&nbsp;
-    <b><a href="https://www.geoteo.net/contacts" style="text-decoration:none">About</a></b>
+    <b><a href="https://www.geoteo.net/contacts" style="text-decoration:none">Contacts</a></b>
 </nav>
 
 ---
