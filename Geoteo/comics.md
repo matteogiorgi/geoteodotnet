@@ -5,14 +5,14 @@
 
 ---
 
-## Unix comics
+## Unix lovers
 
 Haven't you notice some funny comics here and there through these pages? You certainly have and they're hilarious, aren't they?
 
-<object data="https://web.mit.edu/~simsong/www/ugh.pdf" type="application/pdf" width="100%" height="600px">
+<object data="https://matteogiorgi.github.io/ugh.pdf" type="application/pdf" width="100%" height="600px">
 <p style="margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #bfbfbf solid; font-style: italic;">
   <img src="pics/extraction.png" />
-  No PDF support, <a href="https://web.mit.edu/~simsong/www/ugh.pdf" title="Download PDF">click clack</a> and download the thing.
+  No PDF support, <a href="https://matteogiorgi.github.io/ugh.pdf" title="Download PDF">click clack</a> and download the thing.
 </p>
 </object>
 
