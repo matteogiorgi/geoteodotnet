@@ -1,11 +1,9 @@
 <nav class="site-nav">
-    <b><a href="https://www.geoteo.net" style="text-decoration:none">Geoteo</a></b>&nbsp;&nbsp;
-    <b><a href="https://www.geoteo.net/contacts" style="text-decoration:none">Contacts</a></b>
+    <b>For the UNIX lover</b>
+    <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
 </nav>
 
 ---
-
-## Unix lovers
 
 Haven't you notice some funny comics here and there through these pages? You certainly have and they're hilarious, aren't they?
 

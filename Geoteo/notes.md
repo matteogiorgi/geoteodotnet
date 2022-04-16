@@ -1,11 +1,9 @@
 <nav class="site-nav">
-    <b><a href="https://www.geoteo.net" style="text-decoration:none">Geoteo</a></b>&nbsp;&nbsp;
-    <b><a href="https://www.geoteo.net/contacts" style="text-decoration:none">Contacts</a></b>
+    <b>Computability notes: an attempt</b>
+    <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
 </nav>
 
 ---
-
-## Computability notes
 
 I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.
 

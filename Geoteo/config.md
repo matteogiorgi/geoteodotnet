@@ -1,11 +1,9 @@
 <nav class="site-nav">
-    <b><a href="https://www.geoteo.net" style="text-decoration:none">Geoteo</a></b>&nbsp;&nbsp;
-    <b><a href="https://www.geoteo.net/contacts" style="text-decoration:none">Contacts</a></b>
+    <b>An Awesome [Arch](https://www.geoteo.net/btw) workflow</b>
+    <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
 </nav>
 
 ---
-
-## An Awesome [Arch](https://www.geoteo.net/btw) workflow
 
 I've used [Qtile](http://www.qtile.org) for a while and I can tell it's a good window manager; it has its source code and config file written in Python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it. The only problem imo is stability: in more than one occasion I had to deal with [issues](https://github.com/qtile/qtile/issues) appearing just because of last updates.
 

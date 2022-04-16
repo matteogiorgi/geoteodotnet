@@ -1,11 +1,9 @@
 <nav class="site-nav">
-    <b><a href="https://www.geoteo.net" style="text-decoration:none">Geoteo</a></b>&nbsp;&nbsp;
-    <b><a href="https://www.geoteo.net/contacts" style="text-decoration:none">Contacts</a></b>
+    <b>Asteroidspp: not a classic anymore</b>
+    <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
 </nav>
 
 ---
-
-## Asteroids++
 
 Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? The original, released by Atari in 1979, was implemented by Rains, Logg, and Walsh on hardware developed by Delman and was a vector game, in which the graphics were composed of lines drawn on a vector monitor.
 

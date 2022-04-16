@@ -1,11 +1,9 @@
 <nav class="site-nav">
-    <b><a href="https://www.geoteo.net" style="text-decoration:none">Geoteo</a></b>&nbsp;&nbsp;
-    <b><a href="https://www.geoteo.net/contacts" style="text-decoration:none">Contacts</a></b>
+    <b>RSA and continued fractions: Wiener, attack!</b>
+    <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
 </nav>
 
 ---
-
-## Wiener, attack!
 
 Few years ago I wrote a brief paper regarding the [RSA cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. The attack states that when there is a small private exponent, the RSA module $N$ could be factorized in $\mathcal{O}\big(log_2(N)\big)$, let's take a peak on how it works using an example.
 
