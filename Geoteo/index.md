@@ -1,5 +1,5 @@
 <nav class="site-nav">
-    <b>Geoteo's personal place</b>
+    <b>Geoteo's place</b>
     <b><a href="https://www.geoteo.net/contacts" style="text-decoration:none; float:right">About</a></b>
 </nav>
 
