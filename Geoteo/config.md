@@ -1,5 +1,5 @@
 <nav class="site-nav">
-    <b>An Awesome [Arch](https://www.geoteo.net/btw) workflow</b>
+    <b><a href="pics/qrcode_config.png" style="text-decoration:none">An Awesome Arch workflow</a> [btw](https://www.geoteo.net/btw)</b>
     <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
 </nav>
 

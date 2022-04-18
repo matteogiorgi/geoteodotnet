@@ -1,5 +1,6 @@
 <nav class="site-nav">
     <b>RSA: Wiener, attack!</b>
+    <b><a href="pics/qrcode_index.png" style="text-decoration:none">Geoteo's place</a></b>
     <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
 </nav>
 

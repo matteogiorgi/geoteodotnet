@@ -1,5 +1,5 @@
 <nav class="site-nav">
-    <b>For the love of UNIX!</b>
+    <b><a href="pics/qrcode_comix.png" style="text-decoration:none">For the love of UNIX!</a></b>
     <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
 </nav>
 
