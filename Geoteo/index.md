@@ -1,5 +1,5 @@
 <nav class="site-nav">
-    <b><a href="pics/qrcode_index.png" style="text-decoration:none">Geoteodotnet</a></b>
+    <b><a href="pics/qrcode_index.png" style="text-decoration:none">Geoteo</a> [Dotnet](start)</b>
     <b><a href="https://www.geoteo.net/contacts" style="text-decoration:none; float:right">About</a></b>
 </nav>
 
