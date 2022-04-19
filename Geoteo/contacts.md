@@ -1,5 +1,5 @@
 <nav class="site-nav">
-    <b>What about me?</b>
+    <b><a href="pics/qrcode_contacts.png" style="text-decoration:none">What about me?</a></b>
     <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
 </nav>
 
