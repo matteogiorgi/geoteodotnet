@@ -1,8 +1,6 @@
-<nav class="site-nav">
-<h2>
+<nav class="site-nav" style="font-weight:bold">
     An Awesome [Arch](btw) workflow
-    <a href="contacts" style="float:right">About</a>
-</h2>
+    <a href="index" style="float:right">Home</a>
 </nav>
 
 ---

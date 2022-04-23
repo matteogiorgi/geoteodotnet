@@ -1,8 +1,6 @@
-<nav class="site-nav">
-<h2>
-    Geoteo<a href="dotnet">dotnet</a>
+<nav class="site-nav" style="font-weight:bold">
+    Geoteo[dotnet](dotnet)
     <a href="contacts" style="float:right">About</a>
-</h2>
 </nav>
 
 ---
