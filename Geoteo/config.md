@@ -1,6 +1,8 @@
 <nav class="site-nav">
-    <b><a href="pics/qrcode_config.png" style="text-decoration:none">An Awesome</a> [Arch](https://www.geoteo.net/btw) <a href="pics/qrcode_config.png" style="text-decoration:none">workflow</a></b>
-    <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
+<h2>
+    An Awesome [Arch](btw) workflow
+    <a href="contacts" style="float:right">About</a>
+</h2>
 </nav>
 
 ---

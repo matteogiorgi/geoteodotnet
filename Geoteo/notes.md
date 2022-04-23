@@ -1,6 +1,8 @@
 <nav class="site-nav">
-    <b><a href="pics/qrcode_notes.png" style="text-decoration:none">Computability notes: an attempt</a></b>
-    <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
+<h2>
+    Computability notes: an attempt
+    <a href="contacts" style="float:right">About</a>
+</h2>
 </nav>
 
 ---

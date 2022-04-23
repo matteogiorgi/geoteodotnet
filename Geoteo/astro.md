@@ -1,6 +1,8 @@
 <nav class="site-nav">
-    <b><a href="pics/qrcode_astro.png" style="text-decoration:none">Asteroidspp: not a classic anymore</a></b>
-    <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
+<h2>
+    Asteroidspp: not a classic anymore
+    <a href="contacts" style="float:right">About</a>
+</h2>
 </nav>
 
 ---

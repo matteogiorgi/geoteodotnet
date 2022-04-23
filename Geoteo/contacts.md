@@ -1,6 +1,8 @@
 <nav class="site-nav">
-    <b><a href="pics/qrcode_contacts.png" style="text-decoration:none">What about me?</a></b>
-    <b><a href="https://www.geoteo.net" style="text-decoration:none; float:right">Home</a></b>
+<h2>
+    What about me?
+    <a href="contacts" style="float:right">About</a>
+</h2>
 </nav>
 
 ---
