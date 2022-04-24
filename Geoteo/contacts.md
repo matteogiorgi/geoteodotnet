@@ -1,4 +1,4 @@
-<nav class="site-nav" style="font-weight:bold">
+<nav class="site-nav">
     What about me?
     <a href="index" style="float:right">Home</a>
 </nav>

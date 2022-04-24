@@ -1,4 +1,4 @@
-<nav class="site-nav" style="font-weight:bold">
+<nav class="site-nav">
     Asteroidspp: not a classic anymore
     <a href="index" style="float:right">Home</a>
 </nav>
