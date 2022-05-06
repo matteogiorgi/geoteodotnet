@@ -3,9 +3,9 @@
     <a href="contacts" style="float:right">About</a>
 </nav>
 
----
-
-![](pics/island.png){ width=100% }
+<p style="text-align:center; border:1px solid #d0d0cc;">
+    <img width=60% style="padding:30px;" src="pics/island.png">
+</p>
 
 - [How I no long manage my desktop: an Awesome story](config)
 - [How to brake the RSA Cryptosystem](attack)
