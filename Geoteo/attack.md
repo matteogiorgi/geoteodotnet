@@ -1,4 +1,4 @@
-<nav class="site-nav">
+<nav class="site-nav" style="font-weight:bold">
     RSA: Wiener, attack!
     <a href="index" style="float:right">Home</a>
 </nav>

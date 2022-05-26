@@ -6,146 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Geoteo – attack</title>
   <style>
-    html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 1em;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
-      font-size: 85%;
-      margin: 0;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     span.underline{text-decoration: underline;}
@@ -153,127 +13,54 @@
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
   </style>
+  <script src="/usr/share/javascript/mathjax/tex-mml-chtml.js" type="text/javascript"></script>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%237d6ee7%22></rect><path d=%22M32.27 77.81L32.27 77.81Q28.31 77.81 28.31 74.57L28.31 74.57L28.31 23.72Q29.93 22.10 33.17 22.10L33.17 22.10Q35.33 22.10 36.86 22.95Q38.39 23.81 39.65 26.06L39.65 26.06L56.84 54.86Q57.92 56.75 59.09 58.86Q60.26 60.98 61.34 63.09Q62.42 65.21 63.36 67.06Q64.31 68.90 64.94 70.16L64.94 70.16L65.30 70.07Q64.58 62.78 64.44 55.40Q64.31 48.02 64.31 41L64.31 41L64.31 22.82Q64.85 22.64 65.75 22.41Q66.65 22.19 67.73 22.19L67.73 22.19Q71.69 22.19 71.69 25.43L71.69 25.43L71.69 76.37Q70.88 77.09 69.62 77.50Q68.36 77.90 66.83 77.90L66.83 77.90Q64.67 77.90 63.14 77.05Q61.61 76.19 60.35 73.94L60.35 73.94L43.25 45.14Q42.17 43.34 40.95 41.18Q39.74 39.02 38.61 36.95Q37.49 34.88 36.55 32.99Q35.60 31.10 34.97 29.84L34.97 29.84L34.61 29.93Q35.06 34.25 35.33 39.79Q35.60 45.32 35.60 50.27L35.60 50.27L35.60 77.18Q35.15 77.36 34.20 77.58Q33.26 77.81 32.27 77.81Z%22 fill=%22%23fff%22></path></svg>" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu Mono">
   <style>
-    @import url(https://fonts.google.com/specimen/Ubuntu);
-    @import url(https://fonts.google.com/specimen/Ubuntu+Mono);
-    html {
-        line-height: 1.7;
-        font-family: "Ubuntu", sans-serif;
-        font-size: 16px;
-        color: #404040;
-        background-color: #e1dedb;
-    }
-    body {
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 300;
-        max-width: 55em;
-    }
-    h1 {
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 400;
-        text-align: left;
-    }
-    h2 {
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 300;
-    }
-    h3 {
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 300;
-    }
-    textarea {
-        font-family: "Ubuntu Mono", monospace;
-        font-weight: 300;
-        font-size: 16px;
-    }
-    code {
-        font-family: "Ubuntu Mono", monospace;
-        font-weight: 300;
-        font-size: 16px;
-    }
-    nav {
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 400;
-    }
-    hr {
-      background-color: #d0d0cc;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    a:link, a:visited {
-        color: #993300;
-        text-decoration: none;
-    }
-    a:hover, a:active {
-        color: #352e7e;
-        text-decoration: none;
-    }
+  body {
+      margin: 1em auto;
+      padding: 1em;
+      max-width: 50em;
+      line-height: 1.6;
+      font-family: "Ubuntu", sans-serif;
+      font:12px;
+  }
+  footer {
+      clear: both;
+      margin-top: 2em;
+  }
+  code {
+      line-height: 1.2;
+      font-family: "Ubuntu Mono", monospace;
+      font-size: inherit;
+  }
+  a {
+      text-decoration: none;
+  }
+  nav {
+      font-size: 15px;
+  }
   </style>
-  <script
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
-  type="text/javascript"></script>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
-<nav class="site-nav">
+<nav class="site-nav" style="font-weight:bold">
 RSA: Wiener, attack! <a href="index" style="float:right">Home</a>
 </nav>
 <hr />
-<p>Few years ago I wrote a brief paper regarding the <a
-href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA
-cryptosystem</a> and the attack M.J. Wiener published in 1990. I tried
-to create a self-contained work, emphasising the power of playing with
-<a href="https://en.wikipedia.org/wiki/Continued_fraction">continued
-fractions</a> using <em>Legendre theorem</em>. The attack states that
-when there is a small private exponent, the RSA module <span
-class="math inline">\(N\)</span> could be factorized in <span
-class="math inline">\(\mathcal{O}\big(log_2(N)\big)\)</span>, let’s take
-a peak on how it works using an example.</p>
-<p>There are three numbers you need to know when we talk about the RSA
-cryptosystem: the module <span class="math inline">\(N\)</span> plus the
-exponents <span class="math inline">\(e\)</span> and <span
-class="math inline">\(d\)</span>. So, given the public key <span
-class="math inline">\((e,N)\)</span> of an RSA with a small private
-exponent <span class="math inline">\(d\)</span></p>
-<p><span class="math display">\[(e,N) =
-(58549809,2447482909)\]</span></p>
-<p>the expansion of <span class="math inline">\(\frac{e}{N}\)</span> and
-its convergents will be</p>
-<p><span class="math display">\[\frac{e}{N} =
-\bigl[\,0;\,41,\,1,\,4,\,23,\,\dots\,\bigr]\]</span> <span
-class="math display">\[\{ c_i \}_{i{\leq}15} =
-\biggl\{0,\,\frac{1}{41},\,\frac{1}{42},\,\frac{5}{209},\,\frac{116}{4849},\,\dots\biggr\}\]</span></p>
-<p>Using the search algorithm derived from Wiener Theorem, we notice
-that the fourth convergent <span
-class="math inline">\(c_3{=}\frac{5}{209}\)</span> is the right
-candidate <span class="math inline">\(\widetilde{\phi}\)</span> for the
-Euler function <span class="math inline">\(\phi(N)\)</span>:</p>
-<p><span class="math display">\[\biggl\lfloor \frac{e}{c_3}
-\biggr\rfloor = \biggl\lfloor \frac{58549809}{\frac{5}{209}}
-\biggr\rfloor = 2447382016\]</span></p>
-<p>Now that we found a possible value for <span
-class="math inline">\(\phi\)</span>, we won: the two prime factors of
-the RSA module have to be <span class="math inline">\(60317\)</span> and
-<span class="math inline">\(40577\)</span>. It was too quick, wasn’t it?
-Take a look at the paper <a
-href="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf">here</a>
-or in the window below, it will satisfy any doubts and show you some
-magic in Wolfram Mathematica.</p>
+<p>Few years ago I wrote a brief paper regarding the <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA cryptosystem</a> and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with <a href="https://en.wikipedia.org/wiki/Continued_fraction">continued fractions</a> using <em>Legendre theorem</em>. The attack states that when there is a small private exponent, the RSA module <span class="math inline">\(N\)</span> could be factorized in <span class="math inline">\(\mathcal{O}\big(log_2(N)\big)\)</span>, let’s take a peak on how it works using an example.</p>
+<p>There are three numbers you need to know when we talk about the RSA cryptosystem: the module <span class="math inline">\(N\)</span> plus the exponents <span class="math inline">\(e\)</span> and <span class="math inline">\(d\)</span>. So, given the public key <span class="math inline">\((e,N)\)</span> of an RSA with a small private exponent <span class="math inline">\(d\)</span></p>
+<p><span class="math display">\[(e,N) = (58549809,2447482909)\]</span></p>
+<p>the expansion of <span class="math inline">\(\frac{e}{N}\)</span> and its convergents will be</p>
+<p><span class="math display">\[\frac{e}{N} = \bigl[\,0;\,41,\,1,\,4,\,23,\,\dots\,\bigr]\]</span> <span class="math display">\[\{ c_i \}_{i{\leq}15} = \biggl\{0,\,\frac{1}{41},\,\frac{1}{42},\,\frac{5}{209},\,\frac{116}{4849},\,\dots\biggr\}\]</span></p>
+<p>Using the search algorithm derived from Wiener Theorem, we notice that the fourth convergent <span class="math inline">\(c_3{=}\frac{5}{209}\)</span> is the right candidate <span class="math inline">\(\widetilde{\phi}\)</span> for the Euler function <span class="math inline">\(\phi(N)\)</span>:</p>
+<p><span class="math display">\[\biggl\lfloor \frac{e}{c_3} \biggr\rfloor = \biggl\lfloor \frac{58549809}{\frac{5}{209}} \biggr\rfloor = 2447382016\]</span></p>
+<p>Now that we found a possible value for <span class="math inline">\(\phi\)</span>, we won: the two prime factors of the RSA module have to be <span class="math inline">\(60317\)</span> and <span class="math inline">\(40577\)</span>. It was too quick, wasn’t it? Take a look at the paper <a href="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf">here</a> or in the window below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.</p>
 <object data="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px">
 <p style="margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #bfbfbf solid; font-style: italic;">
-<img src="pics/extraction.png" /> No PDF support,
-<a href="https://web.mit.edu/~simsong/www/ugh.pdf" title="Download PDF">click
-clack</a> and download the thing.
+<img src="pics/extraction.png" /> No PDF support, <a href="https://web.mit.edu/~simsong/www/ugh.pdf" title="Download PDF">click clack</a> and download the thing.
 </p>
 </object>
-<p>I put some effort on the appearance too: all the work is written in
-<span class="math inline">\(\LaTeX\)</span> with the <a
-href="https://github.com/Tufte-LaTeX/tufte-latex">Tufte-LaTeX</a>
-package, plus few modifications here and there allowed me to squeeze all
-the content in about 20 pages.</p>
+<p>I put some effort on the appearance too: all the work is written in <span class="math inline">\(\LaTeX\)</span> with the <a href="https://github.com/Tufte-LaTeX/tufte-latex">Tufte-LaTeX</a> package, plus few modifications here and there allowed me to squeeze all the content in about 20 pages.</p>
 </body>
 </html>
