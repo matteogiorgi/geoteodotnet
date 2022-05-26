@@ -1,9 +1,8 @@
-<nav class="site-nav" style="font-weight:bold">
+<nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
     Computability notes: an attempt
     <a href="index" style="float:right">Home</a>
 </nav>
 
----
 
 I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.
 

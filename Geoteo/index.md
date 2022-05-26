@@ -3,6 +3,7 @@
     <a href="contacts" style="float:right">About</a>
 </nav>
 
+ 
 <p style="text-align:center; border:1px solid #d0d0cc;">
     <img width=60% style="padding:30px;" src="pics/island.png">
 </p>

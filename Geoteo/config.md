@@ -1,9 +1,8 @@
-<nav class="site-nav" style="font-weight:bold">
+<nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
     An Awesome [Arch](btw) workflow
     <a href="index" style="float:right">Home</a>
 </nav>
 
----
 
 I've used [Qtile](http://www.qtile.org) for a while and I can tell it's a good window manager; it has its source code and config file written in Python, plus a neat [documentation](http://docs.qtile.org/en/latest) comes in support if you fancy to play with it. The only problem imo is stability: in more than one occasion I had to deal with [issues](https://github.com/qtile/qtile/issues) appearing just because of last updates.
 

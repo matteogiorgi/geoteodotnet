@@ -1,9 +1,8 @@
-<nav class="site-nav" style="font-weight:bold">
+<nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
     For the love of UNIX!
     <a href="index" style="float:right">Home</a>
 </nav>
 
----
 
 Haven't you notice some funny comics here and there through these pages? You certainly have and they're hilarious, aren't they?
 
