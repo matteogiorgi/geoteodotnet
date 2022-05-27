@@ -23,7 +23,7 @@ Now that we found a possible value for $\phi$, we won: the two prime factors of 
 
 <object data="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px">
 <p style="margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #bfbfbf solid; font-style: italic;">
-  <img src="pics/extraction.png" />
+  <img src="pics/extraction.png" style="max-width:80%" />\
   No PDF support, <a href="https://web.mit.edu/~simsong/www/ugh.pdf" title="Download PDF">click clack</a> and download the thing.
 </p>
 </object>
