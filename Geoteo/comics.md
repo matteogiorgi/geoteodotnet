@@ -1,6 +1,6 @@
 <nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-    For the love of UNIX!
-    <a href="index" style="float:right">Home</a>
+  For the love of UNIX!
+  <a href="index" style="float:right">Home</a>
 </nav>
 
 
@@ -14,3 +14,8 @@ Haven't you notice some funny comics here and there through these pages? You cer
 </object>
 
 It is quite controversial (especially from a hard-core GNU/Linux user), isn't it?
+
+
+<marquee behavior="scroll" direction="left" style="margin-top:2em">
+  <img src="pics/mona.gif" style="width:5%" alt="mona">
+</marquee>

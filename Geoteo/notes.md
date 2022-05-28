@@ -1,6 +1,6 @@
 <nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-    Computability notes: an attempt
-    <a href="index" style="float:right">Home</a>
+  Computability notes: an attempt
+  <a href="index" style="float:right">Home</a>
 </nav>
 
 
@@ -28,3 +28,8 @@ To tell the the all truth, this little project had a second purpose too: create 
 But there's more: I find [literate programming](http://literateprogramming.com) very useful and I've played with tools like [Wolfram Mathematica](https://www.wolfram.com/mathematica), [Jupyter Notebook](https://jupyter.org) and the magnificent Emacs mode [Org Mode](https://orgmode.org); needless to say I wanted to have something like this in my new template. Lucky me R has the [Knitr](https://yihui.org/knitr/) package that enables integration of R code into $\LaTeX$, HTML and Markdown. Short story short, every block of code (no matter the language) is evalueted in the order it appears in the document and the shell output is printed just below each block.
 
 One great advantage of this, is the possibility to display graphs and diagrams inside the document just by writing chunks of code that can output them.
+
+
+<marquee behavior="scroll" direction="left" style="margin-top:2em">
+  <img src="pics/mona.gif" style="width:5%" alt="mona">
+</marquee>

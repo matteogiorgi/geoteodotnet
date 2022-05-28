@@ -1,6 +1,6 @@
 <nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-    RSA: Wiener, attack!
-    <a href="index" style="float:right">Home</a>
+  RSA: Wiener, attack!
+  <a href="index" style="float:right">Home</a>
 </nav>
 
 
@@ -29,3 +29,8 @@ Now that we found a possible value for $\phi$, we won: the two prime factors of 
 </object>
 
 I put some effort on the appearance too: all the work is written in $\LaTeX$ with the [Tufte-LaTeX](https://github.com/Tufte-LaTeX/tufte-latex) package, plus few modifications here and there allowed me to squeeze all the content in about 20 pages.
+
+
+<marquee behavior="scroll" direction="left" style="margin-top:2em">
+  <img src="pics/mona.gif" style="width:5%" alt="mona">
+</marquee>
