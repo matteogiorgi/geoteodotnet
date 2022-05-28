@@ -8,7 +8,7 @@ Haven't you notice some funny comics here and there through these pages? You cer
 
 <object data="https://matteogiorgi.github.io/ugh.pdf" type="application/pdf" width="100%" height="600px">
 <p style="margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #bfbfbf solid; font-style: italic;">
-  <img src="pics/extraction.png" style="max-width:80%" />\
+  <img src="pics/extraction.png" style="max-width:60%" />\
   No PDF support, <a href="https://matteogiorgi.github.io/ugh.pdf" title="Download PDF">click clack</a> and download the thing.
 </p>
 </object>
