@@ -13,8 +13,3 @@
 - [Some unfinished scribbles on Computability Theory](notes)
 - [Yet another Asteroids clone but way cooler](astro)
 - [Some silly comics and a fun book to read](comics)
-
-
-<marquee behavior="scroll" direction="left" style="margin-top:2em">
-  <img src="pics/mona.gif" style="width:5%" alt="mona">
-</marquee>

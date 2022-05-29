@@ -13,8 +13,3 @@ The choices narrowed to [dwm](https://dwm.suckless.org), [Xmonad](https://xmonad
 ![](pics/awesome.png){ width=100% }
 
 These days I'm experimenting with other window managers but to have a rough idea on how this workflow works, feel free to browse through my [Awesome deadfiles](https://github.com/matteogiorgi/.deadfiles/tree/main/awesome/.config/awesome).
-
-
-<marquee behavior="scroll" direction="left" style="margin-top:2em">
-  <img src="pics/mona.gif" style="width:5%" alt="mona">
-</marquee>

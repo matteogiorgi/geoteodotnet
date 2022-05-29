@@ -11,8 +11,3 @@
 - Github: [`github.com/matteogiorgi`](https://github.com/matteogiorgi)
 - Email: [`matteo.giorgi@protonmail.com`](mailto:matteo.giorgi@protonmail.com)
 - Telegram: [`t.me/geoteodotnet`](https://t.me/geoteodotnet)
-
-
-<marquee behavior="scroll" direction="left" style="margin-top:2em">
-  <img src="pics/mona.gif" style="width:5%" alt="mona">
-</marquee>

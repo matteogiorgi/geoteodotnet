@@ -22,15 +22,10 @@ $$\biggl\lfloor \frac{e}{c_3} \biggr\rfloor = \biggl\lfloor \frac{58549809}{\fra
 Now that we found a possible value for $\phi$, we won: the two prime factors of the RSA module have to be $60317$ and $40577$. It was too quick, wasn't it? Take a look at the paper [here](https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf) or in the window below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.
 
 <object data="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px">
-<p style="margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #bfbfbf solid; font-style: italic;">
-  <img src="pics/extraction.png" style="max-width:60%" />\
+<p style="text-align:center; border:1px solid #d0d0cc;">
+  <img width=60% style="padding:30px;" src="pics/extraction.png">\
   No PDF support, <a href="https://web.mit.edu/~simsong/www/ugh.pdf" title="Download PDF">click clack</a> and download the thing.
 </p>
 </object>
 
 I put some effort on the appearance too: all the work is written in $\LaTeX$ with the [Tufte-LaTeX](https://github.com/Tufte-LaTeX/tufte-latex) package, plus few modifications here and there allowed me to squeeze all the content in about 20 pages.
-
-
-<marquee behavior="scroll" direction="left" style="margin-top:2em">
-  <img src="pics/mona.gif" style="width:5%" alt="mona">
-</marquee>

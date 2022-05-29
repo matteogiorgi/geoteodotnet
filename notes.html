@@ -118,14 +118,16 @@ Computability notes: an attempt <a href="index" style="float:right">Home</a>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="kw">render</span>(<span class="kw">commandArgs</span>(<span class="dt">trailingOnly=</span><span class="ot">TRUE</span>))</span></code></pre></div>
 <p>You can take a look and download the notes <a href="https://matteogiorgi.github.io/computability/src/notes.pdf">here</a> or in the window below. Unfortunately there won’t be any updates soon, anyhow it was quite fun to play with <span class="math inline">\(\LaTeX\)</span> templates and the Rmarkdown package.</p>
 <object data="https://matteogiorgi.github.io/computability/src/notes.pdf" type="application/pdf" width="100%" height="600px">
-<p style="margin: 0; padding-left: 2em; padding-right: 2em; padding-top: 0.5em; padding-bottom: 0.5em; border-left: 0.5em #bfbfbf solid; font-style: italic;">
-<img src="pics/extraction.png" style="max-width:60%" /><br />
+<p style="text-align:center; border:1px solid #d0d0cc;">
+<img width=60% style="padding:30px;" src="pics/extraction.png"><br />
 No PDF support, <a href="https://web.mit.edu/~simsong/www/ugh.pdf" title="Download PDF">click clack</a> and download the thing.
 </p>
 </object>
 <p>To tell the the all truth, this little project had a second purpose too: create a <span class="math inline">\(\LaTeX\)</span> template to write reports/articles in markdown (so to be humanly readable even just through the source code), where I could easily edit every single chapter separately and maintain the code neat and clean.</p>
 <p>But there’s more: I find <a href="http://literateprogramming.com">literate programming</a> very useful and I’ve played with tools like <a href="https://www.wolfram.com/mathematica">Wolfram Mathematica</a>, <a href="https://jupyter.org">Jupyter Notebook</a> and the magnificent Emacs mode <a href="https://orgmode.org">Org Mode</a>; needless to say I wanted to have something like this in my new template. Lucky me R has the <a href="https://yihui.org/knitr/">Knitr</a> package that enables integration of R code into <span class="math inline">\(\LaTeX\)</span>, HTML and Markdown. Short story short, every block of code (no matter the language) is evalueted in the order it appears in the document and the shell output is printed just below each block.</p>
 <p>One great advantage of this, is the possibility to display graphs and diagrams inside the document just by writing chunks of code that can output them.</p>
-<p><marquee behavior="scroll" direction="left" style="margin-top:2em"> <img src="pics/mona.gif" style="width:5%" alt="mona"> </marquee></p>
+<marquee behavior="scroll" direction="left" style="margin-top:2em">
+  <img src="pics/mona.gif" style="width:5%" alt="mona">
+</marquee>
 </body>
 </html>

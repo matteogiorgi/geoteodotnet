@@ -11,8 +11,3 @@ Well, a while back I decided to recreate this classic in JavaScript using [P5.js
 <p align="center"><embed src="https://matteogiorgi.github.io/asteroids/src" width="100%" height="500px"></embed></p>
 
 Feel free to play with it [here](https://matteogiorgi.github.io/asteroids/src) or in the window above using `w`, `a`, `d` to move around and `spc`, `m` to fire and drop bombs: yes, I've added bombs that activate themselves once launched, how cool is that!
-
-
-<marquee behavior="scroll" direction="left" style="margin-top:2em">
-  <img src="pics/mona.gif" style="width:5%" alt="mona">
-</marquee>
