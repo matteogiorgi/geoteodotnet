@@ -13,4 +13,4 @@ Haven't you notice some funny comics here and there through these pages? You cer
 </p>
 </object>
 
-It is quite controversial (especially for hard-core GNU/Linux user), isn't it?
+Quite controversial (especially for hard-core GNU/Linux user), isn't it?
