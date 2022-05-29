@@ -17,9 +17,9 @@ render(commandArgs(trailingOnly=TRUE))
 You can take a look and download the notes [here](https://matteogiorgi.github.io/computability/src/notes.pdf) or in the window below. Unfortunately there won't be any updates soon, anyhow it was quite fun to play with $\LaTeX$ templates and the Rmarkdown package.
 
 <object data="https://matteogiorgi.github.io/computability/src/notes.pdf" type="application/pdf" width="100%" height="600px">
-<p style="text-align:center; border:1px solid #d0d0cc;">
+<p style="font-size:10px; color:#d0d0cc; text-align:center; border:1px solid #d0d0cc;">
   <img width=60% style="padding:30px;" src="pics/extraction.png">\
-  No PDF support, <a href="https://web.mit.edu/~simsong/www/ugh.pdf" title="Download PDF">click clack</a> and download the thing.
+  No PDF support, <a style="color:#d0d0cc; text-decoration:underline" href="https://matteogiorgi.github.io/computability/src/notes.pdf" title="Download PDF">click clack</a> and download the thing.
 </p>
 </object>
 

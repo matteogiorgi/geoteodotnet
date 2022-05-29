@@ -22,9 +22,9 @@ $$\biggl\lfloor \frac{e}{c_3} \biggr\rfloor = \biggl\lfloor \frac{58549809}{\fra
 Now that we found a possible value for $\phi$, we won: the two prime factors of the RSA module have to be $60317$ and $40577$. It was too quick, wasn't it? Take a look at the paper [here](https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf) or in the window below, it will satisfy any doubts and show you some magic in Wolfram Mathematica.
 
 <object data="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf" type="application/pdf" width="100%" height="600px">
-<p style="text-align:center; border:1px solid #d0d0cc;">
+<p style="font-size:10px; color:#d0d0cc; text-align:center; border:1px solid #d0d0cc;">
   <img width=60% style="padding:30px;" src="pics/extraction.png">\
-  No PDF support, <a href="https://web.mit.edu/~simsong/www/ugh.pdf" title="Download PDF">click clack</a> and download the thing.
+  No PDF support, <a style="color:#d0d0cc; text-decoration:underline" href="https://matteogiorgi.github.io/wiener/src/wiener_attack.pdf" title="Download PDF">click clack</a> and download the thing.
 </p>
 </object>
 
