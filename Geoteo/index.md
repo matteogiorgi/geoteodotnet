@@ -1,5 +1,5 @@
 <nav class="site-nav" style="font-weight:bold">
-  Geoteo[dotnet](dotnet)
+  Geoteo[dotnet](start)
   <a href="contacts" style="float:right">About</a>
 </nav>
 
