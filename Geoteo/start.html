@@ -38,30 +38,11 @@
     // lightness and alpha for each generated color. "color", if defined, will
     // be applied as-is to the command's "background" CSS property.
     
-    // SOME EXTRA SEVICES (NOT INCLUDED):
-    // VSCode: 'https://vscode.dev/',
-    // Replit: 'https://replit.com/',
-    // CloudConverter: 'https://cloudconvert.com/',
-    // SlidesCarnival: 'https://www.slidescarnival.com/',
-    // JSCoq: 'https://coq.vercel.app/',
     commands: [
       {
-        key: '#',
-        name: 'Google',
-        search: '/search?hl={}',
-        url: 'https://www.google.com',
-      },
-      {
-        key: '@',
-        name: 'Brave',
-        search: '/search?q={}',
-        url: 'https://search.brave.com/',
-      },
-      {
         key: '*',
-        name: 'DDGo',
-        search: '/?q={}',
-        url: 'https://www.duckduckgo.com',
+        search: '/search?q={}',
+        url: 'https://www.google.com',
       },
       {
         category: 'Agenda',
@@ -367,8 +348,6 @@
 </script>
 
 <style>
-  @import url(https://fonts.google.com/specimen/Ubuntu);
-  @import url(https://fonts.google.com/specimen/Ubuntu+Mono);
   :root {
     --base-background: #ffffff;
     --base-foreground: #404040;
