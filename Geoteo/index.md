@@ -1,5 +1,5 @@
 <nav class="site-nav" style="font-weight:bold">
-  Geoteo · [Startpage](start)
+  [Startpage](start)
   <a href="contacts" style="float:right">About</a>
 </nav>
 
