@@ -8,6 +8,7 @@
 #             --mathjax \
 #             --lua-filter=$pandoc/assets/link2html.lua \
 #             -H $pandoc/assets/header.html \
+#             -A $pandoc/assets/footer.html \
 #             -T $prefixtail
 
 
@@ -23,6 +24,7 @@ for note in *.md; do
                 --mathjax \
                 --lua-filter=$pandoc/assets/link2html.lua \
                 -H $pandoc/assets/header.html \
+                -A $pandoc/assets/footer.html \
                 -T $prefixtail
 done
 
