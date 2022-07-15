@@ -85,6 +85,7 @@
   body {
       margin: 1em auto;
       padding: 1em;
+      padding-bottom: 4em;
       max-width: 50em;
       line-height: 1.6;
       font-family: "Ubuntu", sans-serif;
@@ -126,8 +127,12 @@ No PDF support, <a style="color:#d0d0cc; text-decoration:underline" href="https:
 <p>To tell the the all truth, this little project had a second purpose too: create a <span class="math inline">\(\LaTeX\)</span> template to write reports/articles in markdown (so to be humanly readable even just through the source code), where I could easily edit every single chapter separately and maintain the code neat and clean.</p>
 <p>But there’s more: I find <a href="http://literateprogramming.com">literate programming</a> very useful and I’ve played with tools like <a href="https://www.wolfram.com/mathematica">Wolfram Mathematica</a>, <a href="https://jupyter.org">Jupyter Notebook</a> and the magnificent Emacs mode <a href="https://orgmode.org">Org Mode</a>; needless to say I wanted to have something like this in my new template. Lucky me R has the <a href="https://yihui.org/knitr/">Knitr</a> package that enables integration of R code into <span class="math inline">\(\LaTeX\)</span>, HTML and Markdown. Short story short, every block of code (no matter the language) is evalueted in the order it appears in the document and the shell output is printed just below each block.</p>
 <p>One great advantage of this, is the possibility to display graphs and diagrams inside the document just by writing chunks of code that can output them.</p>
-<marquee behavior="scroll" direction="left" style="margin-top:1em">
-  <img src="pics/mona.gif" style="height:2em" alt="mona">
-</marquee>
+<!-- <marquee behavior="scroll" direction="left" style="margin-top:1em"> -->
+<!--   <img src="pics/mona.gif" style="height:2em" alt="mona"> -->
+<!-- </marquee> -->
+
+<nav class="site-nav" style="margin-top:2em; font-size:70%; color:gray">
+  <a href="https://github.com/matteogiorgi/.udot/tree/master/vim/.vim/pack/plugins/start/notewiki" style="color:gray; text-decoration:none; float:left">This page was created using Vim-Notewiki</a>
+</nav>
 </body>
 </html>

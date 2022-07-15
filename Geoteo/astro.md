@@ -1,5 +1,5 @@
 <nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-  Asteroidspp: not a classic anymore
+  Asteroids++
   <a href="index" style="float:right">Home</a>
 </nav>
 
