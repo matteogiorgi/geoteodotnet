@@ -23,7 +23,7 @@ You can take a look and download the notes [here](https://matteogiorgi.github.io
 </p>
 </object>
 
-To tell the the all truth, this little project had a second purpose too: create a $\LaTeX$ template to write reports/articles in markdown (so to be humanly readable even just through the source code), where I could easily edit every single chapter separately and maintain the code neat and clean.
+To tell the the all truth, this little project had a second purpose too: create a $\LaTeX$ template to write reports/articles in markdown (so to be humanly readable even just through the source code), where I could easily edit every single chapter separately while maintaining the code neat and clean.
 
 But there's more: I find [literate programming](http://literateprogramming.com) very useful and I've played with tools like [Wolfram Mathematica](https://www.wolfram.com/mathematica), [Jupyter Notebook](https://jupyter.org) and the magnificent Emacs mode [Org Mode](https://orgmode.org); needless to say I wanted to have something like this in my new template. Lucky me R has the [Knitr](https://yihui.org/knitr/) package that enables integration of R code into $\LaTeX$, HTML and Markdown. Short story short, every block of code (no matter the language) is evalueted in the order it appears in the document and the shell output is printed just below each block.
 
