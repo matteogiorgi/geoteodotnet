@@ -11,3 +11,4 @@
 - Github: [`github.com/matteogiorgi`](https://github.com/matteogiorgi)
 - Email: [`matteo.giorgi@protonmail.com`](mailto:matteo.giorgi@protonmail.com)
 - Telegram: [`t.me/geoteodotnet`](https://t.me/geoteodotnet)
+- Meet: [`meet.google.com/msc-hnrq-efd`](https://meet.google.com/msc-hnrq-efd)
