@@ -1,6 +1,8 @@
 <nav class="site-nav" style="font-weight:bold">
-  [Startpage](start)
-  <a href="contacts" style="float:right">About</a>
+  Geoteo
+  <div style="float:right">
+  [$HOME](index) &nbsp; [Startpage](start) &nbsp; [About](about) &nbsp; [Contacts](contacts)
+  </div>
 </nav>
 
  

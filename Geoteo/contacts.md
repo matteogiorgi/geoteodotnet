@@ -1,6 +1,8 @@
 <nav class="site-nav" style="font-weight:bold">
-  What about me?
-  <a href="index" style="float:right">Home</a>
+  Contact me
+  <div style="float:right">
+  [$HOME](index) &nbsp; [Startpage](start) &nbsp; [About](about) &nbsp; [Contacts](contacts)
+  </div>
 </nav>
 
 

@@ -48,7 +48,10 @@
 </head>
 <body>
 <nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-RSA: Wiener, attack! <a href="index" style="float:right">Home</a>
+RSA: Wiener, attack!
+<div style="float:right">
+<a href="index">$HOME</a>   <a href="start">Startpage</a>   <a href="about">About</a>   <a href="contacts">Contacts</a>
+</div>
 </nav>
 <p>Few years ago I wrote a brief paper regarding the <a href="https://en.wikipedia.org/wiki/RSA_(cryptosystem)">RSA cryptosystem</a> and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with <a href="https://en.wikipedia.org/wiki/Continued_fraction">continued fractions</a> using <em>Legendre theorem</em>. The attack states that when there is a small private exponent, the RSA module <span class="math inline">\(N\)</span> could be factorized in <span class="math inline">\(\mathcal{O}\big(log_2(N)\big)\)</span>, let’s take a peak on how it works using an example.</p>
 <p>There are three numbers you need to know when we talk about the RSA cryptosystem: the module <span class="math inline">\(N\)</span> plus the exponents <span class="math inline">\(e\)</span> and <span class="math inline">\(d\)</span>. So, given the public key <span class="math inline">\((e,N)\)</span> of an RSA with a small private exponent <span class="math inline">\(d\)</span></p>
@@ -70,7 +73,8 @@ No PDF support, <a style="color:#d0d0cc; text-decoration:underline" href="https:
 <!-- </marquee> -->
 
 <nav class="site-nav" style="margin-top:2em; font-size:70%; color:gray">
-    <a href="https://github.com/matteogiorgi/.udot/tree/master/vim/.vim/pack/plugins/start/notewiki" style="color:gray; text-decoration:none; float:left">This page was created using <em>Vim-Notewiki</em></a>
+    <a href="https://github.com/matteogiorgi/.udot/tree/master/vim/.vim/pack/plugins/start/notewiki" style="color:gray; text-decoration:none; float:left">This page was created with <em>Vim-Notewiki</em></a>
+    <a href="javascript:history.back()" style="color:gray; text-decoration:none; float:right">Back</a>
 </nav>
 </body>
 </html>

@@ -1,6 +1,8 @@
 <nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
   RSA: Wiener, attack!
-  <a href="index" style="float:right">Home</a>
+  <div style="float:right">
+  [$HOME](index) &nbsp; [Startpage](start) &nbsp; [About](about) &nbsp; [Contacts](contacts)
+  </div>
 </nav>
 
 
