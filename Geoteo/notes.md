@@ -1,7 +1,7 @@
 <nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
   Computability notes: an attempt
   <div style="float:right">
-  [$HOME](index) &nbsp; [Startpage](start) &nbsp; [About](about) &nbsp; [Contacts](contacts)
+  [$HOME](index) &nbsp; [About](about) &nbsp; [Contacts](contacts) &nbsp; [Startpage](start)
   </div>
 </nav>
 
