@@ -1,7 +1,7 @@
 <nav class="site-nav" style="font-weight:bold">
   What about me?
   <div style="float:right">
-  [$HOME](index) &nbsp; [About](about) &nbsp; [Contacts](contacts) &nbsp; [Startpage](start)
+  <a href="javascript:history.back()" style="color:black; float:right">&laquo;</a>
   </div>
 </nav>
 

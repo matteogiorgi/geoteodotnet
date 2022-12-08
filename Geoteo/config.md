@@ -1,7 +1,7 @@
 <nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-  An Awesome [Arch](btw) workflow
+  An Awesome <a href="btw" style="color:black; text-decoration:underline">Arch</a> workflow
   <div style="float:right">
-  [$HOME](index) &nbsp; [About](about) &nbsp; [Contacts](contacts) &nbsp; [Startpage](start)
+  <a href="javascript:history.back()" style="color:black; float:right">&laquo;</a>
   </div>
 </nav>
 
