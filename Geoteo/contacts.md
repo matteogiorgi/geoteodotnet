@@ -1,7 +1,7 @@
 <nav class="site-nav" style="font-weight:bold">
   Contact me
   <div style="float:right">
-  <a href="javascript:history.back()" style="color:black; float:right">&laquo;</a>
+  <a href="javascript:history.back()" style="color:black; float:right">&crarr;</a>
   </div>
 </nav>
 

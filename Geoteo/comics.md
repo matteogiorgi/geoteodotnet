@@ -1,7 +1,7 @@
 <nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
   For the love of UNIX!
   <div style="float:right">
-  <a href="javascript:history.back()" style="color:black; float:right">&laquo;</a>
+  <a href="javascript:history.back()" style="color:black; float:right">&crarr;</a>
   </div>
 </nav>
 
