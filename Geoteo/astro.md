@@ -1,10 +1,6 @@
-<nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-  Asteroids++
-  <div style="float:right">
-  <a href="javascript:history.back()" style="color:black; float:right">&crarr;</a>
-  </div>
-</nav>
-
+<p style="text-align:center; border:1px solid #d0d0cc;">
+  <img width=60% style="padding:30px;" src="pics/asteroids.png">
+</p>
 
 Remember [Asteroids](https://en.wikipedia.org/wiki/Asteroids_%28video_game%29), the one all the cool kids used to play with? The original, released by Atari in 1979, was implemented by Rains, Logg, and Walsh on hardware developed by Delman and was a vector game, in which the graphics were composed of lines drawn on a vector monitor.
 

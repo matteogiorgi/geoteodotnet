@@ -1,10 +1,6 @@
-<nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-  RSA: Wiener, attack!
-  <div style="float:right">
-  <a href="javascript:history.back()" style="color:black; float:right">&crarr;</a>
-  </div>
-</nav>
-
+<p style="text-align:center; border:1px solid #d0d0cc;">
+  <img width=60% style="padding:30px;" src="pics/wiener.png">
+</p>
 
 Few years ago I wrote a brief paper regarding the [RSA cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) and the attack M.J. Wiener published in 1990. I tried to create a self-contained work, emphasising the power of playing with [continued fractions](https://en.wikipedia.org/wiki/Continued_fraction) using *Legendre theorem*. The attack states that when there is a small private exponent, the RSA module $N$ could be factorized in $\mathcal{O}\big(log_2(N)\big)$, let's take a peak on how it works using an example.
 

@@ -109,12 +109,18 @@
   </style>
 </head>
 <body>
-<nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-Computability notes: an attempt
-<div style="float:right">
-<a href="javascript:history.back()" style="color:black; float:right">↵</a>
-</div>
+<nav class="site-nav" style="color:black; font-weight:bold">
+  <a href="index" style="background-color:#ebe0e9; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >Home</a>
+  <a href="about" style="background-color:#f8ecd3; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >About</a>
+  <a href="contacts" style="background-color:#e5edde; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >Contacts</a>
+  <div style="float:right">
+  <a href="start" style="background-color:#dde6ee; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >Startpage</a>
+  <a href="javascript:history.back()" style="background-color:#e7e7e4; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;">&crarr;</a>
+  </div>
 </nav>
+<p style="text-align:center; border:1px solid #d0d0cc;">
+<img width=60% style="padding:30px;" src="pics/notes.png">
+</p>
 <p>I know there is a vast bibliography on the subject but I just wanted to write something intuitive and easy to read on such essential and extensive topic for a computer scientist.</p>
 <p>The notes are written in italian and follow professor <a href="http://pages.di.unipi.it/degano/">P. Degano</a> lectures at <a href="https://didattica.di.unipi.it/en/undergraduate-programme-in-computer-science/">B.Sc. Computer Science</a> University of Pisa. The source code can be compiled using R with <a href="https://cran.r-project.org/web/packages/rmarkdown/index.html">Rmarkdown</a> package, just use these teeny-tiny Rscript:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="co">#! /usr/bin/env Rscript</span></span>
@@ -128,17 +134,16 @@ No PDF support, <a style="color:#d0d0cc; text-decoration:underline" href="https:
 </p>
 </object>
 <p>To tell the the all truth, this little project had a second purpose too: create a <span class="math inline">\(\LaTeX\)</span> template to write reports/articles in markdown (so to be humanly readable even just through the source code), where I could easily edit every single chapter separately while maintaining the code neat and clean.</p>
-<p>But there’s more: I find <a href="http://literateprogramming.com">literate programming</a> very useful and I’ve played with tools like <a href="https://www.wolfram.com/mathematica">Wolfram Mathematica</a>, <a href="https://jupyter.org">Jupyter Notebook</a> and the magnificent Emacs mode <a href="https://orgmode.org">Org Mode</a>; needless to say I wanted to have something like this in my new template. Lucky me R has the <a href="https://yihui.org/knitr/">Knitr</a> package that enables integration of R code into <span class="math inline">\(\LaTeX\)</span>, HTML and Markdown. Short story short, every block of code (no matter the language) is evalueted in the order it appears in the document and the shell output is printed just below each block.</p>
+<p>But there’s more: I find <a href="http://literateprogramming.com">literate programming</a> very useful and I’ve played with tools like <a href="https://www.wolfram.com/mathematica">Wolfram Mathematica</a>, <a href="https://jupyter.org">Jupyter Notebook</a> and the magnificent Emacs mode <a href="https://orgmode.org">Org Mode</a>; needless to say I wanted to have something like this in my new template. Lucky me R has the <a href="https://yihui.org/knitr/">Knitr</a> package that enables integration of R code into <span class="math inline">\(\LaTeX\)</span>, HTML and Markdown. Long story short, every block of code (no matter the language) is evalueted in the order it appears in the document and the shell output is printed just below each block.</p>
 <p>One great advantage of this, is the possibility to display graphs and diagrams inside the document just by writing chunks of code that can output them.</p>
 <!-- <marquee behavior="scroll" direction="left" style="margin-top:1em"> -->
 <!--   <img src="pics/mona.gif" style="height:2em" alt="mona"> -->
 <!-- </marquee> -->
 
-<nav class="site-nav" style="margin-top:2em; font-size:70%; color:black; font-weight:bold">
-  <a href="index" style="background-color:#e7e7e4; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >$HOME</a> &nbsp;
-  <a href="about" style="background-color:#e7e7e4; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >About</a> &nbsp;
-  <a href="contacts" style="background-color:#e7e7e4; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >Contacts</a> &nbsp;
-  <a href="start" style="background-color:#e7e7e4; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >Startpage</a>
+<div style="margin-top:2em; border-top:1px solid #d0d0cc">
+<nav class="site-nav" style="float:none; position:absolute; left:50%; transform:translate(-50%,-50%); margin-top:2em; font-size:70%; color:black; font-weight:bold">
+  Page created with <a href="https://github.com/matteogiorgi/.udot/tree/master/vim/.vim/pack/plugins/start/notewiki">Vim-Notewiki</a> &nbsp; - &nbsp; Sources on <a href="https://github.com/matteogiorgi/matteogiorgi.github.io">GitHub</a>
 </nav>
+</div>
 </body>
 </html>

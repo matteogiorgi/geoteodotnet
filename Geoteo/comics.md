@@ -1,10 +1,6 @@
-<nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-  For the love of UNIX!
-  <div style="float:right">
-  <a href="javascript:history.back()" style="color:black; float:right">&crarr;</a>
-  </div>
-</nav>
-
+<p style="text-align:center; border:1px solid #d0d0cc;">
+  <img width=60% style="padding:30px;" src="pics/unix.png">
+</p>
 
 Haven't you notice some funny comics here and there through these pages? You certainly have and they're hilarious, aren't they? Well, they're not my own work but I suggest you take a peek at the (in)famously classic [The UNIX-HATERS handbook](https://web.mit.edu/~simsong/www/ugh.pdf) from 1994 by Garfinkel, Weise and Strassmann, it is worth reading.
 

@@ -46,12 +46,18 @@
   </style>
 </head>
 <body>
-<nav class="site-nav" style="font-weight:bold; padding-bottom:1em; border-bottom:1px solid #d0d0cc">
-Asteroids++
-<div style="float:right">
-<a href="javascript:history.back()" style="color:black; float:right">↵</a>
-</div>
+<nav class="site-nav" style="color:black; font-weight:bold">
+  <a href="index" style="background-color:#ebe0e9; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >Home</a>
+  <a href="about" style="background-color:#f8ecd3; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >About</a>
+  <a href="contacts" style="background-color:#e5edde; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >Contacts</a>
+  <div style="float:right">
+  <a href="start" style="background-color:#dde6ee; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >Startpage</a>
+  <a href="javascript:history.back()" style="background-color:#e7e7e4; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;">&crarr;</a>
+  </div>
 </nav>
+<p style="text-align:center; border:1px solid #d0d0cc;">
+<img width=60% style="padding:30px;" src="pics/asteroids.png">
+</p>
 <p>Remember <a href="https://en.wikipedia.org/wiki/Asteroids_%28video_game%29">Asteroids</a>, the one all the cool kids used to play with? The original, released by Atari in 1979, was implemented by Rains, Logg, and Walsh on hardware developed by Delman and was a vector game, in which the graphics were composed of lines drawn on a vector monitor.</p>
 <p>Well, a while back I decided to recreate this classic in JavaScript using <a href="https://p5js.org/">P5.js</a> libraries and this is the result:</p>
 <p align="center">
@@ -63,11 +69,10 @@ Asteroids++
 <!--   <img src="pics/mona.gif" style="height:2em" alt="mona"> -->
 <!-- </marquee> -->
 
-<nav class="site-nav" style="margin-top:2em; font-size:70%; color:black; font-weight:bold">
-  <a href="index" style="background-color:#e7e7e4; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >$HOME</a> &nbsp;
-  <a href="about" style="background-color:#e7e7e4; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >About</a> &nbsp;
-  <a href="contacts" style="background-color:#e7e7e4; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >Contacts</a> &nbsp;
-  <a href="start" style="background-color:#e7e7e4; color:black; padding: 3px 5px 1px 5px; text-decoration:none; text-align:center; display:inline-block;" >Startpage</a>
+<div style="margin-top:2em; border-top:1px solid #d0d0cc">
+<nav class="site-nav" style="float:none; position:absolute; left:50%; transform:translate(-50%,-50%); margin-top:2em; font-size:70%; color:black; font-weight:bold">
+  Page created with <a href="https://github.com/matteogiorgi/.udot/tree/master/vim/.vim/pack/plugins/start/notewiki">Vim-Notewiki</a> &nbsp; - &nbsp; Sources on <a href="https://github.com/matteogiorgi/matteogiorgi.github.io">GitHub</a>
 </nav>
+</div>
 </body>
 </html>
