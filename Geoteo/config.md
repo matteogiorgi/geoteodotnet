@@ -10,4 +10,4 @@ The choices narrowed down to [dwm](https://dwm.suckless.org), [Xmonad](https://x
 
 ![](pics/awesome_scrot.png){ width=100% }
 
-These days I'm experimenting with other window managers but to have a rough idea on how this workflow works, feel free to browse through my [Awesome deadfiles](https://github.com/matteogiorgi/.deadfiles/tree/main/awesome/.config/awesome).
+These days I'm experimenting with other window managers but to have a rough idea on how this workflow works, feel free to browse through my [Awesome deadfiles](https://github.com/matteogiorgi/.deadfiles/tree/main/awesome/.config/awesome). Uh and [btw, I use Arch](btw.html).
